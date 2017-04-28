@@ -193,7 +193,7 @@ function solvemodel!(m; printDetails=0)
   status = solve(m)
 
   if printDetails > 0
-    println("OPTIMAL TOUR:", getvalue(x))
+    println("OPTIMAL TOUR:", getvalue(getvariable(m, :x)))
     println("TOUR COST:", getobjectivevalue(m))
   end
 

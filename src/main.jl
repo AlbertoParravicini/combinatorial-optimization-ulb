@@ -1,30 +1,45 @@
 include("./plotter.jl")
 include("./tsp_solver.jl")
+include("./arg_parser.jl")
 using TspSolver
 using Plotter
+using ArgumentParser
 using JuMP
 
 
 
-function main()
+function main(args)
 
   ##################
   # PARSE INSTANCE #
   ##################
 
+  # Parse the arguments, return them as a dictionary.
+  argsDict = parseArgs(args)
+
   # Name of the file to open.
-  instanceName = "1.atsp"
-  filename = string("./instances/", instanceName)
+  instanceName = argsDict["instancename"]
+  fileName = string("./instances/", instanceName)
+  # Seed to be used by the random number generator. Can be "nothing".
+  randomSeed = argsDict["randomseed"]
+  # Name of the solver to be used.
+  solverName = argsDict["solver"]
+  # Type of subtour elimination constraints to be used.
+  constrName = argsDict["constraints"]
+  # Amount of details to be printed. Integer value >= 0.
+  printLevel = argsDict["printlevel"]
+  # Whether to plot or not the final graph.
+  drawGraph = argsDict["drawgraph"]
 
   # Open the file, get the number of cities.
-  f = open(filename)
+  f = open(fileName)
   # Get the number of instances.
   # Do so by reading the first line, remove the first 2 characters, remove spaces and \n, cast to Int.
   matrixSize = parse(Int, lstrip(chomp(readlines(f)[1])[3:end]))
   close(f)
 
   # Read and build the adjacency matrix.
-  f = open(filename)
+  f = open(fileName)
   # Read the entire file as a single string.
   s = readstring(f)
   # Remove \n
@@ -46,20 +61,21 @@ function main()
   # MODEL #########
   #################
 
-  m = buildmodel(matrixSize, costMatrix, adjacencyMatrix=a)
+  m = buildmodel(matrixSize, costMatrix, adjacencyMatrix=a, seed=randomSeed, solver=solverName, subtourConstrType=constrName)
 
   ############
   # SOLVE ####
   ############
 
-  solvemodel!(m)
+  solvemodel!(m, printDetails=printLevel)
 
   ##########
   # PLOT ###
   ##########
-
-  drawgraph(a, getvariable(m, :x), instanceName, costMatrix)
+  if drawGraph
+    drawgraph(a, getvariable(m, :x), instanceName, costMatrix)
+  end
 end
 
 
-main()
+main(ARGS)
