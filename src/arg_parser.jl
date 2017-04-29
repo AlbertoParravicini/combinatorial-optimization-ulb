@@ -28,6 +28,12 @@ function parseArgs(args)
           default = "claus"
           constant = "claus"
           help = "Type of subtour elimination constraints used in the model;\n choose between 'mtz', 'fcg', 'claus'."
+      "--usehotstart"
+            nargs = '?'
+            arg_type = Bool
+            default = true
+            constant = true
+            help = "If true, compute the initial solution using an heuristic algorithm."
       "--printlevel", "-p"
           nargs = '?'
           default = 0

@@ -29,12 +29,16 @@ function main(args)
   solverName = argsDict["solver"]
   # Type of subtour elimination constraints to be used.
   constrName = argsDict["constraints"]
+  # Whether to compute the initial solution with an heuristic algorithm.
+  useHotStart = argsDict["usehotstart"]
   # Amount of details to be printed. Integer value >= 0.
   printLevel = argsDict["printlevel"]
   # Whether to plot or not the final graph.
   drawGraph = argsDict["drawgraph"]
   # Whether to save the results
   saveResult = argsDict["saveresult"]
+
+
 
   # Open the file, get the number of cities.
   f = open(fileName)
@@ -67,7 +71,15 @@ function main(args)
   #################
   # MODEL #########
   #################
-  m = buildmodel(matrixSize, costMatrix, adjacencyMatrix=a, seed=randomSeed, solver=solverName, subtourConstrType=constrName)
+  m = buildmodel(
+                matrixSize,
+                costMatrix,
+                adjacencyMatrix=a,
+                seed=randomSeed,
+                solver=solverName,
+                subtourConstrType=constrName,
+                useHotStart=useHotStart
+               )
 
 
   ############
@@ -95,7 +107,7 @@ function main(args)
                     exec_time=execTime,
                     random_seed=join(Base.Random.GLOBAL_RNG.seed, "_"),
                     constraints_type=constrName,
-                    optim=0,
+                    hot_start=useHotStart,
                     solution_value=getobjectivevalue(m)
                   )
     # Append the statistics to the csv file

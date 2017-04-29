@@ -1,12 +1,23 @@
+include("./random_pick_heuristic.jl")
+
 module TspSolver
 
+using RandomPick
 using JuMP
 using GLPKMathProgInterface, Gurobi
 
 export buildmodel, solvemodel!
 
 
-function buildmodel(matrixSize::Int, costMatrix; adjacencyMatrix=nothing, seed=nothing, solver="gurobi", subtourConstrType="claus")
+function buildmodel(
+                    matrixSize::Int,
+                    costMatrix;
+                    adjacencyMatrix=nothing,
+                    seed=nothing,
+                    solver="gurobi",
+                    subtourConstrType="claus",
+                    useHotStart=true
+                  )
 
 
   # Utility functions to add the specified constraints.
@@ -144,6 +155,12 @@ function buildmodel(matrixSize::Int, costMatrix; adjacencyMatrix=nothing, seed=n
 
   # x_ij == 1 iff we go from city "i" to city "j".
   @variable(m, x[i=1:n, j=1:n], Bin)
+
+  # If "useHotStart" is true, compute the initial solution with an heuristic algorithm.
+  if useHotStart
+    initialsol = randompick(n, c, 20000)
+    setvalue(x, initialsol)
+  end
 
   # If the adjacency matrix is 0 in some value, the corresponding value of x must be 0 too!
   @constraintref adjConstr

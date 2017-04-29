@@ -1,4 +1,4 @@
-instance_name, exec_time, random_seed, constraints_type, optim, solution_value
+instance_name, exec_time, random_seed, constraints_type, hot_start, solution_value
 "1.atsp",5.422746383,"982150","claus",0,39.0
 "10.atsp",132.596596765,"754314","claus",0,14422.0
 "2.atsp",47.739038787,"220673","claus",0,6905.0
@@ -9,3 +9,7 @@ instance_name, exec_time, random_seed, constraints_type, optim, solution_value
 "7.atsp",253.78078436,"318883","claus",0,1839.0
 "8.atsp",714.469772767,"112019","claus",0,1950.0
 "9.atsp",1302.118272216,"1044984488_2464469435_1609301001_3223555185","claus",0,5620.0
+
+"1.atsp",6.429466373,"2903991557_4058323972_3149847596_2976332478","claus",false,39.0
+"1.atsp",6.817105531,"1670357090_2941259315_1905920262_3981599082","claus",true,39.0
+"2.atsp",57.665422908,"1819250171_1376609618_2186442278_3639024513","claus",true,6905.0
