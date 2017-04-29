@@ -1,5 +1,5 @@
-include("./random_pick_heuristic.jl")
-using RandomPick
+include("./simulated_annealing_heuristic.jl")
+using SimulatedAnnealing
 
 using JuMP
 using GLPKMathProgInterface, Gurobi
@@ -14,7 +14,7 @@ srand(1234)
 # number of cities
 n = 40
 # max cost of a path
-maxcost = 10000
+maxcost = 10
 # cost matrix
 c = rand(1:maxcost, n, n)
 
@@ -31,7 +31,7 @@ end
 
 tic()
 
-initialsol = randompick(n, c, 2000)
+initialsol = simulatedannealing(n, c, 100)
 
 #################
 # MODEL #########

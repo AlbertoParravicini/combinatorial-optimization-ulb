@@ -1,8 +1,8 @@
-include("./random_pick_heuristic.jl")
+include("./simulated_annealing_heuristic.jl")
 
 module TspSolver
 
-using RandomPick
+using SimulatedAnnealing
 using JuMP
 using GLPKMathProgInterface, Gurobi
 
@@ -158,7 +158,7 @@ function buildmodel(
 
   # If "useHotStart" is true, compute the initial solution with an heuristic algorithm.
   if useHotStart
-    initialsol = randompick(n, c, 20000)
+    initialsol = simulatedannealing(n, c, 100)
     setvalue(x, initialsol)
   end
 

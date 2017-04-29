@@ -8,8 +8,8 @@
      stroke-width="0.3"
      font-size="3.88"
 >
-<g stroke-width="0.4" fill="#000000" fill-opacity="0.000" id="img-45d21012-1">
-  <g stroke="#D3D3D3" id="img-45d21012-2">
+<g stroke-width="0.4" fill="#000000" fill-opacity="0.000" id="img-69e8fdeb-1">
+  <g stroke="#D3D3D3" id="img-69e8fdeb-2">
     <path fill="none" d="M183.18,102.78 L 182.97 106.55"/>
     <path fill="none" d="M183.02,102.77 L 181.56 115.78"/>
     <path fill="none" d="M182.87,102.74 L 179.12 124.78"/>
@@ -1495,7 +1495,7 @@
     <path fill="none" d="M179.28,75.19 L 182.19 87.96"/>
     <path fill="none" d="M181.71,84.2 L 182.34 87.92"/>
   </g>
-  <g stroke="#FFA500" id="img-45d21012-3">
+  <g stroke="#FFA500" id="img-69e8fdeb-3">
     <path fill="none" d="M180.57,100.31 L 21.52 118.23"/>
     <path fill="none" d="M180.66,99.23 L 32.11 56.43"/>
     <path fill="none" d="M182.19,112.04 L 179.28 124.81"/>
@@ -1554,9 +1554,9 @@
     <path fill="none" d="M137.77,27.19 L 181.2 88.4"/>
   </g>
 </g>
-<g stroke-width="0.4" id="img-45d21012-4">
+<g stroke-width="0.4" id="img-69e8fdeb-4">
 </g>
-<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-45d21012-5">
+<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-69e8fdeb-5">
   <text x="183.07" y="104.67" text-anchor="middle" dy="0.35em">57</text>
   <text x="182.29" y="109.27" text-anchor="middle" dy="0.35em">41</text>
   <text x="181" y="113.76" text-anchor="middle" dy="0.35em">120</text>
@@ -3098,65 +3098,65 @@
   <text x="180.73" y="81.57" text-anchor="middle" dy="0.35em">136</text>
   <text x="182.03" y="86.06" text-anchor="middle" dy="0.35em">151</text>
 </g>
-<g stroke-width="0" stroke="#000000" stroke-opacity="0.000" fill="#40E0D0" id="img-45d21012-6">
-  <use xlink:href="#img-45d21012-7" x="183.33" y="100"/>
-  <use xlink:href="#img-45d21012-7" x="182.81" y="109.33"/>
-  <use xlink:href="#img-45d21012-7" x="181.24" y="118.54"/>
-  <use xlink:href="#img-45d21012-7" x="178.66" y="127.52"/>
-  <use xlink:href="#img-45d21012-7" x="175.08" y="136.16"/>
-  <use xlink:href="#img-45d21012-7" x="170.56" y="144.34"/>
-  <use xlink:href="#img-45d21012-7" x="165.15" y="151.96"/>
-  <use xlink:href="#img-45d21012-7" x="158.93" y="158.93"/>
-  <use xlink:href="#img-45d21012-7" x="151.96" y="165.15"/>
-  <use xlink:href="#img-45d21012-7" x="144.34" y="170.56"/>
-  <use xlink:href="#img-45d21012-7" x="136.16" y="175.08"/>
-  <use xlink:href="#img-45d21012-7" x="127.52" y="178.66"/>
-  <use xlink:href="#img-45d21012-7" x="118.54" y="181.24"/>
-  <use xlink:href="#img-45d21012-7" x="109.33" y="182.81"/>
-  <use xlink:href="#img-45d21012-7" x="100" y="183.33"/>
-  <use xlink:href="#img-45d21012-7" x="90.67" y="182.81"/>
-  <use xlink:href="#img-45d21012-7" x="81.46" y="181.24"/>
-  <use xlink:href="#img-45d21012-7" x="72.48" y="178.66"/>
-  <use xlink:href="#img-45d21012-7" x="63.84" y="175.08"/>
-  <use xlink:href="#img-45d21012-7" x="55.66" y="170.56"/>
-  <use xlink:href="#img-45d21012-7" x="48.04" y="165.15"/>
-  <use xlink:href="#img-45d21012-7" x="41.07" y="158.93"/>
-  <use xlink:href="#img-45d21012-7" x="34.85" y="151.96"/>
-  <use xlink:href="#img-45d21012-7" x="29.44" y="144.34"/>
-  <use xlink:href="#img-45d21012-7" x="24.92" y="136.16"/>
-  <use xlink:href="#img-45d21012-7" x="21.34" y="127.52"/>
-  <use xlink:href="#img-45d21012-7" x="18.76" y="118.54"/>
-  <use xlink:href="#img-45d21012-7" x="17.19" y="109.33"/>
-  <use xlink:href="#img-45d21012-7" x="16.67" y="100"/>
-  <use xlink:href="#img-45d21012-7" x="17.19" y="90.67"/>
-  <use xlink:href="#img-45d21012-7" x="18.76" y="81.46"/>
-  <use xlink:href="#img-45d21012-7" x="21.34" y="72.48"/>
-  <use xlink:href="#img-45d21012-7" x="24.92" y="63.84"/>
-  <use xlink:href="#img-45d21012-7" x="29.44" y="55.66"/>
-  <use xlink:href="#img-45d21012-7" x="34.85" y="48.04"/>
-  <use xlink:href="#img-45d21012-7" x="41.07" y="41.07"/>
-  <use xlink:href="#img-45d21012-7" x="48.04" y="34.85"/>
-  <use xlink:href="#img-45d21012-7" x="55.66" y="29.44"/>
-  <use xlink:href="#img-45d21012-7" x="63.84" y="24.92"/>
-  <use xlink:href="#img-45d21012-7" x="72.48" y="21.34"/>
-  <use xlink:href="#img-45d21012-7" x="81.46" y="18.76"/>
-  <use xlink:href="#img-45d21012-7" x="90.67" y="17.19"/>
-  <use xlink:href="#img-45d21012-7" x="100" y="16.67"/>
-  <use xlink:href="#img-45d21012-7" x="109.33" y="17.19"/>
-  <use xlink:href="#img-45d21012-7" x="118.54" y="18.76"/>
-  <use xlink:href="#img-45d21012-7" x="127.52" y="21.34"/>
-  <use xlink:href="#img-45d21012-7" x="136.16" y="24.92"/>
-  <use xlink:href="#img-45d21012-7" x="144.34" y="29.44"/>
-  <use xlink:href="#img-45d21012-7" x="151.96" y="34.85"/>
-  <use xlink:href="#img-45d21012-7" x="158.93" y="41.07"/>
-  <use xlink:href="#img-45d21012-7" x="165.15" y="48.04"/>
-  <use xlink:href="#img-45d21012-7" x="170.56" y="55.66"/>
-  <use xlink:href="#img-45d21012-7" x="175.08" y="63.84"/>
-  <use xlink:href="#img-45d21012-7" x="178.66" y="72.48"/>
-  <use xlink:href="#img-45d21012-7" x="181.24" y="81.46"/>
-  <use xlink:href="#img-45d21012-7" x="182.81" y="90.67"/>
+<g stroke-width="0" stroke="#000000" stroke-opacity="0.000" fill="#40E0D0" id="img-69e8fdeb-6">
+  <use xlink:href="#img-69e8fdeb-7" x="183.33" y="100"/>
+  <use xlink:href="#img-69e8fdeb-7" x="182.81" y="109.33"/>
+  <use xlink:href="#img-69e8fdeb-7" x="181.24" y="118.54"/>
+  <use xlink:href="#img-69e8fdeb-7" x="178.66" y="127.52"/>
+  <use xlink:href="#img-69e8fdeb-7" x="175.08" y="136.16"/>
+  <use xlink:href="#img-69e8fdeb-7" x="170.56" y="144.34"/>
+  <use xlink:href="#img-69e8fdeb-7" x="165.15" y="151.96"/>
+  <use xlink:href="#img-69e8fdeb-7" x="158.93" y="158.93"/>
+  <use xlink:href="#img-69e8fdeb-7" x="151.96" y="165.15"/>
+  <use xlink:href="#img-69e8fdeb-7" x="144.34" y="170.56"/>
+  <use xlink:href="#img-69e8fdeb-7" x="136.16" y="175.08"/>
+  <use xlink:href="#img-69e8fdeb-7" x="127.52" y="178.66"/>
+  <use xlink:href="#img-69e8fdeb-7" x="118.54" y="181.24"/>
+  <use xlink:href="#img-69e8fdeb-7" x="109.33" y="182.81"/>
+  <use xlink:href="#img-69e8fdeb-7" x="100" y="183.33"/>
+  <use xlink:href="#img-69e8fdeb-7" x="90.67" y="182.81"/>
+  <use xlink:href="#img-69e8fdeb-7" x="81.46" y="181.24"/>
+  <use xlink:href="#img-69e8fdeb-7" x="72.48" y="178.66"/>
+  <use xlink:href="#img-69e8fdeb-7" x="63.84" y="175.08"/>
+  <use xlink:href="#img-69e8fdeb-7" x="55.66" y="170.56"/>
+  <use xlink:href="#img-69e8fdeb-7" x="48.04" y="165.15"/>
+  <use xlink:href="#img-69e8fdeb-7" x="41.07" y="158.93"/>
+  <use xlink:href="#img-69e8fdeb-7" x="34.85" y="151.96"/>
+  <use xlink:href="#img-69e8fdeb-7" x="29.44" y="144.34"/>
+  <use xlink:href="#img-69e8fdeb-7" x="24.92" y="136.16"/>
+  <use xlink:href="#img-69e8fdeb-7" x="21.34" y="127.52"/>
+  <use xlink:href="#img-69e8fdeb-7" x="18.76" y="118.54"/>
+  <use xlink:href="#img-69e8fdeb-7" x="17.19" y="109.33"/>
+  <use xlink:href="#img-69e8fdeb-7" x="16.67" y="100"/>
+  <use xlink:href="#img-69e8fdeb-7" x="17.19" y="90.67"/>
+  <use xlink:href="#img-69e8fdeb-7" x="18.76" y="81.46"/>
+  <use xlink:href="#img-69e8fdeb-7" x="21.34" y="72.48"/>
+  <use xlink:href="#img-69e8fdeb-7" x="24.92" y="63.84"/>
+  <use xlink:href="#img-69e8fdeb-7" x="29.44" y="55.66"/>
+  <use xlink:href="#img-69e8fdeb-7" x="34.85" y="48.04"/>
+  <use xlink:href="#img-69e8fdeb-7" x="41.07" y="41.07"/>
+  <use xlink:href="#img-69e8fdeb-7" x="48.04" y="34.85"/>
+  <use xlink:href="#img-69e8fdeb-7" x="55.66" y="29.44"/>
+  <use xlink:href="#img-69e8fdeb-7" x="63.84" y="24.92"/>
+  <use xlink:href="#img-69e8fdeb-7" x="72.48" y="21.34"/>
+  <use xlink:href="#img-69e8fdeb-7" x="81.46" y="18.76"/>
+  <use xlink:href="#img-69e8fdeb-7" x="90.67" y="17.19"/>
+  <use xlink:href="#img-69e8fdeb-7" x="100" y="16.67"/>
+  <use xlink:href="#img-69e8fdeb-7" x="109.33" y="17.19"/>
+  <use xlink:href="#img-69e8fdeb-7" x="118.54" y="18.76"/>
+  <use xlink:href="#img-69e8fdeb-7" x="127.52" y="21.34"/>
+  <use xlink:href="#img-69e8fdeb-7" x="136.16" y="24.92"/>
+  <use xlink:href="#img-69e8fdeb-7" x="144.34" y="29.44"/>
+  <use xlink:href="#img-69e8fdeb-7" x="151.96" y="34.85"/>
+  <use xlink:href="#img-69e8fdeb-7" x="158.93" y="41.07"/>
+  <use xlink:href="#img-69e8fdeb-7" x="165.15" y="48.04"/>
+  <use xlink:href="#img-69e8fdeb-7" x="170.56" y="55.66"/>
+  <use xlink:href="#img-69e8fdeb-7" x="175.08" y="63.84"/>
+  <use xlink:href="#img-69e8fdeb-7" x="178.66" y="72.48"/>
+  <use xlink:href="#img-69e8fdeb-7" x="181.24" y="81.46"/>
+  <use xlink:href="#img-69e8fdeb-7" x="182.81" y="90.67"/>
 </g>
-<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-45d21012-8">
+<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-69e8fdeb-8">
   <text x="183.33" y="100" text-anchor="middle" dy="0.35em">1</text>
   <text x="182.81" y="109.33" text-anchor="middle" dy="0.35em">2</text>
   <text x="181.24" y="118.54" text-anchor="middle" dy="0.35em">3</text>
@@ -3215,7 +3215,7 @@
   <text x="182.81" y="90.67" text-anchor="middle" dy="0.35em">56</text>
 </g>
 <defs>
-  <g id="img-45d21012-7">
+  <g id="img-69e8fdeb-7">
     <circle cx="0" cy="0" r="2.67"/>
   </g>
 </defs>
