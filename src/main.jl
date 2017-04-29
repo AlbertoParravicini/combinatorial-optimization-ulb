@@ -4,7 +4,10 @@ include("./arg_parser.jl")
 using TspSolver
 using Plotter
 using ArgumentParser
+
 using JuMP
+using DataFrames
+using CSV
 
 
 
@@ -30,6 +33,8 @@ function main(args)
   printLevel = argsDict["printlevel"]
   # Whether to plot or not the final graph.
   drawGraph = argsDict["drawgraph"]
+  # Whether to save the results
+  saveResult = argsDict["saveresult"]
 
   # Open the file, get the number of cities.
   f = open(fileName)
@@ -56,24 +61,48 @@ function main(args)
   a = ones(matrixSize, matrixSize)
   close(f)
 
+  # Start measuring the execution time.
+  startTime = tic()
 
   #################
   # MODEL #########
   #################
-
   m = buildmodel(matrixSize, costMatrix, adjacencyMatrix=a, seed=randomSeed, solver=solverName, subtourConstrType=constrName)
+
 
   ############
   # SOLVE ####
   ############
-
   solvemodel!(m, printDetails=printLevel)
+
+  # Compute the execution time.
+  execTime = toc()
+  println("EXECUTION TIME:", execTime)
 
   ##########
   # PLOT ###
   ##########
   if drawGraph
     drawgraph(a, getvariable(m, :x), instanceName, costMatrix)
+  end
+
+
+  ################
+  # SAVE RESULTS #
+  ################
+  if saveResult
+    res = DataFrame(instance_name=instanceName,
+                    exec_time=execTime,
+                    random_seed=join(Base.Random.GLOBAL_RNG.seed, "_"),
+                    constraints_type=constrName,
+                    optim=0,
+                    solution_value=getobjectivevalue(m)
+                  )
+    # Append the statistics to the csv file
+    CSV.write("solutions/solutions.csv", res; append=true)
+
+    # Store the variable values in a matrix.
+    writedlm(string("solutions/", instanceName, "_solution.txt"), getvalue(getvariable(m, :x)))
   end
 end
 

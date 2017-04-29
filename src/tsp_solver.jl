@@ -145,6 +145,10 @@ function buildmodel(matrixSize::Int, costMatrix; adjacencyMatrix=nothing, seed=n
   # x_ij == 1 iff we go from city "i" to city "j".
   @variable(m, x[i=1:n, j=1:n], Bin)
 
+  # If the adjacency matrix is 0 in some value, the corresponding value of x must be 0 too!
+  @constraintref adjConstr
+  adjConstr = @constraint(m, a .>= x)
+
   # constraint: each city is left once.
   @constraintref leftOnceConstr
   leftOnceConstr = @constraint(m, (a .* x) * ones(n) .== 1)

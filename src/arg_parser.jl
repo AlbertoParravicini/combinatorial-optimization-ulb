@@ -40,6 +40,12 @@ function parseArgs(args)
           constant = false
           arg_type = Bool
           help = "If true, draws the graph corresponding to the given instance, and highlights the optimal tour;\n the optimal tour is also drawn on a separate file."
+      "--saveresult", "-v"
+          nargs = '?'
+          default = false
+          constant = false
+          arg_type = Bool
+          help = "If true, the variable values are stored in a file, and the statistics of the computation are appended to the file 'results.csv'"
   end
 
   # Add an epilogue to the help-screen

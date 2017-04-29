@@ -1,0 +1,2382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.2"
+     width="200mm" height="200mm" viewBox="0 0 200 200"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g stroke-width="0.43" fill="#000000" fill-opacity="0.000" id="img-cf14cf22-1">
+  <g stroke="#D3D3D3" id="img-cf14cf22-2">
+    <path fill="none" d="M183.14,103 L 182.82 107.88"/>
+    <path fill="none" d="M182.94,102.98 L 180.89 118.59"/>
+    <path fill="none" d="M182.75,102.95 L 177.58 128.94"/>
+    <path fill="none" d="M182.56,102.9 L 172.95 138.76"/>
+    <path fill="none" d="M182.37,102.85 L 167.08 147.88"/>
+    <path fill="none" d="M182.18,102.78 L 160.08 156.15"/>
+    <path fill="none" d="M181.66,102.5 L 133.56 174.49"/>
+    <path fill="none" d="M181.5,102.39 L 123.4 178.11"/>
+    <path fill="none" d="M181.35,102.26 L 112.86 180.36"/>
+    <path fill="none" d="M181.21,102.13 L 102.13 181.21"/>
+    <path fill="none" d="M181.07,101.98 L 91.38 180.64"/>
+    <path fill="none" d="M180.95,101.83 L 80.82 178.66"/>
+    <path fill="none" d="M180.83,101.67 L 70.61 175.32"/>
+    <path fill="none" d="M180.73,101.5 L 60.94 170.67"/>
+    <path fill="none" d="M180.64,101.33 L 51.97 164.78"/>
+    <path fill="none" d="M180.56,101.15 L 43.85 157.77"/>
+    <path fill="none" d="M180.49,100.97 L 36.73 149.76"/>
+    <path fill="none" d="M180.43,100.78 L 30.74 140.89"/>
+    <path fill="none" d="M180.38,100.59 L 25.96 131.3"/>
+    <path fill="none" d="M180.35,100.39 L 22.49 121.18"/>
+    <path fill="none" d="M180.33,100.2 L 20.38 110.68"/>
+    <path fill="none" d="M180.33,100 L 19.67 100"/>
+    <path fill="none" d="M180.33,99.8 L 20.38 89.32"/>
+    <path fill="none" d="M180.35,99.61 L 22.49 78.82"/>
+    <path fill="none" d="M180.38,99.41 L 25.96 68.7"/>
+    <path fill="none" d="M180.43,99.22 L 30.74 59.11"/>
+    <path fill="none" d="M180.49,99.03 L 36.73 50.24"/>
+    <path fill="none" d="M180.56,98.85 L 43.85 42.23"/>
+    <path fill="none" d="M180.64,98.67 L 51.97 35.22"/>
+    <path fill="none" d="M180.73,98.5 L 60.94 29.33"/>
+    <path fill="none" d="M180.83,98.33 L 70.61 24.68"/>
+    <path fill="none" d="M180.95,98.17 L 80.82 21.34"/>
+    <path fill="none" d="M181.07,98.02 L 91.38 19.36"/>
+    <path fill="none" d="M181.21,97.87 L 102.13 18.79"/>
+    <path fill="none" d="M181.35,97.74 L 112.86 19.64"/>
+    <path fill="none" d="M181.5,97.61 L 123.4 21.89"/>
+    <path fill="none" d="M181.66,97.5 L 133.56 25.51"/>
+    <path fill="none" d="M181.83,97.4 L 143.17 30.44"/>
+    <path fill="none" d="M182,97.3 L 152.06 36.58"/>
+    <path fill="none" d="M182.18,97.22 L 160.08 43.85"/>
+    <path fill="none" d="M182.37,97.15 L 167.08 52.12"/>
+    <path fill="none" d="M182.56,97.1 L 172.95 61.24"/>
+    <path fill="none" d="M182.75,97.05 L 177.58 71.06"/>
+    <path fill="none" d="M182.94,97.02 L 180.89 81.41"/>
+    <path fill="none" d="M183.14,97 L 182.82 92.12"/>
+    <path fill="none" d="M182.03,113.83 L 181.08 118.62"/>
+    <path fill="none" d="M181.84,113.78 L 177.77 128.99"/>
+    <path fill="none" d="M181.65,113.72 L 173.14 138.82"/>
+    <path fill="none" d="M181.47,113.66 L 167.26 147.95"/>
+    <path fill="none" d="M181.29,113.57 L 160.26 156.23"/>
+    <path fill="none" d="M181.12,113.48 L 152.23 163.51"/>
+    <path fill="none" d="M180.95,113.38 L 143.34 169.67"/>
+    <path fill="none" d="M180.79,113.26 L 133.72 174.6"/>
+    <path fill="none" d="M180.64,113.14 L 123.55 178.23"/>
+    <path fill="none" d="M180.49,113 L 113 180.49"/>
+    <path fill="none" d="M180.36,112.86 L 102.26 181.35"/>
+    <path fill="none" d="M180.23,112.71 L 91.51 180.79"/>
+    <path fill="none" d="M180.12,112.55 L 80.93 178.82"/>
+    <path fill="none" d="M180.02,112.38 L 70.71 175.49"/>
+    <path fill="none" d="M179.92,112.21 L 61.03 170.84"/>
+    <path fill="none" d="M179.84,112.03 L 52.05 164.96"/>
+    <path fill="none" d="M179.77,111.84 L 43.92 157.96"/>
+    <path fill="none" d="M179.72,111.66 L 36.79 149.95"/>
+    <path fill="none" d="M179.67,111.46 L 30.78 141.08"/>
+    <path fill="none" d="M179.64,111.27 L 25.99 131.5"/>
+    <path fill="none" d="M179.62,111.07 L 22.51 121.37"/>
+    <path fill="none" d="M179.61,110.88 L 20.39 110.88"/>
+    <path fill="none" d="M179.62,110.68 L 19.67 100.2"/>
+    <path fill="none" d="M179.64,110.48 L 20.36 89.52"/>
+    <path fill="none" d="M179.67,110.29 L 22.46 79.02"/>
+    <path fill="none" d="M179.72,110.1 L 25.91 68.89"/>
+    <path fill="none" d="M179.84,109.73 L 36.67 50.42"/>
+    <path fill="none" d="M179.92,109.55 L 43.77 42.4"/>
+    <path fill="none" d="M180.02,109.37 L 51.87 35.39"/>
+    <path fill="none" d="M180.12,109.21 L 60.83 29.5"/>
+    <path fill="none" d="M180.23,109.05 L 70.5 24.84"/>
+    <path fill="none" d="M180.36,108.89 L 80.69 21.49"/>
+    <path fill="none" d="M180.49,108.75 L 91.25 19.51"/>
+    <path fill="none" d="M180.64,108.62 L 101.98 18.93"/>
+    <path fill="none" d="M180.79,108.49 L 112.71 19.77"/>
+    <path fill="none" d="M180.95,108.38 L 123.24 22.01"/>
+    <path fill="none" d="M181.12,108.27 L 133.39 25.61"/>
+    <path fill="none" d="M181.29,108.18 L 143 30.53"/>
+    <path fill="none" d="M181.65,108.03 L 159.89 43.92"/>
+    <path fill="none" d="M181.84,107.97 L 166.89 52.17"/>
+    <path fill="none" d="M182.03,107.93 L 172.76 61.28"/>
+    <path fill="none" d="M182.23,107.9 L 177.38 71.09"/>
+    <path fill="none" d="M182.42,107.88 L 180.69 81.43"/>
+    <path fill="none" d="M182.62,107.87 L 182.62 92.13"/>
+    <path fill="none" d="M179.53,124.42 L 177.96 129.04"/>
+    <path fill="none" d="M179.34,124.35 L 173.32 138.89"/>
+    <path fill="none" d="M179.16,124.27 L 167.44 148.03"/>
+    <path fill="none" d="M178.99,124.17 L 160.43 156.32"/>
+    <path fill="none" d="M178.82,124.07 L 152.4 163.61"/>
+    <path fill="none" d="M178.66,123.95 L 143.5 169.78"/>
+    <path fill="none" d="M178.51,123.83 L 133.87 174.73"/>
+    <path fill="none" d="M178.37,123.69 L 123.69 178.37"/>
+    <path fill="none" d="M178.23,123.55 L 113.14 180.64"/>
+    <path fill="none" d="M178.11,123.4 L 102.39 181.5"/>
+    <path fill="none" d="M177.99,123.24 L 91.62 180.95"/>
+    <path fill="none" d="M177.89,123.07 L 81.04 178.99"/>
+    <path fill="none" d="M177.8,122.9 L 70.81 175.66"/>
+    <path fill="none" d="M177.72,122.72 L 61.11 171.02"/>
+    <path fill="none" d="M177.65,122.53 L 52.12 165.15"/>
+    <path fill="none" d="M177.59,122.35 L 43.98 158.15"/>
+    <path fill="none" d="M177.54,122.15 L 36.84 150.14"/>
+    <path fill="none" d="M177.51,121.96 L 30.81 141.27"/>
+    <path fill="none" d="M177.49,121.37 L 20.38 111.07"/>
+    <path fill="none" d="M177.51,121.18 L 19.65 100.39"/>
+    <path fill="none" d="M177.54,120.98 L 20.33 89.71"/>
+    <path fill="none" d="M177.59,120.79 L 22.41 79.21"/>
+    <path fill="none" d="M177.65,120.6 L 25.86 69.08"/>
+    <path fill="none" d="M177.72,120.42 L 30.61 59.48"/>
+    <path fill="none" d="M177.8,120.24 L 36.58 50.6"/>
+    <path fill="none" d="M177.89,120.06 L 43.68 42.58"/>
+    <path fill="none" d="M177.99,119.9 L 51.77 35.56"/>
+    <path fill="none" d="M178.11,119.74 L 60.72 29.66"/>
+    <path fill="none" d="M178.23,119.59 L 70.37 24.99"/>
+    <path fill="none" d="M178.37,119.44 L 80.56 21.63"/>
+    <path fill="none" d="M178.51,119.31 L 91.11 19.64"/>
+    <path fill="none" d="M178.66,119.18 L 101.83 19.05"/>
+    <path fill="none" d="M178.82,119.07 L 112.55 19.88"/>
+    <path fill="none" d="M178.99,118.96 L 123.07 22.11"/>
+    <path fill="none" d="M179.16,118.87 L 133.22 25.71"/>
+    <path fill="none" d="M179.34,118.79 L 142.82 30.61"/>
+    <path fill="none" d="M179.53,118.72 L 151.7 36.73"/>
+    <path fill="none" d="M179.72,118.66 L 159.7 43.98"/>
+    <path fill="none" d="M179.91,118.62 L 166.7 52.22"/>
+    <path fill="none" d="M180.1,118.59 L 172.56 61.31"/>
+    <path fill="none" d="M180.3,118.57 L 177.19 71.11"/>
+    <path fill="none" d="M180.49,118.56 L 180.49 81.44"/>
+    <path fill="none" d="M180.69,118.57 L 182.42 92.12"/>
+    <path fill="none" d="M175.66,134.59 L 173.5 138.97"/>
+    <path fill="none" d="M175.49,134.49 L 167.62 148.13"/>
+    <path fill="none" d="M175.32,134.39 L 160.6 156.43"/>
+    <path fill="none" d="M175.16,134.28 L 152.56 163.73"/>
+    <path fill="none" d="M175.01,134.15 L 143.65 169.91"/>
+    <path fill="none" d="M174.86,134.02 L 134.02 174.86"/>
+    <path fill="none" d="M174.73,133.87 L 123.83 178.51"/>
+    <path fill="none" d="M174.6,133.72 L 113.26 180.79"/>
+    <path fill="none" d="M174.49,133.56 L 102.5 181.66"/>
+    <path fill="none" d="M174.39,133.39 L 91.73 181.12"/>
+    <path fill="none" d="M174.29,133.22 L 81.13 179.16"/>
+    <path fill="none" d="M174.21,133.04 L 70.89 175.84"/>
+    <path fill="none" d="M174.14,132.86 L 61.18 171.2"/>
+    <path fill="none" d="M174.09,132.67 L 52.17 165.33"/>
+    <path fill="none" d="M174.04,132.48 L 44.02 158.34"/>
+    <path fill="none" d="M174.01,132.28 L 36.87 150.34"/>
+    <path fill="none" d="M173.99,132.09 L 30.83 141.47"/>
+    <path fill="none" d="M173.98,131.89 L 26.02 131.89"/>
+    <path fill="none" d="M173.99,131.69 L 22.51 121.76"/>
+    <path fill="none" d="M174.01,131.5 L 20.36 111.27"/>
+    <path fill="none" d="M174.04,131.3 L 19.62 100.59"/>
+    <path fill="none" d="M174.14,130.92 L 22.35 79.4"/>
+    <path fill="none" d="M174.21,130.74 L 25.79 69.26"/>
+    <path fill="none" d="M174.29,130.56 L 30.53 59.66"/>
+    <path fill="none" d="M174.39,130.39 L 36.49 50.77"/>
+    <path fill="none" d="M174.49,130.22 L 43.57 42.75"/>
+    <path fill="none" d="M174.6,130.06 L 51.66 35.72"/>
+    <path fill="none" d="M174.73,129.91 L 60.59 29.81"/>
+    <path fill="none" d="M174.86,129.76 L 70.24 25.14"/>
+    <path fill="none" d="M175.16,129.5 L 90.95 19.77"/>
+    <path fill="none" d="M175.32,129.39 L 101.67 19.17"/>
+    <path fill="none" d="M175.49,129.29 L 112.38 19.98"/>
+    <path fill="none" d="M175.66,129.19 L 122.9 22.2"/>
+    <path fill="none" d="M175.84,129.11 L 133.04 25.79"/>
+    <path fill="none" d="M176.02,129.04 L 142.63 30.68"/>
+    <path fill="none" d="M176.21,128.99 L 151.51 36.79"/>
+    <path fill="none" d="M176.4,128.94 L 159.51 44.02"/>
+    <path fill="none" d="M176.6,128.91 L 166.51 52.25"/>
+    <path fill="none" d="M176.79,128.89 L 172.37 61.33"/>
+    <path fill="none" d="M176.99,128.88 L 176.99 71.12"/>
+    <path fill="none" d="M177.19,128.89 L 180.3 81.43"/>
+    <path fill="none" d="M177.38,128.91 L 182.23 92.1"/>
+    <path fill="none" d="M170.5,144.17 L 167.78 148.23"/>
+    <path fill="none" d="M170.34,144.05 L 160.76 156.54"/>
+    <path fill="none" d="M170.19,143.93 L 152.71 163.85"/>
+    <path fill="none" d="M170.04,143.79 L 143.79 170.04"/>
+    <path fill="none" d="M169.91,143.65 L 134.15 175.01"/>
+    <path fill="none" d="M169.78,143.5 L 123.95 178.66"/>
+    <path fill="none" d="M169.67,143.34 L 113.38 180.95"/>
+    <path fill="none" d="M169.56,143.17 L 102.6 181.83"/>
+    <path fill="none" d="M169.47,143 L 91.82 181.29"/>
+    <path fill="none" d="M169.39,142.82 L 81.21 179.34"/>
+    <path fill="none" d="M169.32,142.63 L 70.96 176.02"/>
+    <path fill="none" d="M169.26,142.44 L 61.24 171.39"/>
+    <path fill="none" d="M169.22,142.25 L 52.22 165.53"/>
+    <path fill="none" d="M169.19,142.06 L 44.06 158.53"/>
+    <path fill="none" d="M169.17,141.86 L 36.89 150.53"/>
+    <path fill="none" d="M169.16,141.67 L 30.84 141.67"/>
+    <path fill="none" d="M169.17,141.47 L 26.01 132.09"/>
+    <path fill="none" d="M169.19,141.27 L 22.49 121.96"/>
+    <path fill="none" d="M169.22,141.08 L 20.33 111.46"/>
+    <path fill="none" d="M169.26,140.89 L 19.57 100.78"/>
+    <path fill="none" d="M169.32,140.7 L 20.23 90.09"/>
+    <path fill="none" d="M169.39,140.52 L 22.28 79.58"/>
+    <path fill="none" d="M169.47,140.34 L 25.71 69.44"/>
+    <path fill="none" d="M169.67,140 L 36.39 50.94"/>
+    <path fill="none" d="M169.78,139.84 L 43.46 42.91"/>
+    <path fill="none" d="M169.91,139.68 L 51.53 35.87"/>
+    <path fill="none" d="M170.04,139.54 L 60.46 29.96"/>
+    <path fill="none" d="M170.19,139.41 L 70.09 25.27"/>
+    <path fill="none" d="M170.34,139.28 L 80.26 21.89"/>
+    <path fill="none" d="M170.5,139.17 L 90.79 19.88"/>
+    <path fill="none" d="M170.67,139.06 L 101.5 19.27"/>
+    <path fill="none" d="M170.84,138.97 L 112.21 20.08"/>
+    <path fill="none" d="M171.02,138.89 L 122.72 22.28"/>
+    <path fill="none" d="M171.2,138.82 L 132.86 25.86"/>
+    <path fill="none" d="M171.39,138.76 L 142.44 30.74"/>
+    <path fill="none" d="M171.58,138.72 L 151.32 36.84"/>
+    <path fill="none" d="M171.78,138.69 L 159.32 44.06"/>
+    <path fill="none" d="M171.97,138.67 L 166.31 52.27"/>
+    <path fill="none" d="M172.17,138.66 L 172.17 61.34"/>
+    <path fill="none" d="M172.37,138.67 L 176.79 71.11"/>
+    <path fill="none" d="M172.56,138.69 L 180.1 81.41"/>
+    <path fill="none" d="M164.13,152.99 L 160.91 156.66"/>
+    <path fill="none" d="M163.99,152.86 L 152.86 163.99"/>
+    <path fill="none" d="M163.85,152.71 L 143.93 170.19"/>
+    <path fill="none" d="M163.73,152.56 L 134.28 175.16"/>
+    <path fill="none" d="M163.61,152.4 L 124.07 178.82"/>
+    <path fill="none" d="M163.51,152.23 L 113.48 181.12"/>
+    <path fill="none" d="M163.42,152.06 L 102.7 182"/>
+    <path fill="none" d="M163.33,151.88 L 91.9 181.47"/>
+    <path fill="none" d="M163.27,151.7 L 81.28 179.53"/>
+    <path fill="none" d="M163.21,151.51 L 71.01 176.21"/>
+    <path fill="none" d="M163.16,151.32 L 61.28 171.58"/>
+    <path fill="none" d="M163.13,151.12 L 52.25 165.72"/>
+    <path fill="none" d="M163.11,150.73 L 36.89 150.73"/>
+    <path fill="none" d="M163.11,150.53 L 30.83 141.86"/>
+    <path fill="none" d="M163.13,150.34 L 25.99 132.28"/>
+    <path fill="none" d="M163.16,150.14 L 22.46 122.15"/>
+    <path fill="none" d="M163.21,149.95 L 20.28 111.66"/>
+    <path fill="none" d="M163.27,149.76 L 19.51 100.97"/>
+    <path fill="none" d="M163.33,149.58 L 20.16 90.27"/>
+    <path fill="none" d="M163.42,149.4 L 22.2 79.76"/>
+    <path fill="none" d="M163.51,149.23 L 25.61 69.61"/>
+    <path fill="none" d="M163.61,149.06 L 30.33 60"/>
+    <path fill="none" d="M163.73,148.9 L 36.27 51.1"/>
+    <path fill="none" d="M163.85,148.75 L 43.34 43.06"/>
+    <path fill="none" d="M163.99,148.6 L 51.4 36.01"/>
+    <path fill="none" d="M164.13,148.47 L 60.32 30.09"/>
+    <path fill="none" d="M164.28,148.34 L 69.94 25.4"/>
+    <path fill="none" d="M164.44,148.23 L 80.1 22.01"/>
+    <path fill="none" d="M164.61,148.13 L 90.63 19.98"/>
+    <path fill="none" d="M164.78,148.03 L 101.33 19.36"/>
+    <path fill="none" d="M164.96,147.95 L 112.03 20.16"/>
+    <path fill="none" d="M165.15,147.88 L 122.53 22.35"/>
+    <path fill="none" d="M165.33,147.83 L 132.67 25.91"/>
+    <path fill="none" d="M165.53,147.78 L 142.25 30.78"/>
+    <path fill="none" d="M165.72,147.75 L 151.12 36.87"/>
+    <path fill="none" d="M165.92,147.73 L 159.12 44.08"/>
+    <path fill="none" d="M166.31,147.73 L 171.97 61.33"/>
+    <path fill="none" d="M166.51,147.75 L 176.6 71.09"/>
+    <path fill="none" d="M166.7,147.78 L 179.91 81.38"/>
+    <path fill="none" d="M166.89,147.83 L 181.84 92.03"/>
+    <path fill="none" d="M156.66,160.91 L 152.99 164.13"/>
+    <path fill="none" d="M156.54,160.76 L 144.05 170.34"/>
+    <path fill="none" d="M156.43,160.6 L 134.39 175.32"/>
+    <path fill="none" d="M156.32,160.43 L 124.17 178.99"/>
+    <path fill="none" d="M156.23,160.26 L 113.57 181.29"/>
+    <path fill="none" d="M156.15,160.08 L 102.78 182.18"/>
+    <path fill="none" d="M156.08,159.89 L 91.97 181.65"/>
+    <path fill="none" d="M156.02,159.7 L 81.34 179.72"/>
+    <path fill="none" d="M155.98,159.51 L 71.06 176.4"/>
+    <path fill="none" d="M155.94,159.32 L 61.31 171.78"/>
+    <path fill="none" d="M155.92,158.93 L 44.08 158.93"/>
+    <path fill="none" d="M155.92,158.73 L 36.89 150.93"/>
+    <path fill="none" d="M155.94,158.53 L 30.81 142.06"/>
+    <path fill="none" d="M155.98,158.34 L 25.96 132.48"/>
+    <path fill="none" d="M156.02,158.15 L 22.41 122.35"/>
+    <path fill="none" d="M156.08,157.96 L 20.23 111.84"/>
+    <path fill="none" d="M156.15,157.77 L 19.44 101.15"/>
+    <path fill="none" d="M156.23,157.6 L 20.08 90.45"/>
+    <path fill="none" d="M156.32,157.42 L 22.11 79.94"/>
+    <path fill="none" d="M156.43,157.25 L 25.51 69.78"/>
+    <path fill="none" d="M156.54,157.09 L 30.22 60.16"/>
+    <path fill="none" d="M156.66,156.94 L 36.15 51.25"/>
+    <path fill="none" d="M156.8,156.8 L 43.2 43.2"/>
+    <path fill="none" d="M156.94,156.66 L 51.25 36.15"/>
+    <path fill="none" d="M157.09,156.54 L 60.16 30.22"/>
+    <path fill="none" d="M157.25,156.43 L 69.78 25.51"/>
+    <path fill="none" d="M157.42,156.32 L 79.94 22.11"/>
+    <path fill="none" d="M157.77,156.15 L 101.15 19.44"/>
+    <path fill="none" d="M157.96,156.08 L 111.84 20.23"/>
+    <path fill="none" d="M158.15,156.02 L 122.35 22.41"/>
+    <path fill="none" d="M158.34,155.98 L 132.48 25.96"/>
+    <path fill="none" d="M158.53,155.94 L 142.06 30.81"/>
+    <path fill="none" d="M158.73,155.92 L 150.93 36.89"/>
+    <path fill="none" d="M158.93,155.92 L 158.93 44.08"/>
+    <path fill="none" d="M159.12,155.92 L 165.92 52.27"/>
+    <path fill="none" d="M159.32,155.94 L 171.78 61.31"/>
+    <path fill="none" d="M159.51,155.98 L 176.4 71.06"/>
+    <path fill="none" d="M159.7,156.02 L 179.72 81.34"/>
+    <path fill="none" d="M159.89,156.08 L 181.65 91.97"/>
+    <path fill="none" d="M148.23,167.78 L 144.17 170.5"/>
+    <path fill="none" d="M148.13,167.62 L 134.49 175.49"/>
+    <path fill="none" d="M148.03,167.44 L 124.27 179.16"/>
+    <path fill="none" d="M147.95,167.26 L 113.66 181.47"/>
+    <path fill="none" d="M147.88,167.08 L 102.85 182.37"/>
+    <path fill="none" d="M147.83,166.89 L 92.03 181.84"/>
+    <path fill="none" d="M147.78,166.7 L 81.38 179.91"/>
+    <path fill="none" d="M147.75,166.51 L 71.09 176.6"/>
+    <path fill="none" d="M147.73,166.31 L 61.33 171.97"/>
+    <path fill="none" d="M147.72,166.11 L 52.28 166.11"/>
+    <path fill="none" d="M147.73,165.92 L 44.08 159.12"/>
+    <path fill="none" d="M147.75,165.72 L 36.87 151.12"/>
+    <path fill="none" d="M147.78,165.53 L 30.78 142.25"/>
+    <path fill="none" d="M147.83,165.33 L 25.91 132.67"/>
+    <path fill="none" d="M147.88,165.15 L 22.35 122.53"/>
+    <path fill="none" d="M147.95,164.96 L 20.16 112.03"/>
+    <path fill="none" d="M148.03,164.78 L 19.36 101.33"/>
+    <path fill="none" d="M148.13,164.61 L 19.98 90.63"/>
+    <path fill="none" d="M148.23,164.44 L 22.01 80.1"/>
+    <path fill="none" d="M148.34,164.28 L 25.4 69.94"/>
+    <path fill="none" d="M148.47,164.13 L 30.09 60.32"/>
+    <path fill="none" d="M148.6,163.99 L 36.01 51.4"/>
+    <path fill="none" d="M148.75,163.85 L 43.06 43.34"/>
+    <path fill="none" d="M148.9,163.73 L 51.1 36.27"/>
+    <path fill="none" d="M149.06,163.61 L 60 30.33"/>
+    <path fill="none" d="M149.23,163.51 L 69.61 25.61"/>
+    <path fill="none" d="M149.4,163.42 L 79.76 22.2"/>
+    <path fill="none" d="M149.58,163.33 L 90.27 20.16"/>
+    <path fill="none" d="M149.76,163.27 L 100.97 19.51"/>
+    <path fill="none" d="M150.14,163.16 L 122.15 22.46"/>
+    <path fill="none" d="M150.34,163.13 L 132.28 25.99"/>
+    <path fill="none" d="M150.53,163.11 L 141.86 30.83"/>
+    <path fill="none" d="M150.73,163.11 L 150.73 36.89"/>
+    <path fill="none" d="M150.93,163.11 L 158.73 44.08"/>
+    <path fill="none" d="M151.12,163.13 L 165.72 52.25"/>
+    <path fill="none" d="M151.32,163.16 L 171.58 61.28"/>
+    <path fill="none" d="M151.51,163.21 L 176.21 71.01"/>
+    <path fill="none" d="M151.7,163.27 L 179.53 81.28"/>
+    <path fill="none" d="M151.88,163.33 L 181.47 91.9"/>
+    <path fill="none" d="M138.97,173.5 L 134.59 175.66"/>
+    <path fill="none" d="M138.89,173.32 L 124.35 179.34"/>
+    <path fill="none" d="M138.82,173.14 L 113.72 181.65"/>
+    <path fill="none" d="M138.76,172.95 L 102.9 182.56"/>
+    <path fill="none" d="M138.72,172.76 L 92.07 182.03"/>
+    <path fill="none" d="M138.69,172.56 L 81.41 180.1"/>
+    <path fill="none" d="M138.67,172.37 L 71.11 176.79"/>
+    <path fill="none" d="M138.66,172.17 L 61.34 172.17"/>
+    <path fill="none" d="M138.67,171.97 L 52.27 166.31"/>
+    <path fill="none" d="M138.69,171.78 L 44.06 159.32"/>
+    <path fill="none" d="M138.72,171.58 L 36.84 151.32"/>
+    <path fill="none" d="M138.76,171.39 L 30.74 142.44"/>
+    <path fill="none" d="M138.82,171.2 L 25.86 132.86"/>
+    <path fill="none" d="M138.89,171.02 L 22.28 122.72"/>
+    <path fill="none" d="M138.97,170.84 L 20.08 112.21"/>
+    <path fill="none" d="M139.06,170.67 L 19.27 101.5"/>
+    <path fill="none" d="M139.17,170.5 L 19.88 90.79"/>
+    <path fill="none" d="M139.28,170.34 L 21.89 80.26"/>
+    <path fill="none" d="M139.41,170.19 L 25.27 70.09"/>
+    <path fill="none" d="M139.54,170.04 L 29.96 60.46"/>
+    <path fill="none" d="M139.68,169.91 L 35.87 51.53"/>
+    <path fill="none" d="M139.84,169.78 L 42.91 43.46"/>
+    <path fill="none" d="M140,169.67 L 50.94 36.39"/>
+    <path fill="none" d="M140.16,169.56 L 59.84 30.44"/>
+    <path fill="none" d="M140.34,169.47 L 69.44 25.71"/>
+    <path fill="none" d="M140.52,169.39 L 79.58 22.28"/>
+    <path fill="none" d="M140.7,169.32 L 90.09 20.23"/>
+    <path fill="none" d="M140.89,169.26 L 100.78 19.57"/>
+    <path fill="none" d="M141.08,169.22 L 111.46 20.33"/>
+    <path fill="none" d="M141.27,169.19 L 121.96 22.49"/>
+    <path fill="none" d="M141.67,169.16 L 141.67 30.84"/>
+    <path fill="none" d="M141.86,169.17 L 150.53 36.89"/>
+    <path fill="none" d="M142.06,169.19 L 158.53 44.06"/>
+    <path fill="none" d="M142.25,169.22 L 165.53 52.22"/>
+    <path fill="none" d="M142.44,169.26 L 171.39 61.24"/>
+    <path fill="none" d="M142.63,169.32 L 176.02 70.96"/>
+    <path fill="none" d="M142.82,169.39 L 179.34 81.21"/>
+    <path fill="none" d="M143,169.47 L 181.29 91.82"/>
+    <path fill="none" d="M129.04,177.96 L 124.42 179.53"/>
+    <path fill="none" d="M128.99,177.77 L 113.78 181.84"/>
+    <path fill="none" d="M128.94,177.58 L 102.95 182.75"/>
+    <path fill="none" d="M128.91,177.38 L 92.1 182.23"/>
+    <path fill="none" d="M128.89,177.19 L 81.43 180.3"/>
+    <path fill="none" d="M128.88,176.99 L 71.12 176.99"/>
+    <path fill="none" d="M128.89,176.79 L 61.33 172.37"/>
+    <path fill="none" d="M128.91,176.6 L 52.25 166.51"/>
+    <path fill="none" d="M128.94,176.4 L 44.02 159.51"/>
+    <path fill="none" d="M128.99,176.21 L 36.79 151.51"/>
+    <path fill="none" d="M129.04,176.02 L 30.68 142.63"/>
+    <path fill="none" d="M129.11,175.84 L 25.79 133.04"/>
+    <path fill="none" d="M129.19,175.66 L 22.2 122.9"/>
+    <path fill="none" d="M129.39,175.32 L 19.17 101.67"/>
+    <path fill="none" d="M129.5,175.16 L 19.77 90.95"/>
+    <path fill="none" d="M129.63,175.01 L 21.77 80.41"/>
+    <path fill="none" d="M129.76,174.86 L 25.14 70.24"/>
+    <path fill="none" d="M129.91,174.73 L 29.81 60.59"/>
+    <path fill="none" d="M130.06,174.6 L 35.72 51.66"/>
+    <path fill="none" d="M130.22,174.49 L 42.75 43.57"/>
+    <path fill="none" d="M130.39,174.39 L 50.77 36.49"/>
+    <path fill="none" d="M130.56,174.29 L 59.66 30.53"/>
+    <path fill="none" d="M130.74,174.21 L 69.26 25.79"/>
+    <path fill="none" d="M130.92,174.14 L 79.4 22.35"/>
+    <path fill="none" d="M131.11,174.09 L 89.9 20.28"/>
+    <path fill="none" d="M131.3,174.04 L 100.59 19.62"/>
+    <path fill="none" d="M131.5,174.01 L 111.27 20.36"/>
+    <path fill="none" d="M131.69,173.99 L 121.76 22.51"/>
+    <path fill="none" d="M131.89,173.98 L 131.89 26.02"/>
+    <path fill="none" d="M132.09,173.99 L 141.47 30.83"/>
+    <path fill="none" d="M132.28,174.01 L 150.34 36.87"/>
+    <path fill="none" d="M132.48,174.04 L 158.34 44.02"/>
+    <path fill="none" d="M132.67,174.09 L 165.33 52.17"/>
+    <path fill="none" d="M133.04,174.21 L 175.84 70.89"/>
+    <path fill="none" d="M133.22,174.29 L 179.16 81.13"/>
+    <path fill="none" d="M133.39,174.39 L 181.12 91.73"/>
+    <path fill="none" d="M118.59,180.89 L 102.98 182.94"/>
+    <path fill="none" d="M118.57,180.69 L 92.12 182.42"/>
+    <path fill="none" d="M118.56,180.49 L 81.44 180.49"/>
+    <path fill="none" d="M118.57,180.3 L 71.11 177.19"/>
+    <path fill="none" d="M118.59,180.1 L 61.31 172.56"/>
+    <path fill="none" d="M118.62,179.91 L 52.22 166.7"/>
+    <path fill="none" d="M118.66,179.72 L 43.98 159.7"/>
+    <path fill="none" d="M118.72,179.53 L 36.73 151.7"/>
+    <path fill="none" d="M118.79,179.34 L 30.61 142.82"/>
+    <path fill="none" d="M118.87,179.16 L 25.71 133.22"/>
+    <path fill="none" d="M119.07,178.82 L 19.88 112.55"/>
+    <path fill="none" d="M119.18,178.66 L 19.05 101.83"/>
+    <path fill="none" d="M119.31,178.51 L 19.64 91.11"/>
+    <path fill="none" d="M119.44,178.37 L 21.63 80.56"/>
+    <path fill="none" d="M119.59,178.23 L 24.99 70.37"/>
+    <path fill="none" d="M119.74,178.11 L 29.66 60.72"/>
+    <path fill="none" d="M119.9,177.99 L 35.56 51.77"/>
+    <path fill="none" d="M120.06,177.89 L 42.58 43.68"/>
+    <path fill="none" d="M120.24,177.8 L 50.6 36.58"/>
+    <path fill="none" d="M120.42,177.72 L 59.48 30.61"/>
+    <path fill="none" d="M120.6,177.65 L 69.08 25.86"/>
+    <path fill="none" d="M120.79,177.59 L 79.21 22.41"/>
+    <path fill="none" d="M120.98,177.54 L 89.71 20.33"/>
+    <path fill="none" d="M121.18,177.51 L 100.39 19.65"/>
+    <path fill="none" d="M121.37,177.49 L 111.07 20.38"/>
+    <path fill="none" d="M121.57,177.49 L 121.57 22.51"/>
+    <path fill="none" d="M121.76,177.49 L 131.69 26.01"/>
+    <path fill="none" d="M121.96,177.51 L 141.27 30.81"/>
+    <path fill="none" d="M122.15,177.54 L 150.14 36.84"/>
+    <path fill="none" d="M122.35,177.59 L 158.15 43.98"/>
+    <path fill="none" d="M122.53,177.65 L 165.15 52.12"/>
+    <path fill="none" d="M122.72,177.72 L 171.02 61.11"/>
+    <path fill="none" d="M122.9,177.8 L 175.66 70.81"/>
+    <path fill="none" d="M123.07,177.89 L 178.99 81.04"/>
+    <path fill="none" d="M123.24,177.99 L 180.95 91.62"/>
+    <path fill="none" d="M107.88,182.82 L 103 183.14"/>
+    <path fill="none" d="M107.87,182.62 L 92.13 182.62"/>
+    <path fill="none" d="M107.9,182.23 L 71.09 177.38"/>
+    <path fill="none" d="M107.93,182.03 L 61.28 172.76"/>
+    <path fill="none" d="M107.97,181.84 L 52.17 166.89"/>
+    <path fill="none" d="M108.03,181.65 L 43.92 159.89"/>
+    <path fill="none" d="M108.1,181.47 L 36.67 151.88"/>
+    <path fill="none" d="M108.18,181.29 L 30.53 143"/>
+    <path fill="none" d="M108.27,181.12 L 25.61 133.39"/>
+    <path fill="none" d="M108.38,180.95 L 22.01 123.24"/>
+    <path fill="none" d="M108.49,180.79 L 19.77 112.71"/>
+    <path fill="none" d="M108.62,180.64 L 18.93 101.98"/>
+    <path fill="none" d="M108.75,180.49 L 19.51 91.25"/>
+    <path fill="none" d="M108.89,180.36 L 21.49 80.69"/>
+    <path fill="none" d="M109.05,180.23 L 24.84 70.5"/>
+    <path fill="none" d="M109.21,180.12 L 29.5 60.83"/>
+    <path fill="none" d="M109.37,180.02 L 35.39 51.87"/>
+    <path fill="none" d="M109.55,179.92 L 42.4 43.77"/>
+    <path fill="none" d="M109.73,179.84 L 50.42 36.67"/>
+    <path fill="none" d="M109.91,179.77 L 59.3 30.68"/>
+    <path fill="none" d="M110.1,179.72 L 68.89 25.91"/>
+    <path fill="none" d="M110.29,179.67 L 79.02 22.46"/>
+    <path fill="none" d="M110.48,179.64 L 89.52 20.36"/>
+    <path fill="none" d="M110.68,179.62 L 100.2 19.67"/>
+    <path fill="none" d="M110.88,179.61 L 110.88 20.39"/>
+    <path fill="none" d="M111.07,179.62 L 121.37 22.51"/>
+    <path fill="none" d="M111.27,179.64 L 131.5 25.99"/>
+    <path fill="none" d="M111.46,179.67 L 141.08 30.78"/>
+    <path fill="none" d="M111.66,179.72 L 149.95 36.79"/>
+    <path fill="none" d="M111.84,179.77 L 157.96 43.92"/>
+    <path fill="none" d="M112.03,179.84 L 164.96 52.05"/>
+    <path fill="none" d="M112.21,179.92 L 170.84 61.03"/>
+    <path fill="none" d="M112.38,180.02 L 175.49 70.71"/>
+    <path fill="none" d="M112.55,180.12 L 178.82 80.93"/>
+    <path fill="none" d="M112.71,180.23 L 180.79 91.51"/>
+    <path fill="none" d="M97,183.14 L 92.12 182.82"/>
+    <path fill="none" d="M97.02,182.94 L 81.41 180.89"/>
+    <path fill="none" d="M97.05,182.75 L 71.06 177.58"/>
+    <path fill="none" d="M97.1,182.56 L 61.24 172.95"/>
+    <path fill="none" d="M97.15,182.37 L 52.12 167.08"/>
+    <path fill="none" d="M97.22,182.18 L 43.85 160.08"/>
+    <path fill="none" d="M97.3,182 L 36.58 152.06"/>
+    <path fill="none" d="M97.4,181.83 L 30.44 143.17"/>
+    <path fill="none" d="M97.5,181.66 L 25.51 133.56"/>
+    <path fill="none" d="M97.61,181.5 L 21.89 123.4"/>
+    <path fill="none" d="M97.74,181.35 L 19.64 112.86"/>
+    <path fill="none" d="M98.02,181.07 L 19.36 91.38"/>
+    <path fill="none" d="M98.17,180.95 L 21.34 80.82"/>
+    <path fill="none" d="M98.33,180.83 L 24.68 70.61"/>
+    <path fill="none" d="M98.5,180.73 L 29.33 60.94"/>
+    <path fill="none" d="M98.67,180.64 L 35.22 51.97"/>
+    <path fill="none" d="M98.85,180.56 L 42.23 43.85"/>
+    <path fill="none" d="M99.22,180.43 L 59.11 30.74"/>
+    <path fill="none" d="M99.41,180.38 L 68.7 25.96"/>
+    <path fill="none" d="M99.61,180.35 L 78.82 22.49"/>
+    <path fill="none" d="M99.8,180.33 L 89.32 20.38"/>
+    <path fill="none" d="M100,180.33 L 100 19.67"/>
+    <path fill="none" d="M100.2,180.33 L 110.68 20.38"/>
+    <path fill="none" d="M100.39,180.35 L 121.18 22.49"/>
+    <path fill="none" d="M100.59,180.38 L 131.3 25.96"/>
+    <path fill="none" d="M100.78,180.43 L 140.89 30.74"/>
+    <path fill="none" d="M100.97,180.49 L 149.76 36.73"/>
+    <path fill="none" d="M101.15,180.56 L 157.77 43.85"/>
+    <path fill="none" d="M101.33,180.64 L 164.78 51.97"/>
+    <path fill="none" d="M101.5,180.73 L 170.67 60.94"/>
+    <path fill="none" d="M101.67,180.83 L 175.32 70.61"/>
+    <path fill="none" d="M101.83,180.95 L 178.66 80.82"/>
+    <path fill="none" d="M101.98,181.07 L 180.64 91.38"/>
+    <path fill="none" d="M86.17,182.03 L 81.38 181.08"/>
+    <path fill="none" d="M86.22,181.84 L 71.01 177.77"/>
+    <path fill="none" d="M86.28,181.65 L 61.18 173.14"/>
+    <path fill="none" d="M86.34,181.47 L 52.05 167.26"/>
+    <path fill="none" d="M86.43,181.29 L 43.77 160.26"/>
+    <path fill="none" d="M86.52,181.12 L 36.49 152.23"/>
+    <path fill="none" d="M86.62,180.95 L 30.33 143.34"/>
+    <path fill="none" d="M86.74,180.79 L 25.4 133.72"/>
+    <path fill="none" d="M86.86,180.64 L 21.77 123.55"/>
+    <path fill="none" d="M87,180.49 L 19.51 113"/>
+    <path fill="none" d="M87.29,180.23 L 19.21 91.51"/>
+    <path fill="none" d="M87.45,180.12 L 21.18 80.93"/>
+    <path fill="none" d="M87.62,180.02 L 24.51 70.71"/>
+    <path fill="none" d="M87.79,179.92 L 29.16 61.03"/>
+    <path fill="none" d="M87.97,179.84 L 35.04 52.05"/>
+    <path fill="none" d="M88.16,179.77 L 42.04 43.92"/>
+    <path fill="none" d="M88.34,179.72 L 50.05 36.79"/>
+    <path fill="none" d="M88.54,179.67 L 58.92 30.78"/>
+    <path fill="none" d="M88.93,179.62 L 78.63 22.51"/>
+    <path fill="none" d="M89.12,179.61 L 89.12 20.39"/>
+    <path fill="none" d="M89.32,179.62 L 99.8 19.67"/>
+    <path fill="none" d="M89.52,179.64 L 110.48 20.36"/>
+    <path fill="none" d="M89.71,179.67 L 120.98 22.46"/>
+    <path fill="none" d="M89.9,179.72 L 131.11 25.91"/>
+    <path fill="none" d="M90.09,179.77 L 140.7 30.68"/>
+    <path fill="none" d="M90.27,179.84 L 149.58 36.67"/>
+    <path fill="none" d="M90.45,179.92 L 157.6 43.77"/>
+    <path fill="none" d="M90.63,180.02 L 164.61 51.87"/>
+    <path fill="none" d="M90.79,180.12 L 170.5 60.83"/>
+    <path fill="none" d="M90.95,180.23 L 175.16 70.5"/>
+    <path fill="none" d="M91.11,180.36 L 178.51 80.69"/>
+    <path fill="none" d="M91.25,180.49 L 180.49 91.25"/>
+    <path fill="none" d="M75.58,179.53 L 70.96 177.96"/>
+    <path fill="none" d="M75.65,179.34 L 61.11 173.32"/>
+    <path fill="none" d="M75.73,179.16 L 51.97 167.44"/>
+    <path fill="none" d="M75.83,178.99 L 43.68 160.43"/>
+    <path fill="none" d="M75.93,178.82 L 36.39 152.4"/>
+    <path fill="none" d="M76.05,178.66 L 30.22 143.5"/>
+    <path fill="none" d="M76.17,178.51 L 25.27 133.87"/>
+    <path fill="none" d="M76.31,178.37 L 21.63 123.69"/>
+    <path fill="none" d="M76.45,178.23 L 19.36 113.14"/>
+    <path fill="none" d="M76.6,178.11 L 18.5 102.39"/>
+    <path fill="none" d="M76.76,177.99 L 19.05 91.62"/>
+    <path fill="none" d="M76.93,177.89 L 21.01 81.04"/>
+    <path fill="none" d="M77.1,177.8 L 24.34 70.81"/>
+    <path fill="none" d="M77.28,177.72 L 28.98 61.11"/>
+    <path fill="none" d="M77.47,177.65 L 34.85 52.12"/>
+    <path fill="none" d="M77.65,177.59 L 41.85 43.98"/>
+    <path fill="none" d="M77.85,177.54 L 49.86 36.84"/>
+    <path fill="none" d="M78.04,177.51 L 58.73 30.81"/>
+    <path fill="none" d="M78.24,177.49 L 68.31 26.01"/>
+    <path fill="none" d="M78.43,177.49 L 78.43 22.51"/>
+    <path fill="none" d="M78.63,177.49 L 88.93 20.38"/>
+    <path fill="none" d="M78.82,177.51 L 99.61 19.65"/>
+    <path fill="none" d="M79.02,177.54 L 110.29 20.33"/>
+    <path fill="none" d="M79.21,177.59 L 120.79 22.41"/>
+    <path fill="none" d="M79.58,177.72 L 140.52 30.61"/>
+    <path fill="none" d="M79.76,177.8 L 149.4 36.58"/>
+    <path fill="none" d="M79.94,177.89 L 157.42 43.68"/>
+    <path fill="none" d="M80.1,177.99 L 164.44 51.77"/>
+    <path fill="none" d="M80.26,178.11 L 170.34 60.72"/>
+    <path fill="none" d="M80.41,178.23 L 175.01 70.37"/>
+    <path fill="none" d="M80.56,178.37 L 178.37 80.56"/>
+    <path fill="none" d="M80.69,178.51 L 180.36 91.11"/>
+    <path fill="none" d="M65.41,175.66 L 61.03 173.5"/>
+    <path fill="none" d="M65.51,175.49 L 51.87 167.62"/>
+    <path fill="none" d="M65.61,175.32 L 43.57 160.6"/>
+    <path fill="none" d="M65.72,175.16 L 36.27 152.56"/>
+    <path fill="none" d="M65.85,175.01 L 30.09 143.65"/>
+    <path fill="none" d="M66.13,174.73 L 21.49 123.83"/>
+    <path fill="none" d="M66.28,174.6 L 19.21 113.26"/>
+    <path fill="none" d="M66.44,174.49 L 18.34 102.5"/>
+    <path fill="none" d="M66.61,174.39 L 18.88 91.73"/>
+    <path fill="none" d="M66.78,174.29 L 20.84 81.13"/>
+    <path fill="none" d="M66.96,174.21 L 24.16 70.89"/>
+    <path fill="none" d="M67.14,174.14 L 28.8 61.18"/>
+    <path fill="none" d="M67.33,174.09 L 34.67 52.17"/>
+    <path fill="none" d="M67.52,174.04 L 41.66 44.02"/>
+    <path fill="none" d="M67.72,174.01 L 49.66 36.87"/>
+    <path fill="none" d="M67.91,173.99 L 58.53 30.83"/>
+    <path fill="none" d="M68.11,173.98 L 68.11 26.02"/>
+    <path fill="none" d="M68.31,173.99 L 78.24 22.51"/>
+    <path fill="none" d="M68.5,174.01 L 88.73 20.36"/>
+    <path fill="none" d="M68.7,174.04 L 99.41 19.62"/>
+    <path fill="none" d="M68.89,174.09 L 110.1 20.28"/>
+    <path fill="none" d="M69.08,174.14 L 120.6 22.35"/>
+    <path fill="none" d="M69.26,174.21 L 130.74 25.79"/>
+    <path fill="none" d="M69.61,174.39 L 149.23 36.49"/>
+    <path fill="none" d="M69.78,174.49 L 157.25 43.57"/>
+    <path fill="none" d="M69.94,174.6 L 164.28 51.66"/>
+    <path fill="none" d="M70.09,174.73 L 170.19 60.59"/>
+    <path fill="none" d="M70.24,174.86 L 174.86 70.24"/>
+    <path fill="none" d="M70.37,175.01 L 178.23 80.41"/>
+    <path fill="none" d="M70.5,175.16 L 180.23 90.95"/>
+    <path fill="none" d="M55.83,170.5 L 51.77 167.78"/>
+    <path fill="none" d="M55.95,170.34 L 43.46 160.76"/>
+    <path fill="none" d="M56.07,170.19 L 36.15 152.71"/>
+    <path fill="none" d="M56.21,170.04 L 29.96 143.79"/>
+    <path fill="none" d="M56.35,169.91 L 24.99 134.15"/>
+    <path fill="none" d="M56.5,169.78 L 21.34 123.95"/>
+    <path fill="none" d="M56.66,169.67 L 19.05 113.38"/>
+    <path fill="none" d="M56.83,169.56 L 18.17 102.6"/>
+    <path fill="none" d="M57,169.47 L 18.71 91.82"/>
+    <path fill="none" d="M57.37,169.32 L 23.98 70.96"/>
+    <path fill="none" d="M57.56,169.26 L 28.61 61.24"/>
+    <path fill="none" d="M57.75,169.22 L 34.47 52.22"/>
+    <path fill="none" d="M57.94,169.19 L 41.47 44.06"/>
+    <path fill="none" d="M58.14,169.17 L 49.47 36.89"/>
+    <path fill="none" d="M58.33,169.16 L 58.33 30.84"/>
+    <path fill="none" d="M58.53,169.17 L 67.91 26.01"/>
+    <path fill="none" d="M58.73,169.19 L 78.04 22.49"/>
+    <path fill="none" d="M58.92,169.22 L 88.54 20.33"/>
+    <path fill="none" d="M59.11,169.26 L 99.22 19.57"/>
+    <path fill="none" d="M59.3,169.32 L 109.91 20.23"/>
+    <path fill="none" d="M59.48,169.39 L 120.42 22.28"/>
+    <path fill="none" d="M59.66,169.47 L 130.56 25.71"/>
+    <path fill="none" d="M59.84,169.56 L 140.16 30.44"/>
+    <path fill="none" d="M60,169.67 L 149.06 36.39"/>
+    <path fill="none" d="M60.32,169.91 L 164.13 51.53"/>
+    <path fill="none" d="M60.46,170.04 L 170.04 60.46"/>
+    <path fill="none" d="M60.59,170.19 L 174.73 70.09"/>
+    <path fill="none" d="M60.72,170.34 L 178.11 80.26"/>
+    <path fill="none" d="M60.83,170.5 L 180.12 90.79"/>
+    <path fill="none" d="M47.01,164.13 L 43.34 160.91"/>
+    <path fill="none" d="M47.14,163.99 L 36.01 152.86"/>
+    <path fill="none" d="M47.29,163.85 L 29.81 143.93"/>
+    <path fill="none" d="M47.44,163.73 L 24.84 134.28"/>
+    <path fill="none" d="M47.6,163.61 L 21.18 124.07"/>
+    <path fill="none" d="M47.77,163.51 L 18.88 113.48"/>
+    <path fill="none" d="M47.94,163.42 L 18 102.7"/>
+    <path fill="none" d="M48.12,163.33 L 18.53 91.9"/>
+    <path fill="none" d="M48.3,163.27 L 20.47 81.28"/>
+    <path fill="none" d="M48.68,163.16 L 28.42 61.28"/>
+    <path fill="none" d="M48.88,163.13 L 34.28 52.25"/>
+    <path fill="none" d="M49.07,163.11 L 41.27 44.08"/>
+    <path fill="none" d="M49.27,163.11 L 49.27 36.89"/>
+    <path fill="none" d="M49.47,163.11 L 58.14 30.83"/>
+    <path fill="none" d="M49.66,163.13 L 67.72 25.99"/>
+    <path fill="none" d="M49.86,163.16 L 77.85 22.46"/>
+    <path fill="none" d="M50.05,163.21 L 88.34 20.28"/>
+    <path fill="none" d="M50.24,163.27 L 99.03 19.51"/>
+    <path fill="none" d="M50.42,163.33 L 109.73 20.16"/>
+    <path fill="none" d="M50.6,163.42 L 120.24 22.2"/>
+    <path fill="none" d="M50.77,163.51 L 130.39 25.61"/>
+    <path fill="none" d="M50.94,163.61 L 140 30.33"/>
+    <path fill="none" d="M51.1,163.73 L 148.9 36.27"/>
+    <path fill="none" d="M51.25,163.85 L 156.94 43.34"/>
+    <path fill="none" d="M51.4,163.99 L 163.99 51.4"/>
+    <path fill="none" d="M51.53,164.13 L 169.91 60.32"/>
+    <path fill="none" d="M51.66,164.28 L 174.6 69.94"/>
+    <path fill="none" d="M51.77,164.44 L 177.99 80.1"/>
+    <path fill="none" d="M51.87,164.61 L 180.02 90.63"/>
+    <path fill="none" d="M39.09,156.66 L 35.87 152.99"/>
+    <path fill="none" d="M39.24,156.54 L 29.66 144.05"/>
+    <path fill="none" d="M39.4,156.43 L 24.68 134.39"/>
+    <path fill="none" d="M39.57,156.32 L 21.01 124.17"/>
+    <path fill="none" d="M39.74,156.23 L 18.71 113.57"/>
+    <path fill="none" d="M39.92,156.15 L 17.82 102.78"/>
+    <path fill="none" d="M40.11,156.08 L 18.35 91.97"/>
+    <path fill="none" d="M40.49,155.98 L 23.6 71.06"/>
+    <path fill="none" d="M40.68,155.94 L 28.22 61.31"/>
+    <path fill="none" d="M40.88,155.92 L 34.08 52.27"/>
+    <path fill="none" d="M41.07,155.92 L 41.07 44.08"/>
+    <path fill="none" d="M41.27,155.92 L 49.07 36.89"/>
+    <path fill="none" d="M41.47,155.94 L 57.94 30.81"/>
+    <path fill="none" d="M41.66,155.98 L 67.52 25.96"/>
+    <path fill="none" d="M41.85,156.02 L 77.65 22.41"/>
+    <path fill="none" d="M42.04,156.08 L 88.16 20.23"/>
+    <path fill="none" d="M42.23,156.15 L 98.85 19.44"/>
+    <path fill="none" d="M42.4,156.23 L 109.55 20.08"/>
+    <path fill="none" d="M42.58,156.32 L 120.06 22.11"/>
+    <path fill="none" d="M42.75,156.43 L 130.22 25.51"/>
+    <path fill="none" d="M42.91,156.54 L 139.84 30.22"/>
+    <path fill="none" d="M43.06,156.66 L 148.75 36.15"/>
+    <path fill="none" d="M43.2,156.8 L 156.8 43.2"/>
+    <path fill="none" d="M43.34,156.94 L 163.85 51.25"/>
+    <path fill="none" d="M43.46,157.09 L 169.78 60.16"/>
+    <path fill="none" d="M43.57,157.25 L 174.49 69.78"/>
+    <path fill="none" d="M43.68,157.42 L 177.89 79.94"/>
+    <path fill="none" d="M43.77,157.6 L 179.92 90.45"/>
+    <path fill="none" d="M32.22,148.23 L 29.5 144.17"/>
+    <path fill="none" d="M32.38,148.13 L 24.51 134.49"/>
+    <path fill="none" d="M32.56,148.03 L 20.84 124.27"/>
+    <path fill="none" d="M32.74,147.95 L 18.53 113.66"/>
+    <path fill="none" d="M32.92,147.88 L 17.63 102.85"/>
+    <path fill="none" d="M33.11,147.83 L 18.16 92.03"/>
+    <path fill="none" d="M33.3,147.78 L 20.09 81.38"/>
+    <path fill="none" d="M33.49,147.75 L 23.4 71.09"/>
+    <path fill="none" d="M33.69,147.73 L 28.03 61.33"/>
+    <path fill="none" d="M33.89,147.72 L 33.89 52.28"/>
+    <path fill="none" d="M34.08,147.73 L 40.88 44.08"/>
+    <path fill="none" d="M34.28,147.75 L 48.88 36.87"/>
+    <path fill="none" d="M34.67,147.83 L 67.33 25.91"/>
+    <path fill="none" d="M34.85,147.88 L 77.47 22.35"/>
+    <path fill="none" d="M35.04,147.95 L 87.97 20.16"/>
+    <path fill="none" d="M35.22,148.03 L 98.67 19.36"/>
+    <path fill="none" d="M35.39,148.13 L 109.37 19.98"/>
+    <path fill="none" d="M35.56,148.23 L 119.9 22.01"/>
+    <path fill="none" d="M35.72,148.34 L 130.06 25.4"/>
+    <path fill="none" d="M35.87,148.47 L 139.68 30.09"/>
+    <path fill="none" d="M36.01,148.6 L 148.6 36.01"/>
+    <path fill="none" d="M36.15,148.75 L 156.66 43.06"/>
+    <path fill="none" d="M36.27,148.9 L 163.73 51.1"/>
+    <path fill="none" d="M36.39,149.06 L 169.67 60"/>
+    <path fill="none" d="M36.49,149.23 L 174.39 69.61"/>
+    <path fill="none" d="M36.67,149.58 L 179.84 90.27"/>
+    <path fill="none" d="M26.5,138.97 L 24.34 134.59"/>
+    <path fill="none" d="M26.68,138.89 L 20.66 124.35"/>
+    <path fill="none" d="M26.86,138.82 L 18.35 113.72"/>
+    <path fill="none" d="M27.05,138.76 L 17.44 102.9"/>
+    <path fill="none" d="M27.24,138.72 L 17.97 92.07"/>
+    <path fill="none" d="M27.44,138.69 L 19.9 81.41"/>
+    <path fill="none" d="M27.63,138.67 L 23.21 71.11"/>
+    <path fill="none" d="M27.83,138.66 L 27.83 61.34"/>
+    <path fill="none" d="M28.03,138.67 L 33.69 52.27"/>
+    <path fill="none" d="M28.22,138.69 L 40.68 44.06"/>
+    <path fill="none" d="M28.42,138.72 L 48.68 36.84"/>
+    <path fill="none" d="M28.61,138.76 L 57.56 30.74"/>
+    <path fill="none" d="M28.8,138.82 L 67.14 25.86"/>
+    <path fill="none" d="M28.98,138.89 L 77.28 22.28"/>
+    <path fill="none" d="M29.16,138.97 L 87.79 20.08"/>
+    <path fill="none" d="M29.33,139.06 L 98.5 19.27"/>
+    <path fill="none" d="M29.5,139.17 L 109.21 19.88"/>
+    <path fill="none" d="M29.81,139.41 L 129.91 25.27"/>
+    <path fill="none" d="M29.96,139.54 L 139.54 29.96"/>
+    <path fill="none" d="M30.09,139.68 L 148.47 35.87"/>
+    <path fill="none" d="M30.22,139.84 L 156.54 42.91"/>
+    <path fill="none" d="M30.33,140 L 163.61 50.94"/>
+    <path fill="none" d="M30.44,140.16 L 169.56 59.84"/>
+    <path fill="none" d="M30.53,140.34 L 174.29 69.44"/>
+    <path fill="none" d="M30.68,140.7 L 179.77 90.09"/>
+    <path fill="none" d="M22.04,129.04 L 20.47 124.42"/>
+    <path fill="none" d="M22.23,128.99 L 18.16 113.78"/>
+    <path fill="none" d="M22.42,128.94 L 17.25 102.95"/>
+    <path fill="none" d="M22.62,128.91 L 17.77 92.1"/>
+    <path fill="none" d="M22.81,128.89 L 19.7 81.43"/>
+    <path fill="none" d="M23.01,128.88 L 23.01 71.12"/>
+    <path fill="none" d="M23.21,128.89 L 27.63 61.33"/>
+    <path fill="none" d="M23.4,128.91 L 33.49 52.25"/>
+    <path fill="none" d="M23.6,128.94 L 40.49 44.02"/>
+    <path fill="none" d="M23.79,128.99 L 48.49 36.79"/>
+    <path fill="none" d="M23.98,129.04 L 57.37 30.68"/>
+    <path fill="none" d="M24.16,129.11 L 66.96 25.79"/>
+    <path fill="none" d="M24.34,129.19 L 77.1 22.2"/>
+    <path fill="none" d="M24.51,129.29 L 87.62 19.98"/>
+    <path fill="none" d="M24.68,129.39 L 98.33 19.17"/>
+    <path fill="none" d="M24.84,129.5 L 109.05 19.77"/>
+    <path fill="none" d="M24.99,129.63 L 119.59 21.77"/>
+    <path fill="none" d="M25.14,129.76 L 129.76 25.14"/>
+    <path fill="none" d="M25.27,129.91 L 139.41 29.81"/>
+    <path fill="none" d="M25.4,130.06 L 148.34 35.72"/>
+    <path fill="none" d="M25.51,130.22 L 156.43 42.75"/>
+    <path fill="none" d="M25.61,130.39 L 163.51 50.77"/>
+    <path fill="none" d="M25.71,130.56 L 169.47 59.66"/>
+    <path fill="none" d="M25.79,130.74 L 174.21 69.26"/>
+    <path fill="none" d="M25.86,130.92 L 177.65 79.4"/>
+    <path fill="none" d="M25.91,131.11 L 179.72 89.9"/>
+    <path fill="none" d="M18.92,118.62 L 17.97 113.83"/>
+    <path fill="none" d="M19.11,118.59 L 17.06 102.98"/>
+    <path fill="none" d="M19.31,118.57 L 17.58 92.12"/>
+    <path fill="none" d="M19.51,118.56 L 19.51 81.44"/>
+    <path fill="none" d="M19.7,118.57 L 22.81 71.11"/>
+    <path fill="none" d="M19.9,118.59 L 27.44 61.31"/>
+    <path fill="none" d="M20.09,118.62 L 33.3 52.22"/>
+    <path fill="none" d="M20.28,118.66 L 40.3 43.98"/>
+    <path fill="none" d="M20.47,118.72 L 48.3 36.73"/>
+    <path fill="none" d="M20.66,118.79 L 57.18 30.61"/>
+    <path fill="none" d="M20.84,118.87 L 66.78 25.71"/>
+    <path fill="none" d="M21.01,118.96 L 76.93 22.11"/>
+    <path fill="none" d="M21.18,119.07 L 87.45 19.88"/>
+    <path fill="none" d="M21.34,119.18 L 98.17 19.05"/>
+    <path fill="none" d="M21.49,119.31 L 108.89 19.64"/>
+    <path fill="none" d="M21.63,119.44 L 119.44 21.63"/>
+    <path fill="none" d="M21.77,119.59 L 129.63 24.99"/>
+    <path fill="none" d="M21.89,119.74 L 139.28 29.66"/>
+    <path fill="none" d="M22.01,119.9 L 148.23 35.56"/>
+    <path fill="none" d="M22.11,120.06 L 156.32 42.58"/>
+    <path fill="none" d="M22.2,120.24 L 163.42 50.6"/>
+    <path fill="none" d="M22.28,120.42 L 169.39 59.48"/>
+    <path fill="none" d="M22.35,120.6 L 174.14 69.08"/>
+    <path fill="none" d="M22.41,120.79 L 177.59 79.21"/>
+    <path fill="none" d="M22.46,120.98 L 179.67 89.71"/>
+    <path fill="none" d="M17.18,107.88 L 16.86 103"/>
+    <path fill="none" d="M17.38,107.87 L 17.38 92.13"/>
+    <path fill="none" d="M17.58,107.88 L 19.31 81.43"/>
+    <path fill="none" d="M17.77,107.9 L 22.62 71.09"/>
+    <path fill="none" d="M17.97,107.93 L 27.24 61.28"/>
+    <path fill="none" d="M18.16,107.97 L 33.11 52.17"/>
+    <path fill="none" d="M18.35,108.03 L 40.11 43.92"/>
+    <path fill="none" d="M18.71,108.18 L 57 30.53"/>
+    <path fill="none" d="M18.88,108.27 L 66.61 25.61"/>
+    <path fill="none" d="M19.05,108.38 L 76.76 22.01"/>
+    <path fill="none" d="M19.21,108.49 L 87.29 19.77"/>
+    <path fill="none" d="M19.36,108.62 L 98.02 18.93"/>
+    <path fill="none" d="M19.51,108.75 L 108.75 19.51"/>
+    <path fill="none" d="M19.64,108.89 L 119.31 21.49"/>
+    <path fill="none" d="M19.77,109.05 L 129.5 24.84"/>
+    <path fill="none" d="M19.88,109.21 L 139.17 29.5"/>
+    <path fill="none" d="M19.98,109.37 L 148.13 35.39"/>
+    <path fill="none" d="M20.08,109.55 L 156.23 42.4"/>
+    <path fill="none" d="M20.16,109.73 L 163.33 50.42"/>
+    <path fill="none" d="M20.23,109.91 L 169.32 59.3"/>
+    <path fill="none" d="M20.28,110.1 L 174.09 68.89"/>
+    <path fill="none" d="M20.33,110.29 L 177.54 79.02"/>
+    <path fill="none" d="M20.36,110.48 L 179.64 89.52"/>
+    <path fill="none" d="M16.86,97 L 17.18 92.12"/>
+    <path fill="none" d="M17.06,97.02 L 19.11 81.41"/>
+    <path fill="none" d="M17.25,97.05 L 22.42 71.06"/>
+    <path fill="none" d="M17.44,97.1 L 27.05 61.24"/>
+    <path fill="none" d="M17.63,97.15 L 32.92 52.12"/>
+    <path fill="none" d="M17.82,97.22 L 39.92 43.85"/>
+    <path fill="none" d="M18,97.3 L 47.94 36.58"/>
+    <path fill="none" d="M18.17,97.4 L 56.83 30.44"/>
+    <path fill="none" d="M18.34,97.5 L 66.44 25.51"/>
+    <path fill="none" d="M18.5,97.61 L 76.6 21.89"/>
+    <path fill="none" d="M18.65,97.74 L 87.14 19.64"/>
+    <path fill="none" d="M18.79,97.87 L 97.87 18.79"/>
+    <path fill="none" d="M18.93,98.02 L 108.62 19.36"/>
+    <path fill="none" d="M19.05,98.17 L 119.18 21.34"/>
+    <path fill="none" d="M19.17,98.33 L 129.39 24.68"/>
+    <path fill="none" d="M19.27,98.5 L 139.06 29.33"/>
+    <path fill="none" d="M19.36,98.67 L 148.03 35.22"/>
+    <path fill="none" d="M19.44,98.85 L 156.15 42.23"/>
+    <path fill="none" d="M19.51,99.03 L 163.27 50.24"/>
+    <path fill="none" d="M19.57,99.22 L 169.26 59.11"/>
+    <path fill="none" d="M19.62,99.41 L 174.04 68.7"/>
+    <path fill="none" d="M19.65,99.61 L 177.51 78.82"/>
+    <path fill="none" d="M19.67,99.8 L 179.62 89.32"/>
+    <path fill="none" d="M17.97,86.17 L 18.92 81.38"/>
+    <path fill="none" d="M18.16,86.22 L 22.23 71.01"/>
+    <path fill="none" d="M18.35,86.28 L 26.86 61.18"/>
+    <path fill="none" d="M18.53,86.34 L 32.74 52.05"/>
+    <path fill="none" d="M18.71,86.43 L 39.74 43.77"/>
+    <path fill="none" d="M18.88,86.52 L 47.77 36.49"/>
+    <path fill="none" d="M19.05,86.62 L 56.66 30.33"/>
+    <path fill="none" d="M19.21,86.74 L 66.28 25.4"/>
+    <path fill="none" d="M19.36,86.86 L 76.45 21.77"/>
+    <path fill="none" d="M19.51,87 L 87 19.51"/>
+    <path fill="none" d="M19.64,87.14 L 97.74 18.65"/>
+    <path fill="none" d="M19.77,87.29 L 108.49 19.21"/>
+    <path fill="none" d="M19.88,87.45 L 119.07 21.18"/>
+    <path fill="none" d="M19.98,87.62 L 129.29 24.51"/>
+    <path fill="none" d="M20.08,87.79 L 138.97 29.16"/>
+    <path fill="none" d="M20.23,88.16 L 156.08 42.04"/>
+    <path fill="none" d="M20.28,88.34 L 163.21 50.05"/>
+    <path fill="none" d="M20.33,88.54 L 169.22 58.92"/>
+    <path fill="none" d="M20.36,88.73 L 174.01 68.5"/>
+    <path fill="none" d="M20.38,88.93 L 177.49 78.63"/>
+    <path fill="none" d="M20.39,89.12 L 179.61 89.12"/>
+    <path fill="none" d="M20.47,75.58 L 22.04 70.96"/>
+    <path fill="none" d="M20.66,75.65 L 26.68 61.11"/>
+    <path fill="none" d="M20.84,75.73 L 32.56 51.97"/>
+    <path fill="none" d="M21.01,75.83 L 39.57 43.68"/>
+    <path fill="none" d="M21.18,75.93 L 47.6 36.39"/>
+    <path fill="none" d="M21.34,76.05 L 56.5 30.22"/>
+    <path fill="none" d="M21.49,76.17 L 66.13 25.27"/>
+    <path fill="none" d="M21.63,76.31 L 76.31 21.63"/>
+    <path fill="none" d="M21.77,76.45 L 86.86 19.36"/>
+    <path fill="none" d="M21.89,76.6 L 97.61 18.5"/>
+    <path fill="none" d="M22.01,76.76 L 108.38 19.05"/>
+    <path fill="none" d="M22.11,76.93 L 118.96 21.01"/>
+    <path fill="none" d="M22.2,77.1 L 129.19 24.34"/>
+    <path fill="none" d="M22.28,77.28 L 138.89 28.98"/>
+    <path fill="none" d="M22.35,77.47 L 147.88 34.85"/>
+    <path fill="none" d="M22.41,77.65 L 156.02 41.85"/>
+    <path fill="none" d="M22.46,77.85 L 163.16 49.86"/>
+    <path fill="none" d="M22.49,78.04 L 169.19 58.73"/>
+    <path fill="none" d="M22.51,78.24 L 173.99 68.31"/>
+    <path fill="none" d="M22.51,78.43 L 177.49 78.43"/>
+    <path fill="none" d="M22.51,78.63 L 179.62 88.93"/>
+    <path fill="none" d="M24.34,65.41 L 26.5 61.03"/>
+    <path fill="none" d="M24.68,65.61 L 39.4 43.57"/>
+    <path fill="none" d="M24.84,65.72 L 47.44 36.27"/>
+    <path fill="none" d="M24.99,65.85 L 56.35 30.09"/>
+    <path fill="none" d="M25.14,65.98 L 65.98 25.14"/>
+    <path fill="none" d="M25.27,66.13 L 76.17 21.49"/>
+    <path fill="none" d="M25.4,66.28 L 86.74 19.21"/>
+    <path fill="none" d="M25.51,66.44 L 97.5 18.34"/>
+    <path fill="none" d="M25.61,66.61 L 108.27 18.88"/>
+    <path fill="none" d="M25.71,66.78 L 118.87 20.84"/>
+    <path fill="none" d="M25.79,66.96 L 129.11 24.16"/>
+    <path fill="none" d="M25.86,67.14 L 138.82 28.8"/>
+    <path fill="none" d="M25.91,67.33 L 147.83 34.67"/>
+    <path fill="none" d="M25.96,67.52 L 155.98 41.66"/>
+    <path fill="none" d="M25.99,67.72 L 163.13 49.66"/>
+    <path fill="none" d="M26.01,67.91 L 169.17 58.53"/>
+    <path fill="none" d="M26.02,68.11 L 173.98 68.11"/>
+    <path fill="none" d="M26.01,68.31 L 177.49 78.24"/>
+    <path fill="none" d="M25.99,68.5 L 179.64 88.73"/>
+    <path fill="none" d="M29.5,55.83 L 32.22 51.77"/>
+    <path fill="none" d="M29.66,55.95 L 39.24 43.46"/>
+    <path fill="none" d="M29.81,56.07 L 47.29 36.15"/>
+    <path fill="none" d="M29.96,56.21 L 56.21 29.96"/>
+    <path fill="none" d="M30.09,56.35 L 65.85 24.99"/>
+    <path fill="none" d="M30.22,56.5 L 76.05 21.34"/>
+    <path fill="none" d="M30.33,56.66 L 86.62 19.05"/>
+    <path fill="none" d="M30.44,56.83 L 97.4 18.17"/>
+    <path fill="none" d="M30.53,57 L 108.18 18.71"/>
+    <path fill="none" d="M30.61,57.18 L 118.79 20.66"/>
+    <path fill="none" d="M30.68,57.37 L 129.04 23.98"/>
+    <path fill="none" d="M30.74,57.56 L 138.76 28.61"/>
+    <path fill="none" d="M30.78,57.75 L 147.78 34.47"/>
+    <path fill="none" d="M30.81,57.94 L 155.94 41.47"/>
+    <path fill="none" d="M30.83,58.14 L 163.11 49.47"/>
+    <path fill="none" d="M30.84,58.33 L 169.16 58.33"/>
+    <path fill="none" d="M30.83,58.53 L 173.99 67.91"/>
+    <path fill="none" d="M30.81,58.73 L 177.51 78.04"/>
+    <path fill="none" d="M30.78,58.92 L 179.67 88.54"/>
+    <path fill="none" d="M35.87,47.01 L 39.09 43.34"/>
+    <path fill="none" d="M36.01,47.14 L 47.14 36.01"/>
+    <path fill="none" d="M36.15,47.29 L 56.07 29.81"/>
+    <path fill="none" d="M36.27,47.44 L 65.72 24.84"/>
+    <path fill="none" d="M36.39,47.6 L 75.93 21.18"/>
+    <path fill="none" d="M36.49,47.77 L 86.52 18.88"/>
+    <path fill="none" d="M36.67,48.12 L 108.1 18.53"/>
+    <path fill="none" d="M36.73,48.3 L 118.72 20.47"/>
+    <path fill="none" d="M36.79,48.49 L 128.99 23.79"/>
+    <path fill="none" d="M36.84,48.68 L 138.72 28.42"/>
+    <path fill="none" d="M36.87,48.88 L 147.75 34.28"/>
+    <path fill="none" d="M36.89,49.07 L 155.92 41.27"/>
+    <path fill="none" d="M36.89,49.27 L 163.11 49.27"/>
+    <path fill="none" d="M36.89,49.47 L 169.17 58.14"/>
+    <path fill="none" d="M36.87,49.66 L 174.01 67.72"/>
+    <path fill="none" d="M36.84,49.86 L 177.54 77.85"/>
+    <path fill="none" d="M36.79,50.05 L 179.72 88.34"/>
+    <path fill="none" d="M43.34,39.09 L 47.01 35.87"/>
+    <path fill="none" d="M43.46,39.24 L 55.95 29.66"/>
+    <path fill="none" d="M43.57,39.4 L 65.61 24.68"/>
+    <path fill="none" d="M43.68,39.57 L 75.83 21.01"/>
+    <path fill="none" d="M43.77,39.74 L 86.43 18.71"/>
+    <path fill="none" d="M43.85,39.92 L 97.22 17.82"/>
+    <path fill="none" d="M43.98,40.3 L 118.66 20.28"/>
+    <path fill="none" d="M44.02,40.49 L 128.94 23.6"/>
+    <path fill="none" d="M44.06,40.68 L 138.69 28.22"/>
+    <path fill="none" d="M44.08,40.88 L 147.73 34.08"/>
+    <path fill="none" d="M44.08,41.07 L 155.92 41.07"/>
+    <path fill="none" d="M44.06,41.47 L 169.19 57.94"/>
+    <path fill="none" d="M44.02,41.66 L 174.04 67.52"/>
+    <path fill="none" d="M43.98,41.85 L 177.59 77.65"/>
+    <path fill="none" d="M43.92,42.04 L 179.77 88.16"/>
+    <path fill="none" d="M51.77,32.22 L 55.83 29.5"/>
+    <path fill="none" d="M51.87,32.38 L 65.51 24.51"/>
+    <path fill="none" d="M51.97,32.56 L 75.73 20.84"/>
+    <path fill="none" d="M52.05,32.74 L 86.34 18.53"/>
+    <path fill="none" d="M52.12,32.92 L 97.15 17.63"/>
+    <path fill="none" d="M52.17,33.11 L 107.97 18.16"/>
+    <path fill="none" d="M52.22,33.3 L 118.62 20.09"/>
+    <path fill="none" d="M52.25,33.49 L 128.91 23.4"/>
+    <path fill="none" d="M52.27,33.69 L 138.67 28.03"/>
+    <path fill="none" d="M52.28,33.89 L 147.72 33.89"/>
+    <path fill="none" d="M52.27,34.08 L 155.92 40.88"/>
+    <path fill="none" d="M52.25,34.28 L 163.13 48.88"/>
+    <path fill="none" d="M52.22,34.47 L 169.22 57.75"/>
+    <path fill="none" d="M52.17,34.67 L 174.09 67.33"/>
+    <path fill="none" d="M52.12,34.85 L 177.65 77.47"/>
+    <path fill="none" d="M52.05,35.04 L 179.84 87.97"/>
+    <path fill="none" d="M61.03,26.5 L 65.41 24.34"/>
+    <path fill="none" d="M61.11,26.68 L 75.65 20.66"/>
+    <path fill="none" d="M61.18,26.86 L 86.28 18.35"/>
+    <path fill="none" d="M61.24,27.05 L 97.1 17.44"/>
+    <path fill="none" d="M61.28,27.24 L 107.93 17.97"/>
+    <path fill="none" d="M61.31,27.44 L 118.59 19.9"/>
+    <path fill="none" d="M61.33,27.63 L 128.89 23.21"/>
+    <path fill="none" d="M61.34,27.83 L 138.66 27.83"/>
+    <path fill="none" d="M61.33,28.03 L 147.73 33.69"/>
+    <path fill="none" d="M61.31,28.22 L 155.94 40.68"/>
+    <path fill="none" d="M61.28,28.42 L 163.16 48.68"/>
+    <path fill="none" d="M61.24,28.61 L 169.26 57.56"/>
+    <path fill="none" d="M61.11,28.98 L 177.72 77.28"/>
+    <path fill="none" d="M61.03,29.16 L 179.92 87.79"/>
+    <path fill="none" d="M70.96,22.04 L 75.58 20.47"/>
+    <path fill="none" d="M71.01,22.23 L 86.22 18.16"/>
+    <path fill="none" d="M71.06,22.42 L 97.05 17.25"/>
+    <path fill="none" d="M71.09,22.62 L 107.9 17.77"/>
+    <path fill="none" d="M71.11,22.81 L 118.57 19.7"/>
+    <path fill="none" d="M71.12,23.01 L 128.88 23.01"/>
+    <path fill="none" d="M71.09,23.4 L 147.75 33.49"/>
+    <path fill="none" d="M71.06,23.6 L 155.98 40.49"/>
+    <path fill="none" d="M71.01,23.79 L 163.21 48.49"/>
+    <path fill="none" d="M70.96,23.98 L 169.32 57.37"/>
+    <path fill="none" d="M70.89,24.16 L 174.21 66.96"/>
+    <path fill="none" d="M70.81,24.34 L 177.8 77.1"/>
+    <path fill="none" d="M70.71,24.51 L 180.02 87.62"/>
+    <path fill="none" d="M81.38,18.92 L 86.17 17.97"/>
+    <path fill="none" d="M81.41,19.11 L 97.02 17.06"/>
+    <path fill="none" d="M81.43,19.31 L 107.88 17.58"/>
+    <path fill="none" d="M81.44,19.51 L 118.56 19.51"/>
+    <path fill="none" d="M81.43,19.7 L 128.89 22.81"/>
+    <path fill="none" d="M81.41,19.9 L 138.69 27.44"/>
+    <path fill="none" d="M81.38,20.09 L 147.78 33.3"/>
+    <path fill="none" d="M81.34,20.28 L 156.02 40.3"/>
+    <path fill="none" d="M81.28,20.47 L 163.27 48.3"/>
+    <path fill="none" d="M81.13,20.84 L 174.29 66.78"/>
+    <path fill="none" d="M81.04,21.01 L 177.89 76.93"/>
+    <path fill="none" d="M80.93,21.18 L 180.12 87.45"/>
+    <path fill="none" d="M92.12,17.18 L 97 16.86"/>
+    <path fill="none" d="M92.13,17.38 L 107.87 17.38"/>
+    <path fill="none" d="M92.12,17.58 L 118.57 19.31"/>
+    <path fill="none" d="M92.1,17.77 L 128.91 22.62"/>
+    <path fill="none" d="M92.07,17.97 L 138.72 27.24"/>
+    <path fill="none" d="M92.03,18.16 L 147.83 33.11"/>
+    <path fill="none" d="M91.97,18.35 L 156.08 40.11"/>
+    <path fill="none" d="M91.9,18.53 L 163.33 48.12"/>
+    <path fill="none" d="M91.82,18.71 L 169.47 57"/>
+    <path fill="none" d="M91.62,19.05 L 177.99 76.76"/>
+    <path fill="none" d="M91.51,19.21 L 180.23 87.29"/>
+    <path fill="none" d="M103,16.86 L 107.88 17.18"/>
+    <path fill="none" d="M102.98,17.06 L 118.59 19.11"/>
+    <path fill="none" d="M102.95,17.25 L 128.94 22.42"/>
+    <path fill="none" d="M102.9,17.44 L 138.76 27.05"/>
+    <path fill="none" d="M102.85,17.63 L 147.88 32.92"/>
+    <path fill="none" d="M102.7,18 L 163.42 47.94"/>
+    <path fill="none" d="M102.6,18.17 L 169.56 56.83"/>
+    <path fill="none" d="M102.5,18.34 L 174.49 66.44"/>
+    <path fill="none" d="M102.39,18.5 L 178.11 76.6"/>
+    <path fill="none" d="M102.26,18.65 L 180.36 87.14"/>
+    <path fill="none" d="M113.83,17.97 L 118.62 18.92"/>
+    <path fill="none" d="M113.78,18.16 L 128.99 22.23"/>
+    <path fill="none" d="M113.72,18.35 L 138.82 26.86"/>
+    <path fill="none" d="M113.66,18.53 L 147.95 32.74"/>
+    <path fill="none" d="M113.57,18.71 L 156.23 39.74"/>
+    <path fill="none" d="M113.48,18.88 L 163.51 47.77"/>
+    <path fill="none" d="M113.38,19.05 L 169.67 56.66"/>
+    <path fill="none" d="M113.26,19.21 L 174.6 66.28"/>
+    <path fill="none" d="M113.14,19.36 L 178.23 76.45"/>
+    <path fill="none" d="M113,19.51 L 180.49 87"/>
+    <path fill="none" d="M124.42,20.47 L 129.04 22.04"/>
+    <path fill="none" d="M124.35,20.66 L 138.89 26.68"/>
+    <path fill="none" d="M124.27,20.84 L 148.03 32.56"/>
+    <path fill="none" d="M124.17,21.01 L 156.32 39.57"/>
+    <path fill="none" d="M124.07,21.18 L 163.61 47.6"/>
+    <path fill="none" d="M123.95,21.34 L 169.78 56.5"/>
+    <path fill="none" d="M123.83,21.49 L 174.73 66.13"/>
+    <path fill="none" d="M123.69,21.63 L 178.37 76.31"/>
+    <path fill="none" d="M134.59,24.34 L 138.97 26.5"/>
+    <path fill="none" d="M134.49,24.51 L 148.13 32.38"/>
+    <path fill="none" d="M134.39,24.68 L 156.43 39.4"/>
+    <path fill="none" d="M134.28,24.84 L 163.73 47.44"/>
+    <path fill="none" d="M134.15,24.99 L 169.91 56.35"/>
+    <path fill="none" d="M134.02,25.14 L 174.86 65.98"/>
+    <path fill="none" d="M133.87,25.27 L 178.51 76.17"/>
+    <path fill="none" d="M133.72,25.4 L 180.79 86.74"/>
+    <path fill="none" d="M144.17,29.5 L 148.23 32.22"/>
+    <path fill="none" d="M144.05,29.66 L 156.54 39.24"/>
+    <path fill="none" d="M143.93,29.81 L 163.85 47.29"/>
+    <path fill="none" d="M143.79,29.96 L 170.04 56.21"/>
+    <path fill="none" d="M143.65,30.09 L 175.01 65.85"/>
+    <path fill="none" d="M143.5,30.22 L 178.66 76.05"/>
+    <path fill="none" d="M143.34,30.33 L 180.95 86.62"/>
+    <path fill="none" d="M152.99,35.87 L 156.66 39.09"/>
+    <path fill="none" d="M152.86,36.01 L 163.99 47.14"/>
+    <path fill="none" d="M152.71,36.15 L 170.19 56.07"/>
+    <path fill="none" d="M152.56,36.27 L 175.16 65.72"/>
+    <path fill="none" d="M152.4,36.39 L 178.82 75.93"/>
+    <path fill="none" d="M152.23,36.49 L 181.12 86.52"/>
+    <path fill="none" d="M160.91,43.34 L 164.13 47.01"/>
+    <path fill="none" d="M160.76,43.46 L 170.34 55.95"/>
+    <path fill="none" d="M160.6,43.57 L 175.32 65.61"/>
+    <path fill="none" d="M160.43,43.68 L 178.99 75.83"/>
+    <path fill="none" d="M160.26,43.77 L 181.29 86.43"/>
+    <path fill="none" d="M167.78,51.77 L 170.5 55.83"/>
+    <path fill="none" d="M167.62,51.87 L 175.49 65.51"/>
+    <path fill="none" d="M167.44,51.97 L 179.16 75.73"/>
+    <path fill="none" d="M167.26,52.05 L 181.47 86.34"/>
+    <path fill="none" d="M173.5,61.03 L 175.66 65.41"/>
+    <path fill="none" d="M173.32,61.11 L 179.34 75.65"/>
+    <path fill="none" d="M173.14,61.18 L 181.65 86.28"/>
+    <path fill="none" d="M177.96,70.96 L 179.53 75.58"/>
+    <path fill="none" d="M177.77,71.01 L 181.84 86.22"/>
+    <path fill="none" d="M181.08,81.38 L 182.03 86.17"/>
+  </g>
+  <g stroke="#FFA500" id="img-cf14cf22-3">
+    <path fill="none" d="M182,102.7 L 152.06 163.42"/>
+    <path fill="none" d="M181.83,102.6 L 143.17 169.56"/>
+    <path fill="none" d="M179.77,109.91 L 30.68 59.3"/>
+    <path fill="none" d="M181.47,108.1 L 151.88 36.67"/>
+    <path fill="none" d="M177.49,121.76 L 26.01 131.69"/>
+    <path fill="none" d="M177.49,121.57 L 22.51 121.57"/>
+    <path fill="none" d="M174.09,131.11 L 20.28 89.9"/>
+    <path fill="none" d="M175.01,129.63 L 80.41 21.77"/>
+    <path fill="none" d="M169.56,140.16 L 30.44 59.84"/>
+    <path fill="none" d="M172.76,138.72 L 182.03 92.07"/>
+    <path fill="none" d="M163.11,150.93 L 44.08 158.73"/>
+    <path fill="none" d="M166.11,147.72 L 166.11 52.28"/>
+    <path fill="none" d="M155.92,159.12 L 52.27 165.92"/>
+    <path fill="none" d="M157.6,156.23 L 90.45 20.08"/>
+    <path fill="none" d="M149.95,163.21 L 111.66 20.28"/>
+    <path fill="none" d="M141.47,169.17 L 132.09 26.01"/>
+    <path fill="none" d="M129.29,175.49 L 19.98 112.38"/>
+    <path fill="none" d="M132.86,174.14 L 171.2 61.18"/>
+    <path fill="none" d="M118.62,181.08 L 113.83 182.03"/>
+    <path fill="none" d="M118.96,178.99 L 22.11 123.07"/>
+    <path fill="none" d="M107.88,182.42 L 81.43 180.69"/>
+    <path fill="none" d="M97.87,181.21 L 18.79 102.13"/>
+    <path fill="none" d="M99.03,180.49 L 50.24 36.73"/>
+    <path fill="none" d="M87.14,180.36 L 18.65 102.26"/>
+    <path fill="none" d="M88.73,179.64 L 68.5 25.99"/>
+    <path fill="none" d="M79.4,177.65 L 130.92 25.86"/>
+    <path fill="none" d="M65.98,174.86 L 25.14 134.02"/>
+    <path fill="none" d="M69.44,174.29 L 140.34 30.53"/>
+    <path fill="none" d="M57.18,169.39 L 20.66 81.21"/>
+    <path fill="none" d="M60.16,169.78 L 157.09 43.46"/>
+    <path fill="none" d="M48.49,163.21 L 23.79 71.01"/>
+    <path fill="none" d="M40.3,156.02 L 20.28 81.34"/>
+    <path fill="none" d="M34.47,147.78 L 57.75 30.78"/>
+    <path fill="none" d="M36.58,149.4 L 177.8 79.76"/>
+    <path fill="none" d="M29.66,139.28 L 119.74 21.89"/>
+    <path fill="none" d="M30.61,140.52 L 177.72 79.58"/>
+    <path fill="none" d="M18.53,108.1 L 48.12 36.67"/>
+    <path fill="none" d="M20.16,87.97 L 147.95 35.04"/>
+    <path fill="none" d="M24.51,65.51 L 32.38 51.87"/>
+    <path fill="none" d="M36.58,47.94 L 97.3 18"/>
+    <path fill="none" d="M43.92,40.11 L 108.03 18.35"/>
+    <path fill="none" d="M44.08,41.27 L 163.11 49.07"/>
+    <path fill="none" d="M61.18,28.8 L 174.14 67.14"/>
+    <path fill="none" d="M71.11,23.21 L 138.67 27.63"/>
+    <path fill="none" d="M81.21,20.66 L 169.39 57.18"/>
+    <path fill="none" d="M91.73,18.88 L 174.39 66.61"/>
+    <path fill="none" d="M102.78,17.82 L 156.15 39.92"/>
+    <path fill="none" d="M123.55,21.77 L 180.64 86.86"/>
+  </g>
+</g>
+<g stroke-width="0.43" id="img-cf14cf22-4">
+</g>
+<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-cf14cf22-5">
+  <text x="182.98" y="105.44" text-anchor="middle" dy="0.35em">1619</text>
+  <text x="181.91" y="110.78" text-anchor="middle" dy="0.35em">528</text>
+  <text x="180.16" y="115.95" text-anchor="middle" dy="0.35em">2097</text>
+  <text x="177.75" y="120.83" text-anchor="middle" dy="0.35em">1310</text>
+  <text x="174.72" y="125.37" text-anchor="middle" dy="0.35em">1156</text>
+  <text x="171.13" y="129.46" text-anchor="middle" dy="0.35em">827</text>
+  <text x="167.03" y="133.06" text-anchor="middle" dy="0.35em">190</text>
+  <text x="162.5" y="136.08" text-anchor="middle" dy="0.35em">217</text>
+  <text x="157.61" y="138.49" text-anchor="middle" dy="0.35em">1892</text>
+  <text x="152.45" y="140.25" text-anchor="middle" dy="0.35em">660</text>
+  <text x="147.11" y="141.31" text-anchor="middle" dy="0.35em">673</text>
+  <text x="141.67" y="141.67" text-anchor="middle" dy="0.35em">786</text>
+  <text x="136.23" y="141.31" text-anchor="middle" dy="0.35em">776</text>
+  <text x="130.88" y="140.25" text-anchor="middle" dy="0.35em">434</text>
+  <text x="125.72" y="138.49" text-anchor="middle" dy="0.35em">430</text>
+  <text x="120.83" y="136.08" text-anchor="middle" dy="0.35em">1295</text>
+  <text x="116.3" y="133.06" text-anchor="middle" dy="0.35em">851</text>
+  <text x="112.2" y="129.46" text-anchor="middle" dy="0.35em">1210</text>
+  <text x="108.61" y="125.37" text-anchor="middle" dy="0.35em">723</text>
+  <text x="105.58" y="120.83" text-anchor="middle" dy="0.35em">1005</text>
+  <text x="103.17" y="115.95" text-anchor="middle" dy="0.35em">404</text>
+  <text x="101.42" y="110.78" text-anchor="middle" dy="0.35em">546</text>
+  <text x="100.36" y="105.44" text-anchor="middle" dy="0.35em">1695</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">952</text>
+  <text x="100.36" y="94.56" text-anchor="middle" dy="0.35em">2061</text>
+  <text x="101.42" y="89.22" text-anchor="middle" dy="0.35em">1173</text>
+  <text x="103.17" y="84.05" text-anchor="middle" dy="0.35em">872</text>
+  <text x="105.58" y="79.17" text-anchor="middle" dy="0.35em">1284</text>
+  <text x="108.61" y="74.63" text-anchor="middle" dy="0.35em">1099</text>
+  <text x="112.2" y="70.54" text-anchor="middle" dy="0.35em">672</text>
+  <text x="116.3" y="66.94" text-anchor="middle" dy="0.35em">1387</text>
+  <text x="120.83" y="63.92" text-anchor="middle" dy="0.35em">747</text>
+  <text x="125.72" y="61.51" text-anchor="middle" dy="0.35em">702</text>
+  <text x="130.88" y="59.75" text-anchor="middle" dy="0.35em">2318</text>
+  <text x="136.23" y="58.69" text-anchor="middle" dy="0.35em">789</text>
+  <text x="141.67" y="58.33" text-anchor="middle" dy="0.35em">1154</text>
+  <text x="147.11" y="58.69" text-anchor="middle" dy="0.35em">514</text>
+  <text x="152.45" y="59.75" text-anchor="middle" dy="0.35em">1232</text>
+  <text x="157.61" y="61.51" text-anchor="middle" dy="0.35em">262</text>
+  <text x="162.5" y="63.92" text-anchor="middle" dy="0.35em">798</text>
+  <text x="167.03" y="66.94" text-anchor="middle" dy="0.35em">1536</text>
+  <text x="171.13" y="70.54" text-anchor="middle" dy="0.35em">1176</text>
+  <text x="174.72" y="74.63" text-anchor="middle" dy="0.35em">619</text>
+  <text x="177.75" y="79.17" text-anchor="middle" dy="0.35em">2281</text>
+  <text x="180.16" y="84.05" text-anchor="middle" dy="0.35em">584</text>
+  <text x="181.91" y="89.22" text-anchor="middle" dy="0.35em">856</text>
+  <text x="182.98" y="94.56" text-anchor="middle" dy="0.35em">1209</text>
+  <text x="181.56" y="116.22" text-anchor="middle" dy="0.35em">1297</text>
+  <text x="179.81" y="121.38" text-anchor="middle" dy="0.35em">723</text>
+  <text x="177.39" y="126.27" text-anchor="middle" dy="0.35em">680</text>
+  <text x="174.37" y="130.8" text-anchor="middle" dy="0.35em">2218</text>
+  <text x="170.77" y="134.9" text-anchor="middle" dy="0.35em">2103</text>
+  <text x="166.68" y="138.49" text-anchor="middle" dy="0.35em">1684</text>
+  <text x="162.14" y="141.52" text-anchor="middle" dy="0.35em">1673</text>
+  <text x="157.26" y="143.93" text-anchor="middle" dy="0.35em">856</text>
+  <text x="152.09" y="145.69" text-anchor="middle" dy="0.35em">1316</text>
+  <text x="146.75" y="146.75" text-anchor="middle" dy="0.35em">1626</text>
+  <text x="141.31" y="147.11" text-anchor="middle" dy="0.35em">1289</text>
+  <text x="135.87" y="146.75" text-anchor="middle" dy="0.35em">1066</text>
+  <text x="130.53" y="145.69" text-anchor="middle" dy="0.35em">1750</text>
+  <text x="125.37" y="143.93" text-anchor="middle" dy="0.35em">1369</text>
+  <text x="120.48" y="141.52" text-anchor="middle" dy="0.35em">2527</text>
+  <text x="115.95" y="138.49" text-anchor="middle" dy="0.35em">2101</text>
+  <text x="111.85" y="134.9" text-anchor="middle" dy="0.35em">2372</text>
+  <text x="108.25" y="130.8" text-anchor="middle" dy="0.35em">1779</text>
+  <text x="105.23" y="126.27" text-anchor="middle" dy="0.35em">1475</text>
+  <text x="102.82" y="121.38" text-anchor="middle" dy="0.35em">1421</text>
+  <text x="101.06" y="116.22" text-anchor="middle" dy="0.35em">1189</text>
+  <text x="100" y="110.88" text-anchor="middle" dy="0.35em">962</text>
+  <text x="99.64" y="105.44" text-anchor="middle" dy="0.35em">1029</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">722</text>
+  <text x="101.06" y="94.65" text-anchor="middle" dy="0.35em">2364</text>
+  <text x="102.82" y="89.49" text-anchor="middle" dy="0.35em">2158</text>
+  <text x="105.23" y="84.61" text-anchor="middle" dy="0.35em">503</text>
+  <text x="108.25" y="80.07" text-anchor="middle" dy="0.35em">2354</text>
+  <text x="111.85" y="75.98" text-anchor="middle" dy="0.35em">1921</text>
+  <text x="115.95" y="72.38" text-anchor="middle" dy="0.35em">1277</text>
+  <text x="120.48" y="69.35" text-anchor="middle" dy="0.35em">1668</text>
+  <text x="125.37" y="66.94" text-anchor="middle" dy="0.35em">1023</text>
+  <text x="130.53" y="65.19" text-anchor="middle" dy="0.35em">1080</text>
+  <text x="135.87" y="64.13" text-anchor="middle" dy="0.35em">2177</text>
+  <text x="141.31" y="63.77" text-anchor="middle" dy="0.35em">2403</text>
+  <text x="146.75" y="64.13" text-anchor="middle" dy="0.35em">1895</text>
+  <text x="152.09" y="65.19" text-anchor="middle" dy="0.35em">1141</text>
+  <text x="157.26" y="66.94" text-anchor="middle" dy="0.35em">1623</text>
+  <text x="162.14" y="69.35" text-anchor="middle" dy="0.35em">1070</text>
+  <text x="166.68" y="72.38" text-anchor="middle" dy="0.35em">598</text>
+  <text x="170.77" y="75.98" text-anchor="middle" dy="0.35em">2389</text>
+  <text x="174.37" y="80.07" text-anchor="middle" dy="0.35em">2085</text>
+  <text x="177.39" y="84.61" text-anchor="middle" dy="0.35em">1127</text>
+  <text x="179.81" y="89.49" text-anchor="middle" dy="0.35em">1919</text>
+  <text x="181.56" y="94.65" text-anchor="middle" dy="0.35em">1456</text>
+  <text x="182.62" y="100" text-anchor="middle" dy="0.35em">724</text>
+  <text x="178.74" y="126.73" text-anchor="middle" dy="0.35em">1781</text>
+  <text x="176.33" y="131.62" text-anchor="middle" dy="0.35em">780</text>
+  <text x="173.3" y="136.15" text-anchor="middle" dy="0.35em">1336</text>
+  <text x="169.71" y="140.25" text-anchor="middle" dy="0.35em">1085</text>
+  <text x="165.61" y="143.84" text-anchor="middle" dy="0.35em">698</text>
+  <text x="161.08" y="146.87" text-anchor="middle" dy="0.35em">526</text>
+  <text x="156.19" y="149.28" text-anchor="middle" dy="0.35em">1591</text>
+  <text x="151.03" y="151.03" text-anchor="middle" dy="0.35em">535</text>
+  <text x="145.69" y="152.09" text-anchor="middle" dy="0.35em">580</text>
+  <text x="140.25" y="152.45" text-anchor="middle" dy="0.35em">570</text>
+  <text x="134.81" y="152.09" text-anchor="middle" dy="0.35em">499</text>
+  <text x="129.46" y="151.03" text-anchor="middle" dy="0.35em">629</text>
+  <text x="124.3" y="149.28" text-anchor="middle" dy="0.35em">449</text>
+  <text x="119.41" y="146.87" text-anchor="middle" dy="0.35em">1426</text>
+  <text x="114.88" y="143.84" text-anchor="middle" dy="0.35em">1064</text>
+  <text x="110.78" y="140.25" text-anchor="middle" dy="0.35em">1385</text>
+  <text x="107.19" y="136.15" text-anchor="middle" dy="0.35em">819</text>
+  <text x="104.16" y="131.62" text-anchor="middle" dy="0.35em">840</text>
+  <text x="101.75" y="126.73" text-anchor="middle" dy="0.35em">317</text>
+  <text x="100" y="121.57" text-anchor="middle" dy="0.35em">345</text>
+  <text x="98.94" y="116.22" text-anchor="middle" dy="0.35em">1414</text>
+  <text x="98.58" y="110.78" text-anchor="middle" dy="0.35em">537</text>
+  <text x="98.94" y="105.35" text-anchor="middle" dy="0.35em">1713</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1322</text>
+  <text x="101.75" y="94.84" text-anchor="middle" dy="0.35em">1106</text>
+  <text x="104.16" y="89.95" text-anchor="middle" dy="0.35em">875</text>
+  <text x="107.19" y="85.42" text-anchor="middle" dy="0.35em">1305</text>
+  <text x="110.78" y="81.32" text-anchor="middle" dy="0.35em">948</text>
+  <text x="114.88" y="77.73" text-anchor="middle" dy="0.35em">1020</text>
+  <text x="119.41" y="74.7" text-anchor="middle" dy="0.35em">719</text>
+  <text x="124.3" y="72.29" text-anchor="middle" dy="0.35em">383</text>
+  <text x="129.46" y="70.54" text-anchor="middle" dy="0.35em">1876</text>
+  <text x="134.81" y="69.47" text-anchor="middle" dy="0.35em">966</text>
+  <text x="140.25" y="69.12" text-anchor="middle" dy="0.35em">1241</text>
+  <text x="145.69" y="69.47" text-anchor="middle" dy="0.35em">655</text>
+  <text x="151.03" y="70.54" text-anchor="middle" dy="0.35em">943</text>
+  <text x="156.19" y="72.29" text-anchor="middle" dy="0.35em">397</text>
+  <text x="161.08" y="74.7" text-anchor="middle" dy="0.35em">476</text>
+  <text x="165.61" y="77.73" text-anchor="middle" dy="0.35em">1201</text>
+  <text x="169.71" y="81.32" text-anchor="middle" dy="0.35em">1379</text>
+  <text x="173.3" y="85.42" text-anchor="middle" dy="0.35em">990</text>
+  <text x="176.33" y="89.95" text-anchor="middle" dy="0.35em">1889</text>
+  <text x="178.74" y="94.84" text-anchor="middle" dy="0.35em">727</text>
+  <text x="180.49" y="100" text-anchor="middle" dy="0.35em">670</text>
+  <text x="181.56" y="105.35" text-anchor="middle" dy="0.35em">957</text>
+  <text x="174.58" y="136.78" text-anchor="middle" dy="0.35em">1023</text>
+  <text x="171.55" y="141.31" text-anchor="middle" dy="0.35em">2687</text>
+  <text x="167.96" y="145.41" text-anchor="middle" dy="0.35em">2504</text>
+  <text x="163.86" y="149" text-anchor="middle" dy="0.35em">2274</text>
+  <text x="159.33" y="152.03" text-anchor="middle" dy="0.35em">2144</text>
+  <text x="154.44" y="154.44" text-anchor="middle" dy="0.35em">636</text>
+  <text x="149.28" y="156.19" text-anchor="middle" dy="0.35em">1817</text>
+  <text x="143.93" y="157.26" text-anchor="middle" dy="0.35em">1892</text>
+  <text x="138.49" y="157.61" text-anchor="middle" dy="0.35em">1603</text>
+  <text x="133.06" y="157.26" text-anchor="middle" dy="0.35em">1584</text>
+  <text x="127.71" y="156.19" text-anchor="middle" dy="0.35em">2111</text>
+  <text x="122.55" y="154.44" text-anchor="middle" dy="0.35em">1956</text>
+  <text x="117.66" y="152.03" text-anchor="middle" dy="0.35em">2755</text>
+  <text x="113.13" y="149" text-anchor="middle" dy="0.35em">2399</text>
+  <text x="109.03" y="145.41" text-anchor="middle" dy="0.35em">2679</text>
+  <text x="105.44" y="141.31" text-anchor="middle" dy="0.35em">2056</text>
+  <text x="102.41" y="136.78" text-anchor="middle" dy="0.35em">1600</text>
+  <text x="100" y="131.89" text-anchor="middle" dy="0.35em">1918</text>
+  <text x="98.25" y="126.73" text-anchor="middle" dy="0.35em">1638</text>
+  <text x="97.18" y="121.38" text-anchor="middle" dy="0.35em">866</text>
+  <text x="96.83" y="115.95" text-anchor="middle" dy="0.35em">1441</text>
+  <text x="97.18" y="110.51" text-anchor="middle" dy="0.35em">298</text>
+  <text x="98.25" y="105.16" text-anchor="middle" dy="0.35em">2759</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">2574</text>
+  <text x="102.41" y="95.11" text-anchor="middle" dy="0.35em">979</text>
+  <text x="105.44" y="90.58" text-anchor="middle" dy="0.35em">2528</text>
+  <text x="109.03" y="86.48" text-anchor="middle" dy="0.35em">2388</text>
+  <text x="113.13" y="82.89" text-anchor="middle" dy="0.35em">1219</text>
+  <text x="117.66" y="79.86" text-anchor="middle" dy="0.35em">2159</text>
+  <text x="122.55" y="77.45" text-anchor="middle" dy="0.35em">1383</text>
+  <text x="127.71" y="75.7" text-anchor="middle" dy="0.35em">516</text>
+  <text x="133.06" y="74.63" text-anchor="middle" dy="0.35em">2481</text>
+  <text x="138.49" y="74.28" text-anchor="middle" dy="0.35em">2712</text>
+  <text x="143.93" y="74.63" text-anchor="middle" dy="0.35em">2265</text>
+  <text x="149.28" y="75.7" text-anchor="middle" dy="0.35em">1222</text>
+  <text x="154.44" y="77.45" text-anchor="middle" dy="0.35em">1915</text>
+  <text x="159.33" y="79.86" text-anchor="middle" dy="0.35em">1489</text>
+  <text x="163.86" y="82.89" text-anchor="middle" dy="0.35em">631</text>
+  <text x="167.96" y="86.48" text-anchor="middle" dy="0.35em">2717</text>
+  <text x="171.55" y="90.58" text-anchor="middle" dy="0.35em">2459</text>
+  <text x="174.58" y="95.11" text-anchor="middle" dy="0.35em">727</text>
+  <text x="176.99" y="100" text-anchor="middle" dy="0.35em">2331</text>
+  <text x="178.74" y="105.16" text-anchor="middle" dy="0.35em">1757</text>
+  <text x="179.81" y="110.51" text-anchor="middle" dy="0.35em">1012</text>
+  <text x="169.14" y="146.2" text-anchor="middle" dy="0.35em">1745</text>
+  <text x="165.55" y="150.3" text-anchor="middle" dy="0.35em">1692</text>
+  <text x="161.45" y="153.89" text-anchor="middle" dy="0.35em">1395</text>
+  <text x="156.92" y="156.92" text-anchor="middle" dy="0.35em">1366</text>
+  <text x="152.03" y="159.33" text-anchor="middle" dy="0.35em">780</text>
+  <text x="146.87" y="161.08" text-anchor="middle" dy="0.35em">893</text>
+  <text x="141.52" y="162.14" text-anchor="middle" dy="0.35em">1168</text>
+  <text x="136.08" y="162.5" text-anchor="middle" dy="0.35em">682</text>
+  <text x="130.65" y="162.14" text-anchor="middle" dy="0.35em">536</text>
+  <text x="125.3" y="161.08" text-anchor="middle" dy="0.35em">1152</text>
+  <text x="120.14" y="159.33" text-anchor="middle" dy="0.35em">1178</text>
+  <text x="115.25" y="156.92" text-anchor="middle" dy="0.35em">1976</text>
+  <text x="110.72" y="153.89" text-anchor="middle" dy="0.35em">1615</text>
+  <text x="106.62" y="150.3" text-anchor="middle" dy="0.35em">1919</text>
+  <text x="103.03" y="146.2" text-anchor="middle" dy="0.35em">1170</text>
+  <text x="100" y="141.67" text-anchor="middle" dy="0.35em">715</text>
+  <text x="97.59" y="136.78" text-anchor="middle" dy="0.35em">1059</text>
+  <text x="95.84" y="131.62" text-anchor="middle" dy="0.35em">718</text>
+  <text x="94.77" y="126.27" text-anchor="middle" dy="0.35em">621</text>
+  <text x="94.42" y="120.83" text-anchor="middle" dy="0.35em">451</text>
+  <text x="94.77" y="115.39" text-anchor="middle" dy="0.35em">813</text>
+  <text x="95.84" y="110.05" text-anchor="middle" dy="0.35em">1912</text>
+  <text x="97.59" y="104.89" text-anchor="middle" dy="0.35em">1739</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">375</text>
+  <text x="103.03" y="95.47" text-anchor="middle" dy="0.35em">1734</text>
+  <text x="106.62" y="91.37" text-anchor="middle" dy="0.35em">1537</text>
+  <text x="110.72" y="87.78" text-anchor="middle" dy="0.35em">545</text>
+  <text x="115.25" y="84.75" text-anchor="middle" dy="0.35em">1183</text>
+  <text x="120.14" y="82.34" text-anchor="middle" dy="0.35em">644</text>
+  <text x="125.3" y="80.59" text-anchor="middle" dy="0.35em">1131</text>
+  <text x="130.65" y="79.52" text-anchor="middle" dy="0.35em">1629</text>
+  <text x="136.08" y="79.17" text-anchor="middle" dy="0.35em">1817</text>
+  <text x="141.52" y="79.52" text-anchor="middle" dy="0.35em">1531</text>
+  <text x="146.87" y="80.59" text-anchor="middle" dy="0.35em">534</text>
+  <text x="152.03" y="82.34" text-anchor="middle" dy="0.35em">1050</text>
+  <text x="156.92" y="84.75" text-anchor="middle" dy="0.35em">790</text>
+  <text x="161.45" y="87.78" text-anchor="middle" dy="0.35em">449</text>
+  <text x="165.55" y="91.37" text-anchor="middle" dy="0.35em">1694</text>
+  <text x="169.14" y="95.47" text-anchor="middle" dy="0.35em">1541</text>
+  <text x="172.17" y="100" text-anchor="middle" dy="0.35em">1131</text>
+  <text x="174.58" y="104.89" text-anchor="middle" dy="0.35em">1424</text>
+  <text x="176.33" y="110.05" text-anchor="middle" dy="0.35em">900</text>
+  <text x="177.39" y="115.39" text-anchor="middle" dy="0.35em">248</text>
+  <text x="162.52" y="154.83" text-anchor="middle" dy="0.35em">258</text>
+  <text x="158.42" y="158.42" text-anchor="middle" dy="0.35em">1116</text>
+  <text x="153.89" y="161.45" text-anchor="middle" dy="0.35em">1009</text>
+  <text x="149" y="163.86" text-anchor="middle" dy="0.35em">2323</text>
+  <text x="143.84" y="165.61" text-anchor="middle" dy="0.35em">1084</text>
+  <text x="138.49" y="166.68" text-anchor="middle" dy="0.35em">829</text>
+  <text x="133.06" y="167.03" text-anchor="middle" dy="0.35em">1203</text>
+  <text x="127.62" y="166.68" text-anchor="middle" dy="0.35em">1245</text>
+  <text x="122.27" y="165.61" text-anchor="middle" dy="0.35em">812</text>
+  <text x="117.11" y="163.86" text-anchor="middle" dy="0.35em">1364</text>
+  <text x="112.22" y="161.45" text-anchor="middle" dy="0.35em">340</text>
+  <text x="107.69" y="158.42" text-anchor="middle" dy="0.35em">452</text>
+  <text x="103.59" y="154.83" text-anchor="middle" dy="0.35em">125</text>
+  <text x="100" y="150.73" text-anchor="middle" dy="0.35em">726</text>
+  <text x="96.97" y="146.2" text-anchor="middle" dy="0.35em">1188</text>
+  <text x="94.56" y="141.31" text-anchor="middle" dy="0.35em">1275</text>
+  <text x="92.81" y="136.15" text-anchor="middle" dy="0.35em">1246</text>
+  <text x="91.75" y="130.8" text-anchor="middle" dy="0.35em">1982</text>
+  <text x="91.39" y="125.37" text-anchor="middle" dy="0.35em">1411</text>
+  <text x="91.75" y="119.93" text-anchor="middle" dy="0.35em">2633</text>
+  <text x="92.81" y="114.58" text-anchor="middle" dy="0.35em">246</text>
+  <text x="94.56" y="109.42" text-anchor="middle" dy="0.35em">273</text>
+  <text x="96.97" y="104.53" text-anchor="middle" dy="0.35em">1874</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">138</text>
+  <text x="103.59" y="95.9" text-anchor="middle" dy="0.35em">594</text>
+  <text x="107.69" y="92.31" text-anchor="middle" dy="0.35em">1467</text>
+  <text x="112.22" y="89.28" text-anchor="middle" dy="0.35em">633</text>
+  <text x="117.11" y="86.87" text-anchor="middle" dy="0.35em">1420</text>
+  <text x="122.27" y="85.12" text-anchor="middle" dy="0.35em">2587</text>
+  <text x="127.62" y="84.05" text-anchor="middle" dy="0.35em">411</text>
+  <text x="133.06" y="83.7" text-anchor="middle" dy="0.35em">176</text>
+  <text x="138.49" y="84.05" text-anchor="middle" dy="0.35em">739</text>
+  <text x="143.84" y="85.12" text-anchor="middle" dy="0.35em">1485</text>
+  <text x="149" y="86.87" text-anchor="middle" dy="0.35em">898</text>
+  <text x="153.89" y="89.28" text-anchor="middle" dy="0.35em">1729</text>
+  <text x="158.42" y="92.31" text-anchor="middle" dy="0.35em">2195</text>
+  <text x="162.52" y="95.9" text-anchor="middle" dy="0.35em">332</text>
+  <text x="166.11" y="100" text-anchor="middle" dy="0.35em">520</text>
+  <text x="169.14" y="104.53" text-anchor="middle" dy="0.35em">2498</text>
+  <text x="171.55" y="109.42" text-anchor="middle" dy="0.35em">610</text>
+  <text x="173.3" y="114.58" text-anchor="middle" dy="0.35em">860</text>
+  <text x="174.37" y="119.93" text-anchor="middle" dy="0.35em">1750</text>
+  <text x="154.83" y="162.52" text-anchor="middle" dy="0.35em">792</text>
+  <text x="150.3" y="165.55" text-anchor="middle" dy="0.35em">796</text>
+  <text x="145.41" y="167.96" text-anchor="middle" dy="0.35em">2205</text>
+  <text x="140.25" y="169.71" text-anchor="middle" dy="0.35em">780</text>
+  <text x="134.9" y="170.77" text-anchor="middle" dy="0.35em">719</text>
+  <text x="129.46" y="171.13" text-anchor="middle" dy="0.35em">1059</text>
+  <text x="124.02" y="170.77" text-anchor="middle" dy="0.35em">1106</text>
+  <text x="118.68" y="169.71" text-anchor="middle" dy="0.35em">635</text>
+  <text x="113.52" y="167.96" text-anchor="middle" dy="0.35em">1169</text>
+  <text x="108.63" y="165.55" text-anchor="middle" dy="0.35em">497</text>
+  <text x="104.1" y="162.52" text-anchor="middle" dy="0.35em">196</text>
+  <text x="100" y="158.93" text-anchor="middle" dy="0.35em">516</text>
+  <text x="96.41" y="154.83" text-anchor="middle" dy="0.35em">592</text>
+  <text x="93.38" y="150.3" text-anchor="middle" dy="0.35em">1122</text>
+  <text x="90.97" y="145.41" text-anchor="middle" dy="0.35em">1025</text>
+  <text x="89.22" y="140.25" text-anchor="middle" dy="0.35em">1034</text>
+  <text x="88.15" y="134.9" text-anchor="middle" dy="0.35em">1923</text>
+  <text x="87.8" y="129.46" text-anchor="middle" dy="0.35em">1250</text>
+  <text x="88.15" y="124.02" text-anchor="middle" dy="0.35em">2414</text>
+  <text x="89.22" y="118.68" text-anchor="middle" dy="0.35em">530</text>
+  <text x="90.97" y="113.52" text-anchor="middle" dy="0.35em">278</text>
+  <text x="93.38" y="108.63" text-anchor="middle" dy="0.35em">1736</text>
+  <text x="96.41" y="104.1" text-anchor="middle" dy="0.35em">418</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">394</text>
+  <text x="104.1" y="96.41" text-anchor="middle" dy="0.35em">1455</text>
+  <text x="108.63" y="93.38" text-anchor="middle" dy="0.35em">500</text>
+  <text x="113.52" y="90.97" text-anchor="middle" dy="0.35em">1272</text>
+  <text x="118.68" y="89.22" text-anchor="middle" dy="0.35em">2633</text>
+  <text x="124.02" y="88.15" text-anchor="middle" dy="0.35em">179</text>
+  <text x="129.46" y="87.8" text-anchor="middle" dy="0.35em">340</text>
+  <text x="134.9" y="88.15" text-anchor="middle" dy="0.35em">492</text>
+  <text x="140.25" y="89.22" text-anchor="middle" dy="0.35em">1372</text>
+  <text x="145.41" y="90.97" text-anchor="middle" dy="0.35em">682</text>
+  <text x="150.3" y="93.38" text-anchor="middle" dy="0.35em">1582</text>
+  <text x="154.83" y="96.41" text-anchor="middle" dy="0.35em">2058</text>
+  <text x="158.93" y="100" text-anchor="middle" dy="0.35em">408</text>
+  <text x="162.52" y="104.1" text-anchor="middle" dy="0.35em">280</text>
+  <text x="165.55" y="108.63" text-anchor="middle" dy="0.35em">2445</text>
+  <text x="167.96" y="113.52" text-anchor="middle" dy="0.35em">491</text>
+  <text x="169.71" y="118.68" text-anchor="middle" dy="0.35em">842</text>
+  <text x="170.77" y="124.02" text-anchor="middle" dy="0.35em">1558</text>
+  <text x="146.2" y="169.14" text-anchor="middle" dy="0.35em">413</text>
+  <text x="141.31" y="171.55" text-anchor="middle" dy="0.35em">2133</text>
+  <text x="136.15" y="173.3" text-anchor="middle" dy="0.35em">764</text>
+  <text x="130.8" y="174.37" text-anchor="middle" dy="0.35em">745</text>
+  <text x="125.37" y="174.72" text-anchor="middle" dy="0.35em">956</text>
+  <text x="119.93" y="174.37" text-anchor="middle" dy="0.35em">1016</text>
+  <text x="114.58" y="173.3" text-anchor="middle" dy="0.35em">592</text>
+  <text x="109.42" y="171.55" text-anchor="middle" dy="0.35em">534</text>
+  <text x="104.53" y="169.14" text-anchor="middle" dy="0.35em">1247</text>
+  <text x="100" y="166.11" text-anchor="middle" dy="0.35em">834</text>
+  <text x="95.9" y="162.52" text-anchor="middle" dy="0.35em">1170</text>
+  <text x="92.31" y="158.42" text-anchor="middle" dy="0.35em">967</text>
+  <text x="89.28" y="153.89" text-anchor="middle" dy="0.35em">1256</text>
+  <text x="86.87" y="149" text-anchor="middle" dy="0.35em">420</text>
+  <text x="85.12" y="143.84" text-anchor="middle" dy="0.35em">781</text>
+  <text x="84.05" y="138.49" text-anchor="middle" dy="0.35em">1990</text>
+  <text x="83.7" y="133.06" text-anchor="middle" dy="0.35em">1051</text>
+  <text x="84.05" y="127.62" text-anchor="middle" dy="0.35em">2254</text>
+  <text x="85.12" y="122.27" text-anchor="middle" dy="0.35em">1243</text>
+  <text x="86.87" y="117.11" text-anchor="middle" dy="0.35em">943</text>
+  <text x="89.28" y="112.22" text-anchor="middle" dy="0.35em">1429</text>
+  <text x="92.31" y="107.69" text-anchor="middle" dy="0.35em">1078</text>
+  <text x="95.9" y="103.59" text-anchor="middle" dy="0.35em">495</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1553</text>
+  <text x="104.53" y="96.97" text-anchor="middle" dy="0.35em">722</text>
+  <text x="109.42" y="94.56" text-anchor="middle" dy="0.35em">914</text>
+  <text x="114.58" y="92.81" text-anchor="middle" dy="0.35em">2328</text>
+  <text x="119.93" y="91.75" text-anchor="middle" dy="0.35em">930</text>
+  <text x="125.37" y="91.39" text-anchor="middle" dy="0.35em">1199</text>
+  <text x="130.8" y="91.75" text-anchor="middle" dy="0.35em">329</text>
+  <text x="136.15" y="92.81" text-anchor="middle" dy="0.35em">1439</text>
+  <text x="141.31" y="94.56" text-anchor="middle" dy="0.35em">573</text>
+  <text x="146.2" y="96.97" text-anchor="middle" dy="0.35em">940</text>
+  <text x="150.73" y="100" text-anchor="middle" dy="0.35em">1776</text>
+  <text x="154.83" y="103.59" text-anchor="middle" dy="0.35em">1260</text>
+  <text x="158.42" y="107.69" text-anchor="middle" dy="0.35em">793</text>
+  <text x="161.45" y="112.22" text-anchor="middle" dy="0.35em">2443</text>
+  <text x="163.86" y="117.11" text-anchor="middle" dy="0.35em">761</text>
+  <text x="165.61" y="122.27" text-anchor="middle" dy="0.35em">1110</text>
+  <text x="166.68" y="127.62" text-anchor="middle" dy="0.35em">1373</text>
+  <text x="136.78" y="174.58" text-anchor="middle" dy="0.35em">2014</text>
+  <text x="131.62" y="176.33" text-anchor="middle" dy="0.35em">592</text>
+  <text x="126.27" y="177.39" text-anchor="middle" dy="0.35em">438</text>
+  <text x="120.83" y="177.75" text-anchor="middle" dy="0.35em">885</text>
+  <text x="115.39" y="177.39" text-anchor="middle" dy="0.35em">913</text>
+  <text x="110.05" y="176.33" text-anchor="middle" dy="0.35em">499</text>
+  <text x="104.89" y="174.58" text-anchor="middle" dy="0.35em">490</text>
+  <text x="100" y="172.17" text-anchor="middle" dy="0.35em">1189</text>
+  <text x="95.47" y="169.14" text-anchor="middle" dy="0.35em">668</text>
+  <text x="91.37" y="165.55" text-anchor="middle" dy="0.35em">1001</text>
+  <text x="87.78" y="161.45" text-anchor="middle" dy="0.35em">815</text>
+  <text x="84.75" y="156.92" text-anchor="middle" dy="0.35em">970</text>
+  <text x="82.34" y="152.03" text-anchor="middle" dy="0.35em">534</text>
+  <text x="80.59" y="146.87" text-anchor="middle" dy="0.35em">682</text>
+  <text x="79.52" y="141.52" text-anchor="middle" dy="0.35em">1749</text>
+  <text x="79.17" y="136.08" text-anchor="middle" dy="0.35em">833</text>
+  <text x="79.52" y="130.65" text-anchor="middle" dy="0.35em">2162</text>
+  <text x="80.59" y="125.3" text-anchor="middle" dy="0.35em">1011</text>
+  <text x="82.34" y="120.14" text-anchor="middle" dy="0.35em">833</text>
+  <text x="84.75" y="115.25" text-anchor="middle" dy="0.35em">1243</text>
+  <text x="87.78" y="110.72" text-anchor="middle" dy="0.35em">934</text>
+  <text x="91.37" y="106.62" text-anchor="middle" dy="0.35em">425</text>
+  <text x="95.47" y="103.03" text-anchor="middle" dy="0.35em">1281</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">525</text>
+  <text x="104.89" y="97.59" text-anchor="middle" dy="0.35em">824</text>
+  <text x="110.05" y="95.84" text-anchor="middle" dy="0.35em">2298</text>
+  <text x="115.39" y="94.77" text-anchor="middle" dy="0.35em">754</text>
+  <text x="120.83" y="94.42" text-anchor="middle" dy="0.35em">1014</text>
+  <text x="126.27" y="94.77" text-anchor="middle" dy="0.35em">290</text>
+  <text x="131.62" y="95.84" text-anchor="middle" dy="0.35em">1153</text>
+  <text x="136.78" y="97.59" text-anchor="middle" dy="0.35em">237</text>
+  <text x="141.67" y="100" text-anchor="middle" dy="0.35em">954</text>
+  <text x="146.2" y="103.03" text-anchor="middle" dy="0.35em">1767</text>
+  <text x="150.3" y="106.62" text-anchor="middle" dy="0.35em">1022</text>
+  <text x="153.89" y="110.72" text-anchor="middle" dy="0.35em">507</text>
+  <text x="156.92" y="115.25" text-anchor="middle" dy="0.35em">2350</text>
+  <text x="159.33" y="120.14" text-anchor="middle" dy="0.35em">514</text>
+  <text x="161.08" y="125.3" text-anchor="middle" dy="0.35em">831</text>
+  <text x="162.14" y="130.65" text-anchor="middle" dy="0.35em">1393</text>
+  <text x="126.73" y="178.74" text-anchor="middle" dy="0.35em">1407</text>
+  <text x="121.38" y="179.81" text-anchor="middle" dy="0.35em">1582</text>
+  <text x="115.95" y="180.16" text-anchor="middle" dy="0.35em">1353</text>
+  <text x="110.51" y="179.81" text-anchor="middle" dy="0.35em">1157</text>
+  <text x="105.16" y="178.74" text-anchor="middle" dy="0.35em">1693</text>
+  <text x="100" y="176.99" text-anchor="middle" dy="0.35em">1736</text>
+  <text x="95.11" y="174.58" text-anchor="middle" dy="0.35em">2385</text>
+  <text x="90.58" y="171.55" text-anchor="middle" dy="0.35em">2196</text>
+  <text x="86.48" y="167.96" text-anchor="middle" dy="0.35em">2442</text>
+  <text x="82.89" y="163.86" text-anchor="middle" dy="0.35em">1664</text>
+  <text x="79.86" y="159.33" text-anchor="middle" dy="0.35em">1208</text>
+  <text x="77.45" y="154.44" text-anchor="middle" dy="0.35em">1663</text>
+  <text x="75.7" y="149.28" text-anchor="middle" dy="0.35em">1314</text>
+  <text x="74.63" y="143.93" text-anchor="middle" dy="0.35em">352</text>
+  <text x="74.28" y="138.49" text-anchor="middle" dy="0.35em">1110</text>
+  <text x="74.63" y="133.06" text-anchor="middle" dy="0.35em">487</text>
+  <text x="75.7" y="127.71" text-anchor="middle" dy="0.35em">2335</text>
+  <text x="77.45" y="122.55" text-anchor="middle" dy="0.35em">2234</text>
+  <text x="79.86" y="117.66" text-anchor="middle" dy="0.35em">911</text>
+  <text x="82.89" y="113.13" text-anchor="middle" dy="0.35em">2189</text>
+  <text x="86.48" y="109.03" text-anchor="middle" dy="0.35em">2053</text>
+  <text x="90.58" y="105.44" text-anchor="middle" dy="0.35em">883</text>
+  <text x="95.11" y="102.41" text-anchor="middle" dy="0.35em">1896</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1280</text>
+  <text x="105.16" y="98.25" text-anchor="middle" dy="0.35em">516</text>
+  <text x="110.51" y="97.18" text-anchor="middle" dy="0.35em">2061</text>
+  <text x="115.95" y="96.83" text-anchor="middle" dy="0.35em">2320</text>
+  <text x="121.38" y="97.18" text-anchor="middle" dy="0.35em">2007</text>
+  <text x="126.73" y="98.25" text-anchor="middle" dy="0.35em">879</text>
+  <text x="131.89" y="100" text-anchor="middle" dy="0.35em">1775</text>
+  <text x="136.78" y="102.41" text-anchor="middle" dy="0.35em">1562</text>
+  <text x="141.31" y="105.44" text-anchor="middle" dy="0.35em">494</text>
+  <text x="145.41" y="109.03" text-anchor="middle" dy="0.35em">2321</text>
+  <text x="149" y="113.13" text-anchor="middle" dy="0.35em">2204</text>
+  <text x="152.03" y="117.66" text-anchor="middle" dy="0.35em">594</text>
+  <text x="154.44" y="122.55" text-anchor="middle" dy="0.35em">1839</text>
+  <text x="156.19" y="127.71" text-anchor="middle" dy="0.35em">1365</text>
+  <text x="157.26" y="133.06" text-anchor="middle" dy="0.35em">683</text>
+  <text x="116.22" y="181.56" text-anchor="middle" dy="0.35em">366</text>
+  <text x="110.78" y="181.91" text-anchor="middle" dy="0.35em">297</text>
+  <text x="105.35" y="181.56" text-anchor="middle" dy="0.35em">331</text>
+  <text x="100" y="180.49" text-anchor="middle" dy="0.35em">299</text>
+  <text x="94.84" y="178.74" text-anchor="middle" dy="0.35em">747</text>
+  <text x="89.95" y="176.33" text-anchor="middle" dy="0.35em">1187</text>
+  <text x="85.42" y="173.3" text-anchor="middle" dy="0.35em">775</text>
+  <text x="81.32" y="169.71" text-anchor="middle" dy="0.35em">1102</text>
+  <text x="77.73" y="165.61" text-anchor="middle" dy="0.35em">406</text>
+  <text x="74.7" y="161.08" text-anchor="middle" dy="0.35em">508</text>
+  <text x="72.29" y="156.19" text-anchor="middle" dy="0.35em">616</text>
+  <text x="70.54" y="151.03" text-anchor="middle" dy="0.35em">251</text>
+  <text x="69.47" y="145.69" text-anchor="middle" dy="0.35em">1256</text>
+  <text x="69.12" y="140.25" text-anchor="middle" dy="0.35em">524</text>
+  <text x="69.47" y="134.81" text-anchor="middle" dy="0.35em">1606</text>
+  <text x="70.54" y="129.46" text-anchor="middle" dy="0.35em">1125</text>
+  <text x="72.29" y="124.3" text-anchor="middle" dy="0.35em">799</text>
+  <text x="74.7" y="119.41" text-anchor="middle" dy="0.35em">1052</text>
+  <text x="77.73" y="114.88" text-anchor="middle" dy="0.35em">1030</text>
+  <text x="81.32" y="110.78" text-anchor="middle" dy="0.35em">849</text>
+  <text x="85.42" y="107.19" text-anchor="middle" dy="0.35em">765</text>
+  <text x="89.95" y="104.16" text-anchor="middle" dy="0.35em">400</text>
+  <text x="94.84" y="101.75" text-anchor="middle" dy="0.35em">575</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1836</text>
+  <text x="105.35" y="98.94" text-anchor="middle" dy="0.35em">841</text>
+  <text x="110.78" y="98.58" text-anchor="middle" dy="0.35em">1146</text>
+  <text x="116.22" y="98.94" text-anchor="middle" dy="0.35em">671</text>
+  <text x="121.57" y="100" text-anchor="middle" dy="0.35em">678</text>
+  <text x="126.73" y="101.75" text-anchor="middle" dy="0.35em">342</text>
+  <text x="131.62" y="104.16" text-anchor="middle" dy="0.35em">957</text>
+  <text x="136.15" y="107.19" text-anchor="middle" dy="0.35em">1261</text>
+  <text x="140.25" y="110.78" text-anchor="middle" dy="0.35em">1004</text>
+  <text x="143.84" y="114.88" text-anchor="middle" dy="0.35em">821</text>
+  <text x="146.87" y="119.41" text-anchor="middle" dy="0.35em">1874</text>
+  <text x="149.28" y="124.3" text-anchor="middle" dy="0.35em">455</text>
+  <text x="151.03" y="129.46" text-anchor="middle" dy="0.35em">324</text>
+  <text x="152.09" y="134.81" text-anchor="middle" dy="0.35em">957</text>
+  <text x="105.44" y="182.98" text-anchor="middle" dy="0.35em">547</text>
+  <text x="100" y="182.62" text-anchor="middle" dy="0.35em">690</text>
+  <text x="94.65" y="181.56" text-anchor="middle" dy="0.35em">220</text>
+  <text x="89.49" y="179.81" text-anchor="middle" dy="0.35em">829</text>
+  <text x="84.61" y="177.39" text-anchor="middle" dy="0.35em">918</text>
+  <text x="80.07" y="174.37" text-anchor="middle" dy="0.35em">586</text>
+  <text x="75.98" y="170.77" text-anchor="middle" dy="0.35em">873</text>
+  <text x="72.38" y="166.68" text-anchor="middle" dy="0.35em">377</text>
+  <text x="69.35" y="162.14" text-anchor="middle" dy="0.35em">618</text>
+  <text x="66.94" y="157.26" text-anchor="middle" dy="0.35em">660</text>
+  <text x="65.19" y="152.09" text-anchor="middle" dy="0.35em">504</text>
+  <text x="64.13" y="146.75" text-anchor="middle" dy="0.35em">1480</text>
+  <text x="63.77" y="141.31" text-anchor="middle" dy="0.35em">581</text>
+  <text x="64.13" y="135.87" text-anchor="middle" dy="0.35em">1867</text>
+  <text x="65.19" y="130.53" text-anchor="middle" dy="0.35em">907</text>
+  <text x="66.94" y="125.37" text-anchor="middle" dy="0.35em">677</text>
+  <text x="69.35" y="120.48" text-anchor="middle" dy="0.35em">1170</text>
+  <text x="72.38" y="115.95" text-anchor="middle" dy="0.35em">752</text>
+  <text x="75.98" y="111.85" text-anchor="middle" dy="0.35em">589</text>
+  <text x="80.07" y="108.25" text-anchor="middle" dy="0.35em">950</text>
+  <text x="84.61" y="105.23" text-anchor="middle" dy="0.35em">251</text>
+  <text x="89.49" y="102.82" text-anchor="middle" dy="0.35em">723</text>
+  <text x="94.65" y="101.06" text-anchor="middle" dy="0.35em">2047</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">687</text>
+  <text x="105.44" y="99.64" text-anchor="middle" dy="0.35em">874</text>
+  <text x="110.88" y="100" text-anchor="middle" dy="0.35em">615</text>
+  <text x="116.22" y="101.06" text-anchor="middle" dy="0.35em">862</text>
+  <text x="121.38" y="102.82" text-anchor="middle" dy="0.35em">439</text>
+  <text x="126.27" y="105.23" text-anchor="middle" dy="0.35em">922</text>
+  <text x="130.8" y="108.25" text-anchor="middle" dy="0.35em">1519</text>
+  <text x="134.9" y="111.85" text-anchor="middle" dy="0.35em">879</text>
+  <text x="138.49" y="115.95" text-anchor="middle" dy="0.35em">644</text>
+  <text x="141.52" y="120.48" text-anchor="middle" dy="0.35em">2030</text>
+  <text x="143.93" y="125.37" text-anchor="middle" dy="0.35em">427</text>
+  <text x="145.69" y="130.53" text-anchor="middle" dy="0.35em">480</text>
+  <text x="146.75" y="135.87" text-anchor="middle" dy="0.35em">1018</text>
+  <text x="94.56" y="182.98" text-anchor="middle" dy="0.35em">236</text>
+  <text x="89.22" y="181.91" text-anchor="middle" dy="0.35em">686</text>
+  <text x="84.05" y="180.16" text-anchor="middle" dy="0.35em">850</text>
+  <text x="79.17" y="177.75" text-anchor="middle" dy="0.35em">1228</text>
+  <text x="74.63" y="174.72" text-anchor="middle" dy="0.35em">1078</text>
+  <text x="70.54" y="171.13" text-anchor="middle" dy="0.35em">1280</text>
+  <text x="66.94" y="167.03" text-anchor="middle" dy="0.35em">543</text>
+  <text x="63.92" y="162.5" text-anchor="middle" dy="0.35em">304</text>
+  <text x="61.51" y="157.61" text-anchor="middle" dy="0.35em">745</text>
+  <text x="59.75" y="152.45" text-anchor="middle" dy="0.35em">225</text>
+  <text x="58.69" y="147.11" text-anchor="middle" dy="0.35em">1015</text>
+  <text x="58.33" y="141.67" text-anchor="middle" dy="0.35em">184</text>
+  <text x="58.69" y="136.23" text-anchor="middle" dy="0.35em">1419</text>
+  <text x="59.75" y="130.88" text-anchor="middle" dy="0.35em">1166</text>
+  <text x="61.51" y="125.72" text-anchor="middle" dy="0.35em">1120</text>
+  <text x="63.92" y="120.83" text-anchor="middle" dy="0.35em">836</text>
+  <text x="66.94" y="116.3" text-anchor="middle" dy="0.35em">1046</text>
+  <text x="70.54" y="112.2" text-anchor="middle" dy="0.35em">973</text>
+  <text x="74.63" y="108.61" text-anchor="middle" dy="0.35em">675</text>
+  <text x="79.17" y="105.58" text-anchor="middle" dy="0.35em">636</text>
+  <text x="84.05" y="103.17" text-anchor="middle" dy="0.35em">604</text>
+  <text x="89.22" y="101.42" text-anchor="middle" dy="0.35em">1595</text>
+  <text x="94.56" y="100.36" text-anchor="middle" dy="0.35em">957</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1232</text>
+  <text x="105.44" y="100.36" text-anchor="middle" dy="0.35em">962</text>
+  <text x="110.78" y="101.42" text-anchor="middle" dy="0.35em">390</text>
+  <text x="115.95" y="103.17" text-anchor="middle" dy="0.35em">636</text>
+  <text x="120.83" y="105.58" text-anchor="middle" dy="0.35em">957</text>
+  <text x="125.37" y="108.61" text-anchor="middle" dy="0.35em">1138</text>
+  <text x="129.46" y="112.2" text-anchor="middle" dy="0.35em">1079</text>
+  <text x="133.06" y="116.3" text-anchor="middle" dy="0.35em">1092</text>
+  <text x="136.08" y="120.83" text-anchor="middle" dy="0.35em">1591</text>
+  <text x="138.49" y="125.72" text-anchor="middle" dy="0.35em">733</text>
+  <text x="140.25" y="130.88" text-anchor="middle" dy="0.35em">335</text>
+  <text x="141.31" y="136.23" text-anchor="middle" dy="0.35em">588</text>
+  <text x="83.78" y="181.56" text-anchor="middle" dy="0.35em">769</text>
+  <text x="78.62" y="179.81" text-anchor="middle" dy="0.35em">721</text>
+  <text x="73.73" y="177.39" text-anchor="middle" dy="0.35em">1425</text>
+  <text x="69.2" y="174.37" text-anchor="middle" dy="0.35em">1175</text>
+  <text x="65.1" y="170.77" text-anchor="middle" dy="0.35em">1418</text>
+  <text x="61.51" y="166.68" text-anchor="middle" dy="0.35em">649</text>
+  <text x="58.48" y="162.14" text-anchor="middle" dy="0.35em">615</text>
+  <text x="56.07" y="157.26" text-anchor="middle" dy="0.35em">742</text>
+  <text x="54.31" y="152.09" text-anchor="middle" dy="0.35em">264</text>
+  <text x="53.25" y="146.75" text-anchor="middle" dy="0.35em">1106</text>
+  <text x="52.89" y="141.31" text-anchor="middle" dy="0.35em">228</text>
+  <text x="53.25" y="135.87" text-anchor="middle" dy="0.35em">1350</text>
+  <text x="54.31" y="130.53" text-anchor="middle" dy="0.35em">1454</text>
+  <text x="56.07" y="125.37" text-anchor="middle" dy="0.35em">1245</text>
+  <text x="58.48" y="120.48" text-anchor="middle" dy="0.35em">658</text>
+  <text x="61.51" y="115.95" text-anchor="middle" dy="0.35em">1218</text>
+  <text x="65.1" y="111.85" text-anchor="middle" dy="0.35em">1137</text>
+  <text x="69.2" y="108.25" text-anchor="middle" dy="0.35em">770</text>
+  <text x="73.73" y="105.23" text-anchor="middle" dy="0.35em">742</text>
+  <text x="78.62" y="102.82" text-anchor="middle" dy="0.35em">352</text>
+  <text x="83.78" y="101.06" text-anchor="middle" dy="0.35em">1561</text>
+  <text x="89.12" y="100" text-anchor="middle" dy="0.35em">1116</text>
+  <text x="94.56" y="99.64" text-anchor="middle" dy="0.35em">1392</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">939</text>
+  <text x="105.35" y="101.06" text-anchor="middle" dy="0.35em">611</text>
+  <text x="110.51" y="102.82" text-anchor="middle" dy="0.35em">698</text>
+  <text x="115.39" y="105.23" text-anchor="middle" dy="0.35em">695</text>
+  <text x="119.93" y="108.25" text-anchor="middle" dy="0.35em">900</text>
+  <text x="124.02" y="111.85" text-anchor="middle" dy="0.35em">1384</text>
+  <text x="127.62" y="115.95" text-anchor="middle" dy="0.35em">1176</text>
+  <text x="130.65" y="120.48" text-anchor="middle" dy="0.35em">1659</text>
+  <text x="133.06" y="125.37" text-anchor="middle" dy="0.35em">833</text>
+  <text x="134.81" y="130.53" text-anchor="middle" dy="0.35em">625</text>
+  <text x="135.87" y="135.87" text-anchor="middle" dy="0.35em">633</text>
+  <text x="73.27" y="178.74" text-anchor="middle" dy="0.35em">832</text>
+  <text x="68.38" y="176.33" text-anchor="middle" dy="0.35em">1065</text>
+  <text x="63.85" y="173.3" text-anchor="middle" dy="0.35em">512</text>
+  <text x="59.75" y="169.71" text-anchor="middle" dy="0.35em">955</text>
+  <text x="56.16" y="165.61" text-anchor="middle" dy="0.35em">370</text>
+  <text x="53.13" y="161.08" text-anchor="middle" dy="0.35em">716</text>
+  <text x="50.72" y="156.19" text-anchor="middle" dy="0.35em">683</text>
+  <text x="48.97" y="151.03" text-anchor="middle" dy="0.35em">593</text>
+  <text x="47.91" y="145.69" text-anchor="middle" dy="0.35em">1502</text>
+  <text x="47.55" y="140.25" text-anchor="middle" dy="0.35em">691</text>
+  <text x="47.91" y="134.81" text-anchor="middle" dy="0.35em">1900</text>
+  <text x="48.97" y="129.46" text-anchor="middle" dy="0.35em">860</text>
+  <text x="50.72" y="124.3" text-anchor="middle" dy="0.35em">559</text>
+  <text x="53.13" y="119.41" text-anchor="middle" dy="0.35em">1334</text>
+  <text x="56.16" y="114.88" text-anchor="middle" dy="0.35em">717</text>
+  <text x="59.75" y="110.78" text-anchor="middle" dy="0.35em">388</text>
+  <text x="63.85" y="107.19" text-anchor="middle" dy="0.35em">1139</text>
+  <text x="68.38" y="104.16" text-anchor="middle" dy="0.35em">322</text>
+  <text x="73.27" y="101.75" text-anchor="middle" dy="0.35em">820</text>
+  <text x="78.43" y="100" text-anchor="middle" dy="0.35em">2094</text>
+  <text x="83.78" y="98.94" text-anchor="middle" dy="0.35em">621</text>
+  <text x="89.22" y="98.58" text-anchor="middle" dy="0.35em">791</text>
+  <text x="94.65" y="98.94" text-anchor="middle" dy="0.35em">389</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">949</text>
+  <text x="105.16" y="101.75" text-anchor="middle" dy="0.35em">196</text>
+  <text x="110.05" y="104.16" text-anchor="middle" dy="0.35em">1068</text>
+  <text x="114.58" y="107.19" text-anchor="middle" dy="0.35em">1547</text>
+  <text x="118.68" y="110.78" text-anchor="middle" dy="0.35em">814</text>
+  <text x="122.27" y="114.88" text-anchor="middle" dy="0.35em">420</text>
+  <text x="125.3" y="119.41" text-anchor="middle" dy="0.35em">2192</text>
+  <text x="127.71" y="124.3" text-anchor="middle" dy="0.35em">282</text>
+  <text x="129.46" y="129.46" text-anchor="middle" dy="0.35em">525</text>
+  <text x="130.53" y="134.81" text-anchor="middle" dy="0.35em">1190</text>
+  <text x="63.22" y="174.58" text-anchor="middle" dy="0.35em">1531</text>
+  <text x="58.69" y="171.55" text-anchor="middle" dy="0.35em">1028</text>
+  <text x="54.59" y="167.96" text-anchor="middle" dy="0.35em">1398</text>
+  <text x="51" y="163.86" text-anchor="middle" dy="0.35em">1104</text>
+  <text x="47.97" y="159.33" text-anchor="middle" dy="0.35em">999</text>
+  <text x="45.56" y="154.44" text-anchor="middle" dy="0.35em">328</text>
+  <text x="43.81" y="149.28" text-anchor="middle" dy="0.35em">685</text>
+  <text x="42.74" y="143.93" text-anchor="middle" dy="0.35em">1646</text>
+  <text x="42.39" y="138.49" text-anchor="middle" dy="0.35em">923</text>
+  <text x="42.74" y="133.06" text-anchor="middle" dy="0.35em">1728</text>
+  <text x="43.81" y="127.71" text-anchor="middle" dy="0.35em">1547</text>
+  <text x="45.56" y="122.55" text-anchor="middle" dy="0.35em">1161</text>
+  <text x="47.97" y="117.66" text-anchor="middle" dy="0.35em">1037</text>
+  <text x="51" y="113.13" text-anchor="middle" dy="0.35em">1360</text>
+  <text x="54.59" y="109.03" text-anchor="middle" dy="0.35em">847</text>
+  <text x="58.69" y="105.44" text-anchor="middle" dy="0.35em">1245</text>
+  <text x="63.22" y="102.41" text-anchor="middle" dy="0.35em">812</text>
+  <text x="68.11" y="100" text-anchor="middle" dy="0.35em">695</text>
+  <text x="73.27" y="98.25" text-anchor="middle" dy="0.35em">2137</text>
+  <text x="78.62" y="97.18" text-anchor="middle" dy="0.35em">1236</text>
+  <text x="84.05" y="96.83" text-anchor="middle" dy="0.35em">1398</text>
+  <text x="89.49" y="97.18" text-anchor="middle" dy="0.35em">708</text>
+  <text x="94.84" y="98.25" text-anchor="middle" dy="0.35em">1157</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">638</text>
+  <text x="104.89" y="102.41" text-anchor="middle" dy="0.35em">567</text>
+  <text x="109.42" y="105.44" text-anchor="middle" dy="0.35em">1459</text>
+  <text x="113.52" y="109.03" text-anchor="middle" dy="0.35em">1588</text>
+  <text x="117.11" y="113.13" text-anchor="middle" dy="0.35em">948</text>
+  <text x="120.14" y="117.66" text-anchor="middle" dy="0.35em">2056</text>
+  <text x="122.55" y="122.55" text-anchor="middle" dy="0.35em">933</text>
+  <text x="124.3" y="127.71" text-anchor="middle" dy="0.35em">981</text>
+  <text x="125.37" y="133.06" text-anchor="middle" dy="0.35em">1169</text>
+  <text x="53.8" y="169.14" text-anchor="middle" dy="0.35em">645</text>
+  <text x="49.7" y="165.55" text-anchor="middle" dy="0.35em">269</text>
+  <text x="46.11" y="161.45" text-anchor="middle" dy="0.35em">750</text>
+  <text x="43.08" y="156.92" text-anchor="middle" dy="0.35em">1175</text>
+  <text x="40.67" y="152.03" text-anchor="middle" dy="0.35em">1491</text>
+  <text x="38.92" y="146.87" text-anchor="middle" dy="0.35em">1412</text>
+  <text x="37.86" y="141.52" text-anchor="middle" dy="0.35em">2199</text>
+  <text x="37.5" y="136.08" text-anchor="middle" dy="0.35em">1568</text>
+  <text x="37.86" y="130.65" text-anchor="middle" dy="0.35em">2730</text>
+  <text x="38.92" y="125.3" text-anchor="middle" dy="0.35em">298</text>
+  <text x="40.67" y="120.14" text-anchor="middle" dy="0.35em">484</text>
+  <text x="43.08" y="115.25" text-anchor="middle" dy="0.35em">1998</text>
+  <text x="46.11" y="110.72" text-anchor="middle" dy="0.35em">411</text>
+  <text x="49.7" y="106.62" text-anchor="middle" dy="0.35em">886</text>
+  <text x="53.8" y="103.03" text-anchor="middle" dy="0.35em">1543</text>
+  <text x="58.33" y="100" text-anchor="middle" dy="0.35em">931</text>
+  <text x="63.22" y="97.59" text-anchor="middle" dy="0.35em">1665</text>
+  <text x="68.38" y="95.84" text-anchor="middle" dy="0.35em">2690</text>
+  <text x="73.73" y="94.77" text-anchor="middle" dy="0.35em">636</text>
+  <text x="79.17" y="94.42" text-anchor="middle" dy="0.35em">350</text>
+  <text x="84.61" y="94.77" text-anchor="middle" dy="0.35em">1052</text>
+  <text x="89.95" y="95.84" text-anchor="middle" dy="0.35em">1610</text>
+  <text x="95.11" y="97.59" text-anchor="middle" dy="0.35em">1092</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1847</text>
+  <text x="104.53" y="103.03" text-anchor="middle" dy="0.35em">2231</text>
+  <text x="108.63" y="106.62" text-anchor="middle" dy="0.35em">250</text>
+  <text x="112.22" y="110.72" text-anchor="middle" dy="0.35em">636</text>
+  <text x="115.25" y="115.25" text-anchor="middle" dy="0.35em">2593</text>
+  <text x="117.66" y="120.14" text-anchor="middle" dy="0.35em">769</text>
+  <text x="119.41" y="125.3" text-anchor="middle" dy="0.35em">1008</text>
+  <text x="120.48" y="130.65" text-anchor="middle" dy="0.35em">1840</text>
+  <text x="45.17" y="162.52" text-anchor="middle" dy="0.35em">524</text>
+  <text x="41.58" y="158.42" text-anchor="middle" dy="0.35em">631</text>
+  <text x="38.55" y="153.89" text-anchor="middle" dy="0.35em">1107</text>
+  <text x="36.14" y="149" text-anchor="middle" dy="0.35em">904</text>
+  <text x="34.39" y="143.84" text-anchor="middle" dy="0.35em">863</text>
+  <text x="33.32" y="138.49" text-anchor="middle" dy="0.35em">1954</text>
+  <text x="32.97" y="133.06" text-anchor="middle" dy="0.35em">1237</text>
+  <text x="33.32" y="127.62" text-anchor="middle" dy="0.35em">2455</text>
+  <text x="34.39" y="122.27" text-anchor="middle" dy="0.35em">463</text>
+  <text x="36.14" y="117.11" text-anchor="middle" dy="0.35em">163</text>
+  <text x="38.55" y="112.22" text-anchor="middle" dy="0.35em">1731</text>
+  <text x="41.58" y="107.69" text-anchor="middle" dy="0.35em">417</text>
+  <text x="45.17" y="103.59" text-anchor="middle" dy="0.35em">350</text>
+  <text x="49.27" y="100" text-anchor="middle" dy="0.35em">1437</text>
+  <text x="53.8" y="96.97" text-anchor="middle" dy="0.35em">385</text>
+  <text x="58.69" y="94.56" text-anchor="middle" dy="0.35em">1366</text>
+  <text x="63.85" y="92.81" text-anchor="middle" dy="0.35em">2509</text>
+  <text x="69.2" y="91.75" text-anchor="middle" dy="0.35em">263</text>
+  <text x="74.63" y="91.39" text-anchor="middle" dy="0.35em">419</text>
+  <text x="80.07" y="91.75" text-anchor="middle" dy="0.35em">549</text>
+  <text x="85.42" y="92.81" text-anchor="middle" dy="0.35em">1385</text>
+  <text x="90.58" y="94.56" text-anchor="middle" dy="0.35em">683</text>
+  <text x="95.47" y="96.97" text-anchor="middle" dy="0.35em">1458</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1924</text>
+  <text x="104.1" y="103.59" text-anchor="middle" dy="0.35em">496</text>
+  <text x="107.69" y="107.69" text-anchor="middle" dy="0.35em">231</text>
+  <text x="110.72" y="112.22" text-anchor="middle" dy="0.35em">2501</text>
+  <text x="113.13" y="117.11" text-anchor="middle" dy="0.35em">376</text>
+  <text x="114.88" y="122.27" text-anchor="middle" dy="0.35em">896</text>
+  <text x="115.95" y="127.62" text-anchor="middle" dy="0.35em">1656</text>
+  <text x="37.48" y="154.83" text-anchor="middle" dy="0.35em">866</text>
+  <text x="34.45" y="150.3" text-anchor="middle" dy="0.35em">1206</text>
+  <text x="32.04" y="145.41" text-anchor="middle" dy="0.35em">1452</text>
+  <text x="30.29" y="140.25" text-anchor="middle" dy="0.35em">1312</text>
+  <text x="29.23" y="134.9" text-anchor="middle" dy="0.35em">2105</text>
+  <text x="28.87" y="129.46" text-anchor="middle" dy="0.35em">1419</text>
+  <text x="29.23" y="124.02" text-anchor="middle" dy="0.35em">2548</text>
+  <text x="30.29" y="118.68" text-anchor="middle" dy="0.35em">75</text>
+  <text x="32.04" y="113.52" text-anchor="middle" dy="0.35em">337</text>
+  <text x="34.45" y="108.63" text-anchor="middle" dy="0.35em">2002</text>
+  <text x="37.48" y="104.1" text-anchor="middle" dy="0.35em">261</text>
+  <text x="41.07" y="100" text-anchor="middle" dy="0.35em">613</text>
+  <text x="45.17" y="96.41" text-anchor="middle" dy="0.35em">1541</text>
+  <text x="49.7" y="93.38" text-anchor="middle" dy="0.35em">692</text>
+  <text x="54.59" y="90.97" text-anchor="middle" dy="0.35em">1642</text>
+  <text x="59.75" y="89.22" text-anchor="middle" dy="0.35em">2644</text>
+  <text x="65.1" y="88.15" text-anchor="middle" dy="0.35em">374</text>
+  <text x="70.54" y="87.8" text-anchor="middle" dy="0.35em">151</text>
+  <text x="75.98" y="88.15" text-anchor="middle" dy="0.35em">850</text>
+  <text x="81.32" y="89.22" text-anchor="middle" dy="0.35em">1532</text>
+  <text x="86.48" y="90.97" text-anchor="middle" dy="0.35em">1125</text>
+  <text x="91.37" y="93.38" text-anchor="middle" dy="0.35em">1743</text>
+  <text x="95.9" y="96.41" text-anchor="middle" dy="0.35em">2156</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">217</text>
+  <text x="103.59" y="104.1" text-anchor="middle" dy="0.35em">605</text>
+  <text x="106.62" y="108.63" text-anchor="middle" dy="0.35em">2532</text>
+  <text x="109.03" y="113.52" text-anchor="middle" dy="0.35em">712</text>
+  <text x="110.78" y="118.68" text-anchor="middle" dy="0.35em">1082</text>
+  <text x="111.85" y="124.02" text-anchor="middle" dy="0.35em">1912</text>
+  <text x="30.86" y="146.2" text-anchor="middle" dy="0.35em">542</text>
+  <text x="28.45" y="141.31" text-anchor="middle" dy="0.35em">882</text>
+  <text x="26.7" y="136.15" text-anchor="middle" dy="0.35em">570</text>
+  <text x="25.63" y="130.8" text-anchor="middle" dy="0.35em">1419</text>
+  <text x="25.28" y="125.37" text-anchor="middle" dy="0.35em">765</text>
+  <text x="25.63" y="119.93" text-anchor="middle" dy="0.35em">1965</text>
+  <text x="26.7" y="114.58" text-anchor="middle" dy="0.35em">661</text>
+  <text x="28.45" y="109.42" text-anchor="middle" dy="0.35em">574</text>
+  <text x="30.86" y="104.53" text-anchor="middle" dy="0.35em">1427</text>
+  <text x="33.89" y="100" text-anchor="middle" dy="0.35em">556</text>
+  <text x="37.48" y="95.9" text-anchor="middle" dy="0.35em">693</text>
+  <text x="41.58" y="92.31" text-anchor="middle" dy="0.35em">853</text>
+  <text x="46.11" y="89.28" text-anchor="middle" dy="0.35em">236</text>
+  <text x="51" y="86.87" text-anchor="middle" dy="0.35em">867</text>
+  <text x="56.16" y="85.12" text-anchor="middle" dy="0.35em">1942</text>
+  <text x="61.51" y="84.05" text-anchor="middle" dy="0.35em">506</text>
+  <text x="66.94" y="83.7" text-anchor="middle" dy="0.35em">739</text>
+  <text x="72.38" y="84.05" text-anchor="middle" dy="0.35em">682</text>
+  <text x="77.73" y="85.12" text-anchor="middle" dy="0.35em">829</text>
+  <text x="82.89" y="86.87" text-anchor="middle" dy="0.35em">578</text>
+  <text x="87.78" y="89.28" text-anchor="middle" dy="0.35em">1210</text>
+  <text x="92.31" y="92.31" text-anchor="middle" dy="0.35em">1470</text>
+  <text x="96.41" y="95.9" text-anchor="middle" dy="0.35em">685</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">629</text>
+  <text x="103.03" y="104.53" text-anchor="middle" dy="0.35em">1979</text>
+  <text x="105.44" y="109.42" text-anchor="middle" dy="0.35em">433</text>
+  <text x="107.19" y="114.58" text-anchor="middle" dy="0.35em">250</text>
+  <text x="108.25" y="119.93" text-anchor="middle" dy="0.35em">1112</text>
+  <text x="25.42" y="136.78" text-anchor="middle" dy="0.35em">921</text>
+  <text x="23.67" y="131.62" text-anchor="middle" dy="0.35em">521</text>
+  <text x="22.61" y="126.27" text-anchor="middle" dy="0.35em">1063</text>
+  <text x="22.25" y="120.83" text-anchor="middle" dy="0.35em">423</text>
+  <text x="22.61" y="115.39" text-anchor="middle" dy="0.35em">1542</text>
+  <text x="23.67" y="110.05" text-anchor="middle" dy="0.35em">1197</text>
+  <text x="25.42" y="104.89" text-anchor="middle" dy="0.35em">1169</text>
+  <text x="27.83" y="100" text-anchor="middle" dy="0.35em">1041</text>
+  <text x="30.86" y="95.47" text-anchor="middle" dy="0.35em">1122</text>
+  <text x="34.45" y="91.37" text-anchor="middle" dy="0.35em">1076</text>
+  <text x="38.55" y="87.78" text-anchor="middle" dy="0.35em">570</text>
+  <text x="43.08" y="84.75" text-anchor="middle" dy="0.35em">727</text>
+  <text x="47.97" y="82.34" text-anchor="middle" dy="0.35em">806</text>
+  <text x="53.13" y="80.59" text-anchor="middle" dy="0.35em">1545</text>
+  <text x="58.48" y="79.52" text-anchor="middle" dy="0.35em">985</text>
+  <text x="63.92" y="79.17" text-anchor="middle" dy="0.35em">1116</text>
+  <text x="69.35" y="79.52" text-anchor="middle" dy="0.35em">1173</text>
+  <text x="74.7" y="80.59" text-anchor="middle" dy="0.35em">382</text>
+  <text x="79.86" y="82.34" text-anchor="middle" dy="0.35em">695</text>
+  <text x="84.75" y="84.75" text-anchor="middle" dy="0.35em">1096</text>
+  <text x="89.28" y="87.78" text-anchor="middle" dy="0.35em">993</text>
+  <text x="93.38" y="91.37" text-anchor="middle" dy="0.35em">1100</text>
+  <text x="96.97" y="95.47" text-anchor="middle" dy="0.35em">1046</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">1553</text>
+  <text x="102.41" y="104.89" text-anchor="middle" dy="0.35em">886</text>
+  <text x="104.16" y="110.05" text-anchor="middle" dy="0.35em">274</text>
+  <text x="105.23" y="115.39" text-anchor="middle" dy="0.35em">811</text>
+  <text x="21.26" y="126.73" text-anchor="middle" dy="0.35em">614</text>
+  <text x="20.19" y="121.38" text-anchor="middle" dy="0.35em">1542</text>
+  <text x="19.84" y="115.95" text-anchor="middle" dy="0.35em">873</text>
+  <text x="20.19" y="110.51" text-anchor="middle" dy="0.35em">1732</text>
+  <text x="21.26" y="105.16" text-anchor="middle" dy="0.35em">1362</text>
+  <text x="23.01" y="100" text-anchor="middle" dy="0.35em">1163</text>
+  <text x="25.42" y="95.11" text-anchor="middle" dy="0.35em">1120</text>
+  <text x="28.45" y="90.58" text-anchor="middle" dy="0.35em">1145</text>
+  <text x="32.04" y="86.48" text-anchor="middle" dy="0.35em">778</text>
+  <text x="36.14" y="82.89" text-anchor="middle" dy="0.35em">1325</text>
+  <text x="40.67" y="79.86" text-anchor="middle" dy="0.35em">855</text>
+  <text x="45.56" y="77.45" text-anchor="middle" dy="0.35em">648</text>
+  <text x="50.72" y="75.7" text-anchor="middle" dy="0.35em">1967</text>
+  <text x="56.07" y="74.63" text-anchor="middle" dy="0.35em">1055</text>
+  <text x="61.51" y="74.28" text-anchor="middle" dy="0.35em">1282</text>
+  <text x="66.94" y="74.63" text-anchor="middle" dy="0.35em">592</text>
+  <text x="72.29" y="75.7" text-anchor="middle" dy="0.35em">1057</text>
+  <text x="77.45" y="77.45" text-anchor="middle" dy="0.35em">364</text>
+  <text x="82.34" y="79.86" text-anchor="middle" dy="0.35em">627</text>
+  <text x="86.87" y="82.89" text-anchor="middle" dy="0.35em">1388</text>
+  <text x="90.97" y="86.48" text-anchor="middle" dy="0.35em">1308</text>
+  <text x="94.56" y="90.58" text-anchor="middle" dy="0.35em">945</text>
+  <text x="97.59" y="95.11" text-anchor="middle" dy="0.35em">2056</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">636</text>
+  <text x="101.75" y="105.16" text-anchor="middle" dy="0.35em">802</text>
+  <text x="102.82" y="110.51" text-anchor="middle" dy="0.35em">1188</text>
+  <text x="18.44" y="116.22" text-anchor="middle" dy="0.35em">1227</text>
+  <text x="18.09" y="110.78" text-anchor="middle" dy="0.35em">429</text>
+  <text x="18.44" y="105.35" text-anchor="middle" dy="0.35em">1654</text>
+  <text x="19.51" y="100" text-anchor="middle" dy="0.35em">1227</text>
+  <text x="21.26" y="94.84" text-anchor="middle" dy="0.35em">970</text>
+  <text x="23.67" y="89.95" text-anchor="middle" dy="0.35em">857</text>
+  <text x="26.7" y="85.42" text-anchor="middle" dy="0.35em">1085</text>
+  <text x="30.29" y="81.32" text-anchor="middle" dy="0.35em">791</text>
+  <text x="34.39" y="77.73" text-anchor="middle" dy="0.35em">824</text>
+  <text x="38.92" y="74.7" text-anchor="middle" dy="0.35em">678</text>
+  <text x="43.81" y="72.29" text-anchor="middle" dy="0.35em">542</text>
+  <text x="48.97" y="70.54" text-anchor="middle" dy="0.35em">1716</text>
+  <text x="54.31" y="69.47" text-anchor="middle" dy="0.35em">927</text>
+  <text x="59.75" y="69.12" text-anchor="middle" dy="0.35em">1204</text>
+  <text x="65.19" y="69.47" text-anchor="middle" dy="0.35em">708</text>
+  <text x="70.54" y="70.54" text-anchor="middle" dy="0.35em">770</text>
+  <text x="75.7" y="72.29" text-anchor="middle" dy="0.35em">487</text>
+  <text x="80.59" y="74.7" text-anchor="middle" dy="0.35em">846</text>
+  <text x="85.12" y="77.73" text-anchor="middle" dy="0.35em">1175</text>
+  <text x="89.22" y="81.32" text-anchor="middle" dy="0.35em">1175</text>
+  <text x="92.81" y="85.42" text-anchor="middle" dy="0.35em">831</text>
+  <text x="95.84" y="89.95" text-anchor="middle" dy="0.35em">1761</text>
+  <text x="98.25" y="94.84" text-anchor="middle" dy="0.35em">694</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">470</text>
+  <text x="101.06" y="105.35" text-anchor="middle" dy="0.35em">873</text>
+  <text x="17.02" y="105.44" text-anchor="middle" dy="0.35em">1023</text>
+  <text x="17.38" y="100" text-anchor="middle" dy="0.35em">755</text>
+  <text x="18.44" y="94.65" text-anchor="middle" dy="0.35em">2108</text>
+  <text x="20.19" y="89.49" text-anchor="middle" dy="0.35em">2001</text>
+  <text x="22.61" y="84.61" text-anchor="middle" dy="0.35em">969</text>
+  <text x="25.63" y="80.07" text-anchor="middle" dy="0.35em">1986</text>
+  <text x="29.23" y="75.98" text-anchor="middle" dy="0.35em">1943</text>
+  <text x="33.32" y="72.38" text-anchor="middle" dy="0.35em">534</text>
+  <text x="37.86" y="69.35" text-anchor="middle" dy="0.35em">1643</text>
+  <text x="42.74" y="66.94" text-anchor="middle" dy="0.35em">1173</text>
+  <text x="47.91" y="65.19" text-anchor="middle" dy="0.35em">700</text>
+  <text x="53.25" y="64.13" text-anchor="middle" dy="0.35em">1804</text>
+  <text x="58.69" y="63.77" text-anchor="middle" dy="0.35em">2209</text>
+  <text x="64.13" y="64.13" text-anchor="middle" dy="0.35em">1878</text>
+  <text x="69.47" y="65.19" text-anchor="middle" dy="0.35em">734</text>
+  <text x="74.63" y="66.94" text-anchor="middle" dy="0.35em">1644</text>
+  <text x="79.52" y="69.35" text-anchor="middle" dy="0.35em">1502</text>
+  <text x="84.05" y="72.38" text-anchor="middle" dy="0.35em">407</text>
+  <text x="88.15" y="75.98" text-anchor="middle" dy="0.35em">1985</text>
+  <text x="91.75" y="80.07" text-anchor="middle" dy="0.35em">1990</text>
+  <text x="94.77" y="84.61" text-anchor="middle" dy="0.35em">577</text>
+  <text x="97.18" y="89.49" text-anchor="middle" dy="0.35em">1782</text>
+  <text x="98.94" y="94.65" text-anchor="middle" dy="0.35em">1140</text>
+  <text x="100" y="100" text-anchor="middle" dy="0.35em">590</text>
+  <text x="17.02" y="94.56" text-anchor="middle" dy="0.35em">1299</text>
+  <text x="18.09" y="89.22" text-anchor="middle" dy="0.35em">1302</text>
+  <text x="19.84" y="84.05" text-anchor="middle" dy="0.35em">1196</text>
+  <text x="22.25" y="79.17" text-anchor="middle" dy="0.35em">674</text>
+  <text x="25.28" y="74.63" text-anchor="middle" dy="0.35em">1225</text>
+  <text x="28.87" y="70.54" text-anchor="middle" dy="0.35em">1066</text>
+  <text x="32.97" y="66.94" text-anchor="middle" dy="0.35em">657</text>
+  <text x="37.5" y="63.92" text-anchor="middle" dy="0.35em">847</text>
+  <text x="42.39" y="61.51" text-anchor="middle" dy="0.35em">567</text>
+  <text x="47.55" y="59.75" text-anchor="middle" dy="0.35em">1385</text>
+  <text x="52.89" y="58.69" text-anchor="middle" dy="0.35em">1104</text>
+  <text x="58.33" y="58.33" text-anchor="middle" dy="0.35em">1436</text>
+  <text x="63.77" y="58.69" text-anchor="middle" dy="0.35em">1139</text>
+  <text x="69.12" y="59.75" text-anchor="middle" dy="0.35em">483</text>
+  <text x="74.28" y="61.51" text-anchor="middle" dy="0.35em">667</text>
+  <text x="79.17" y="63.92" text-anchor="middle" dy="0.35em">838</text>
+  <text x="83.7" y="66.94" text-anchor="middle" dy="0.35em">955</text>
+  <text x="87.8" y="70.54" text-anchor="middle" dy="0.35em">1293</text>
+  <text x="91.39" y="74.63" text-anchor="middle" dy="0.35em">1162</text>
+  <text x="94.42" y="79.17" text-anchor="middle" dy="0.35em">1529</text>
+  <text x="96.83" y="84.05" text-anchor="middle" dy="0.35em">964</text>
+  <text x="98.58" y="89.22" text-anchor="middle" dy="0.35em">486</text>
+  <text x="99.64" y="94.56" text-anchor="middle" dy="0.35em">428</text>
+  <text x="18.44" y="83.78" text-anchor="middle" dy="0.35em">2550</text>
+  <text x="20.19" y="78.62" text-anchor="middle" dy="0.35em">2375</text>
+  <text x="22.61" y="73.73" text-anchor="middle" dy="0.35em">971</text>
+  <text x="25.63" y="69.2" text-anchor="middle" dy="0.35em">2534</text>
+  <text x="29.23" y="65.1" text-anchor="middle" dy="0.35em">2367</text>
+  <text x="33.32" y="61.51" text-anchor="middle" dy="0.35em">1287</text>
+  <text x="37.86" y="58.48" text-anchor="middle" dy="0.35em">1988</text>
+  <text x="42.74" y="56.07" text-anchor="middle" dy="0.35em">1316</text>
+  <text x="47.91" y="54.31" text-anchor="middle" dy="0.35em">594</text>
+  <text x="53.25" y="53.25" text-anchor="middle" dy="0.35em">2429</text>
+  <text x="58.69" y="52.89" text-anchor="middle" dy="0.35em">2570</text>
+  <text x="64.13" y="53.25" text-anchor="middle" dy="0.35em">2305</text>
+  <text x="69.47" y="54.31" text-anchor="middle" dy="0.35em">1183</text>
+  <text x="74.63" y="56.07" text-anchor="middle" dy="0.35em">1815</text>
+  <text x="79.52" y="58.48" text-anchor="middle" dy="0.35em">1554</text>
+  <text x="84.05" y="61.51" text-anchor="middle" dy="0.35em">569</text>
+  <text x="88.15" y="65.1" text-anchor="middle" dy="0.35em">2589</text>
+  <text x="91.75" y="69.2" text-anchor="middle" dy="0.35em">2387</text>
+  <text x="94.77" y="73.73" text-anchor="middle" dy="0.35em">595</text>
+  <text x="97.18" y="78.62" text-anchor="middle" dy="0.35em">2210</text>
+  <text x="98.94" y="83.78" text-anchor="middle" dy="0.35em">1609</text>
+  <text x="100" y="89.12" text-anchor="middle" dy="0.35em">984</text>
+  <text x="21.26" y="73.27" text-anchor="middle" dy="0.35em">300</text>
+  <text x="23.67" y="68.38" text-anchor="middle" dy="0.35em">1966</text>
+  <text x="26.7" y="63.85" text-anchor="middle" dy="0.35em">255</text>
+  <text x="30.29" y="59.75" text-anchor="middle" dy="0.35em">690</text>
+  <text x="34.39" y="56.16" text-anchor="middle" dy="0.35em">1625</text>
+  <text x="38.92" y="53.13" text-anchor="middle" dy="0.35em">774</text>
+  <text x="43.81" y="50.72" text-anchor="middle" dy="0.35em">1504</text>
+  <text x="48.97" y="48.97" text-anchor="middle" dy="0.35em">2612</text>
+  <text x="54.31" y="47.91" text-anchor="middle" dy="0.35em">390</text>
+  <text x="59.75" y="47.55" text-anchor="middle" dy="0.35em">289</text>
+  <text x="65.19" y="47.91" text-anchor="middle" dy="0.35em">1015</text>
+  <text x="70.54" y="48.97" text-anchor="middle" dy="0.35em">1580</text>
+  <text x="75.7" y="50.72" text-anchor="middle" dy="0.35em">1011</text>
+  <text x="80.59" y="53.13" text-anchor="middle" dy="0.35em">1835</text>
+  <text x="85.12" y="56.16" text-anchor="middle" dy="0.35em">2225</text>
+  <text x="89.22" y="59.75" text-anchor="middle" dy="0.35em">236</text>
+  <text x="92.81" y="63.85" text-anchor="middle" dy="0.35em">600</text>
+  <text x="95.84" y="68.38" text-anchor="middle" dy="0.35em">2553</text>
+  <text x="98.25" y="73.27" text-anchor="middle" dy="0.35em">748</text>
+  <text x="100" y="78.43" text-anchor="middle" dy="0.35em">1062</text>
+  <text x="101.06" y="83.78" text-anchor="middle" dy="0.35em">1759</text>
+  <text x="25.42" y="63.22" text-anchor="middle" dy="0.35em">1800</text>
+  <text x="28.45" y="58.69" text-anchor="middle" dy="0.35em">247</text>
+  <text x="32.04" y="54.59" text-anchor="middle" dy="0.35em">390</text>
+  <text x="36.14" y="51" text-anchor="middle" dy="0.35em">1490</text>
+  <text x="40.67" y="47.97" text-anchor="middle" dy="0.35em">490</text>
+  <text x="45.56" y="45.56" text-anchor="middle" dy="0.35em">1408</text>
+  <text x="50.72" y="43.81" text-anchor="middle" dy="0.35em">2552</text>
+  <text x="56.07" y="42.74" text-anchor="middle" dy="0.35em">232</text>
+  <text x="61.51" y="42.39" text-anchor="middle" dy="0.35em">240</text>
+  <text x="66.94" y="42.74" text-anchor="middle" dy="0.35em">636</text>
+  <text x="72.29" y="43.81" text-anchor="middle" dy="0.35em">1504</text>
+  <text x="77.45" y="45.56" text-anchor="middle" dy="0.35em">842</text>
+  <text x="82.34" y="47.97" text-anchor="middle" dy="0.35em">1462</text>
+  <text x="86.87" y="51" text-anchor="middle" dy="0.35em">2090</text>
+  <text x="90.97" y="54.59" text-anchor="middle" dy="0.35em">498</text>
+  <text x="94.56" y="58.69" text-anchor="middle" dy="0.35em">416</text>
+  <text x="97.59" y="63.22" text-anchor="middle" dy="0.35em">2613</text>
+  <text x="100" y="68.11" text-anchor="middle" dy="0.35em">583</text>
+  <text x="101.75" y="73.27" text-anchor="middle" dy="0.35em">832</text>
+  <text x="102.82" y="78.62" text-anchor="middle" dy="0.35em">1682</text>
+  <text x="30.86" y="53.8" text-anchor="middle" dy="0.35em">1956</text>
+  <text x="34.45" y="49.7" text-anchor="middle" dy="0.35em">1561</text>
+  <text x="38.55" y="46.11" text-anchor="middle" dy="0.35em">863</text>
+  <text x="43.08" y="43.08" text-anchor="middle" dy="0.35em">1324</text>
+  <text x="47.97" y="40.67" text-anchor="middle" dy="0.35em">601</text>
+  <text x="53.13" y="38.92" text-anchor="middle" dy="0.35em">1137</text>
+  <text x="58.48" y="37.86" text-anchor="middle" dy="0.35em">1693</text>
+  <text x="63.92" y="37.5" text-anchor="middle" dy="0.35em">1959</text>
+  <text x="69.35" y="37.86" text-anchor="middle" dy="0.35em">1528</text>
+  <text x="74.7" y="38.92" text-anchor="middle" dy="0.35em">754</text>
+  <text x="79.86" y="40.67" text-anchor="middle" dy="0.35em">1238</text>
+  <text x="84.75" y="43.08" text-anchor="middle" dy="0.35em">709</text>
+  <text x="89.28" y="46.11" text-anchor="middle" dy="0.35em">501</text>
+  <text x="93.38" y="49.7" text-anchor="middle" dy="0.35em">1912</text>
+  <text x="96.97" y="53.8" text-anchor="middle" dy="0.35em">1766</text>
+  <text x="100" y="58.33" text-anchor="middle" dy="0.35em">1292</text>
+  <text x="102.41" y="63.22" text-anchor="middle" dy="0.35em">1400</text>
+  <text x="104.16" y="68.38" text-anchor="middle" dy="0.35em">1051</text>
+  <text x="105.23" y="73.73" text-anchor="middle" dy="0.35em">509</text>
+  <text x="37.48" y="45.17" text-anchor="middle" dy="0.35em">612</text>
+  <text x="41.58" y="41.58" text-anchor="middle" dy="0.35em">1468</text>
+  <text x="46.11" y="38.55" text-anchor="middle" dy="0.35em">685</text>
+  <text x="51" y="36.14" text-anchor="middle" dy="0.35em">1556</text>
+  <text x="56.16" y="34.39" text-anchor="middle" dy="0.35em">2467</text>
+  <text x="61.51" y="33.32" text-anchor="middle" dy="0.35em">296</text>
+  <text x="66.94" y="32.97" text-anchor="middle" dy="0.35em">237</text>
+  <text x="72.38" y="33.32" text-anchor="middle" dy="0.35em">843</text>
+  <text x="77.73" y="34.39" text-anchor="middle" dy="0.35em">1350</text>
+  <text x="82.89" y="36.14" text-anchor="middle" dy="0.35em">1022</text>
+  <text x="87.78" y="38.55" text-anchor="middle" dy="0.35em">1766</text>
+  <text x="92.31" y="41.58" text-anchor="middle" dy="0.35em">2123</text>
+  <text x="96.41" y="45.17" text-anchor="middle" dy="0.35em">170</text>
+  <text x="100" y="49.27" text-anchor="middle" dy="0.35em">494</text>
+  <text x="103.03" y="53.8" text-anchor="middle" dy="0.35em">2555</text>
+  <text x="105.44" y="58.69" text-anchor="middle" dy="0.35em">675</text>
+  <text x="107.19" y="63.85" text-anchor="middle" dy="0.35em">937</text>
+  <text x="108.25" y="69.2" text-anchor="middle" dy="0.35em">1743</text>
+  <text x="45.17" y="37.48" text-anchor="middle" dy="0.35em">1542</text>
+  <text x="49.7" y="34.45" text-anchor="middle" dy="0.35em">411</text>
+  <text x="54.59" y="32.04" text-anchor="middle" dy="0.35em">1093</text>
+  <text x="59.75" y="30.29" text-anchor="middle" dy="0.35em">2474</text>
+  <text x="65.1" y="29.23" text-anchor="middle" dy="0.35em">499</text>
+  <text x="70.54" y="28.87" text-anchor="middle" dy="0.35em">591</text>
+  <text x="75.98" y="29.23" text-anchor="middle" dy="0.35em">313</text>
+  <text x="81.32" y="30.29" text-anchor="middle" dy="0.35em">1357</text>
+  <text x="86.48" y="32.04" text-anchor="middle" dy="0.35em">543</text>
+  <text x="91.37" y="34.45" text-anchor="middle" dy="0.35em">1195</text>
+  <text x="95.9" y="37.48" text-anchor="middle" dy="0.35em">2002</text>
+  <text x="100" y="41.07" text-anchor="middle" dy="0.35em">709</text>
+  <text x="103.59" y="45.17" text-anchor="middle" dy="0.35em">197</text>
+  <text x="106.62" y="49.7" text-anchor="middle" dy="0.35em">2474</text>
+  <text x="109.03" y="54.59" text-anchor="middle" dy="0.35em">375</text>
+  <text x="110.78" y="59.75" text-anchor="middle" dy="0.35em">914</text>
+  <text x="111.85" y="65.1" text-anchor="middle" dy="0.35em">1590</text>
+  <text x="53.8" y="30.86" text-anchor="middle" dy="0.35em">1093</text>
+  <text x="58.69" y="28.45" text-anchor="middle" dy="0.35em">826</text>
+  <text x="63.85" y="26.7" text-anchor="middle" dy="0.35em">1260</text>
+  <text x="69.2" y="25.63" text-anchor="middle" dy="0.35em">1359</text>
+  <text x="74.63" y="25.28" text-anchor="middle" dy="0.35em">1666</text>
+  <text x="80.07" y="25.63" text-anchor="middle" dy="0.35em">1391</text>
+  <text x="85.42" y="26.7" text-anchor="middle" dy="0.35em">255</text>
+  <text x="90.58" y="28.45" text-anchor="middle" dy="0.35em">1179</text>
+  <text x="95.47" y="30.86" text-anchor="middle" dy="0.35em">1150</text>
+  <text x="100" y="33.89" text-anchor="middle" dy="0.35em">841</text>
+  <text x="104.1" y="37.48" text-anchor="middle" dy="0.35em">1428</text>
+  <text x="107.69" y="41.58" text-anchor="middle" dy="0.35em">1483</text>
+  <text x="110.72" y="46.11" text-anchor="middle" dy="0.35em">1123</text>
+  <text x="113.13" y="51" text-anchor="middle" dy="0.35em">1234</text>
+  <text x="114.88" y="56.16" text-anchor="middle" dy="0.35em">615</text>
+  <text x="115.95" y="61.51" text-anchor="middle" dy="0.35em">480</text>
+  <text x="63.22" y="25.42" text-anchor="middle" dy="0.35em">937</text>
+  <text x="68.38" y="23.67" text-anchor="middle" dy="0.35em">2162</text>
+  <text x="73.73" y="22.61" text-anchor="middle" dy="0.35em">448</text>
+  <text x="79.17" y="22.25" text-anchor="middle" dy="0.35em">726</text>
+  <text x="84.61" y="22.61" text-anchor="middle" dy="0.35em">469</text>
+  <text x="89.95" y="23.67" text-anchor="middle" dy="0.35em">1001</text>
+  <text x="95.11" y="25.42" text-anchor="middle" dy="0.35em">456</text>
+  <text x="100" y="27.83" text-anchor="middle" dy="0.35em">1063</text>
+  <text x="104.53" y="30.86" text-anchor="middle" dy="0.35em">1592</text>
+  <text x="108.63" y="34.45" text-anchor="middle" dy="0.35em">781</text>
+  <text x="112.22" y="38.55" text-anchor="middle" dy="0.35em">420</text>
+  <text x="115.25" y="43.08" text-anchor="middle" dy="0.35em">2106</text>
+  <text x="117.66" y="47.97" text-anchor="middle" dy="0.35em">152</text>
+  <text x="119.41" y="53.13" text-anchor="middle" dy="0.35em">426</text>
+  <text x="120.48" y="58.48" text-anchor="middle" dy="0.35em">1202</text>
+  <text x="73.27" y="21.26" text-anchor="middle" dy="0.35em">1513</text>
+  <text x="78.62" y="20.19" text-anchor="middle" dy="0.35em">1361</text>
+  <text x="84.05" y="19.84" text-anchor="middle" dy="0.35em">1490</text>
+  <text x="89.49" y="20.19" text-anchor="middle" dy="0.35em">1078</text>
+  <text x="94.84" y="21.26" text-anchor="middle" dy="0.35em">641</text>
+  <text x="100" y="23.01" text-anchor="middle" dy="0.35em">771</text>
+  <text x="104.89" y="25.42" text-anchor="middle" dy="0.35em">496</text>
+  <text x="109.42" y="28.45" text-anchor="middle" dy="0.35em">988</text>
+  <text x="113.52" y="32.04" text-anchor="middle" dy="0.35em">1574</text>
+  <text x="117.11" y="36.14" text-anchor="middle" dy="0.35em">1173</text>
+  <text x="120.14" y="40.67" text-anchor="middle" dy="0.35em">1632</text>
+  <text x="122.55" y="45.56" text-anchor="middle" dy="0.35em">1078</text>
+  <text x="124.3" y="50.72" text-anchor="middle" dy="0.35em">857</text>
+  <text x="125.37" y="56.07" text-anchor="middle" dy="0.35em">703</text>
+  <text x="83.78" y="18.44" text-anchor="middle" dy="0.35em">2370</text>
+  <text x="89.22" y="18.09" text-anchor="middle" dy="0.35em">2732</text>
+  <text x="94.65" y="18.44" text-anchor="middle" dy="0.35em">2343</text>
+  <text x="100" y="19.51" text-anchor="middle" dy="0.35em">1214</text>
+  <text x="105.16" y="21.26" text-anchor="middle" dy="0.35em">2058</text>
+  <text x="110.05" y="23.67" text-anchor="middle" dy="0.35em">1727</text>
+  <text x="114.58" y="26.7" text-anchor="middle" dy="0.35em">699</text>
+  <text x="118.68" y="30.29" text-anchor="middle" dy="0.35em">2471</text>
+  <text x="122.27" y="34.39" text-anchor="middle" dy="0.35em">2410</text>
+  <text x="125.3" y="38.92" text-anchor="middle" dy="0.35em">324</text>
+  <text x="127.71" y="43.81" text-anchor="middle" dy="0.35em">2279</text>
+  <text x="129.46" y="48.97" text-anchor="middle" dy="0.35em">1856</text>
+  <text x="130.53" y="54.31" text-anchor="middle" dy="0.35em">1134</text>
+  <text x="94.56" y="17.02" text-anchor="middle" dy="0.35em">312</text>
+  <text x="100" y="17.38" text-anchor="middle" dy="0.35em">529</text>
+  <text x="105.35" y="18.44" text-anchor="middle" dy="0.35em">1312</text>
+  <text x="110.51" y="20.19" text-anchor="middle" dy="0.35em">795</text>
+  <text x="115.39" y="22.61" text-anchor="middle" dy="0.35em">1452</text>
+  <text x="119.93" y="25.63" text-anchor="middle" dy="0.35em">1868</text>
+  <text x="124.02" y="29.23" text-anchor="middle" dy="0.35em">530</text>
+  <text x="127.62" y="33.32" text-anchor="middle" dy="0.35em">250</text>
+  <text x="130.65" y="37.86" text-anchor="middle" dy="0.35em">2448</text>
+  <text x="133.06" y="42.74" text-anchor="middle" dy="0.35em">377</text>
+  <text x="134.81" y="47.91" text-anchor="middle" dy="0.35em">786</text>
+  <text x="135.87" y="53.25" text-anchor="middle" dy="0.35em">1594</text>
+  <text x="105.44" y="17.02" text-anchor="middle" dy="0.35em">887</text>
+  <text x="110.78" y="18.09" text-anchor="middle" dy="0.35em">1653</text>
+  <text x="115.95" y="19.84" text-anchor="middle" dy="0.35em">910</text>
+  <text x="120.83" y="22.25" text-anchor="middle" dy="0.35em">1803</text>
+  <text x="125.37" y="25.28" text-anchor="middle" dy="0.35em">2137</text>
+  <text x="129.46" y="28.87" text-anchor="middle" dy="0.35em">212</text>
+  <text x="133.06" y="32.97" text-anchor="middle" dy="0.35em">615</text>
+  <text x="136.08" y="37.5" text-anchor="middle" dy="0.35em">2712</text>
+  <text x="138.49" y="42.39" text-anchor="middle" dy="0.35em">665</text>
+  <text x="140.25" y="47.55" text-anchor="middle" dy="0.35em">1087</text>
+  <text x="141.31" y="52.89" text-anchor="middle" dy="0.35em">1913</text>
+  <text x="116.22" y="18.44" text-anchor="middle" dy="0.35em">1420</text>
+  <text x="121.38" y="20.19" text-anchor="middle" dy="0.35em">449</text>
+  <text x="126.27" y="22.61" text-anchor="middle" dy="0.35em">1194</text>
+  <text x="130.8" y="25.63" text-anchor="middle" dy="0.35em">1899</text>
+  <text x="134.9" y="29.23" text-anchor="middle" dy="0.35em">851</text>
+  <text x="138.49" y="33.32" text-anchor="middle" dy="0.35em">445</text>
+  <text x="141.52" y="37.86" text-anchor="middle" dy="0.35em">2465</text>
+  <text x="143.93" y="42.74" text-anchor="middle" dy="0.35em">332</text>
+  <text x="145.69" y="47.91" text-anchor="middle" dy="0.35em">955</text>
+  <text x="146.75" y="53.25" text-anchor="middle" dy="0.35em">1515</text>
+  <text x="126.73" y="21.26" text-anchor="middle" dy="0.35em">1058</text>
+  <text x="131.62" y="23.67" text-anchor="middle" dy="0.35em">997</text>
+  <text x="136.15" y="26.7" text-anchor="middle" dy="0.35em">658</text>
+  <text x="140.25" y="30.29" text-anchor="middle" dy="0.35em">1544</text>
+  <text x="143.84" y="34.39" text-anchor="middle" dy="0.35em">1441</text>
+  <text x="146.87" y="38.92" text-anchor="middle" dy="0.35em">1183</text>
+  <text x="149.28" y="43.81" text-anchor="middle" dy="0.35em">1160</text>
+  <text x="151.03" y="48.97" text-anchor="middle" dy="0.35em">560</text>
+  <text x="152.09" y="54.31" text-anchor="middle" dy="0.35em">346</text>
+  <text x="136.78" y="25.42" text-anchor="middle" dy="0.35em">833</text>
+  <text x="141.31" y="28.45" text-anchor="middle" dy="0.35em">1530</text>
+  <text x="145.41" y="32.04" text-anchor="middle" dy="0.35em">1096</text>
+  <text x="149" y="36.14" text-anchor="middle" dy="0.35em">539</text>
+  <text x="152.03" y="40.67" text-anchor="middle" dy="0.35em">2151</text>
+  <text x="154.44" y="45.56" text-anchor="middle" dy="0.35em">485</text>
+  <text x="156.19" y="50.72" text-anchor="middle" dy="0.35em">646</text>
+  <text x="157.26" y="56.07" text-anchor="middle" dy="0.35em">1227</text>
+  <text x="146.2" y="30.86" text-anchor="middle" dy="0.35em">1127</text>
+  <text x="150.3" y="34.45" text-anchor="middle" dy="0.35em">1675</text>
+  <text x="153.89" y="38.55" text-anchor="middle" dy="0.35em">1294</text>
+  <text x="156.92" y="43.08" text-anchor="middle" dy="0.35em">1793</text>
+  <text x="159.33" y="47.97" text-anchor="middle" dy="0.35em">1090</text>
+  <text x="161.08" y="53.13" text-anchor="middle" dy="0.35em">1048</text>
+  <text x="162.14" y="58.48" text-anchor="middle" dy="0.35em">968</text>
+  <text x="154.83" y="37.48" text-anchor="middle" dy="0.35em">2133</text>
+  <text x="158.42" y="41.58" text-anchor="middle" dy="0.35em">1902</text>
+  <text x="161.45" y="46.11" text-anchor="middle" dy="0.35em">795</text>
+  <text x="163.86" y="51" text-anchor="middle" dy="0.35em">1641</text>
+  <text x="165.61" y="56.16" text-anchor="middle" dy="0.35em">1351</text>
+  <text x="166.68" y="61.51" text-anchor="middle" dy="0.35em">537</text>
+  <text x="162.52" y="45.17" text-anchor="middle" dy="0.35em">590</text>
+  <text x="165.55" y="49.7" text-anchor="middle" dy="0.35em">2542</text>
+  <text x="167.96" y="54.59" text-anchor="middle" dy="0.35em">631</text>
+  <text x="169.71" y="59.75" text-anchor="middle" dy="0.35em">1035</text>
+  <text x="170.77" y="65.1" text-anchor="middle" dy="0.35em">1714</text>
+  <text x="169.14" y="53.8" text-anchor="middle" dy="0.35em">2526</text>
+  <text x="171.55" y="58.69" text-anchor="middle" dy="0.35em">415</text>
+  <text x="173.3" y="63.85" text-anchor="middle" dy="0.35em">809</text>
+  <text x="174.37" y="69.2" text-anchor="middle" dy="0.35em">1616</text>
+  <text x="174.58" y="63.22" text-anchor="middle" dy="0.35em">2342</text>
+  <text x="176.33" y="68.38" text-anchor="middle" dy="0.35em">1752</text>
+  <text x="177.39" y="73.73" text-anchor="middle" dy="0.35em">1145</text>
+  <text x="178.74" y="73.27" text-anchor="middle" dy="0.35em">679</text>
+  <text x="179.81" y="78.62" text-anchor="middle" dy="0.35em">1371</text>
+  <text x="181.56" y="83.78" text-anchor="middle" dy="0.35em">902</text>
+</g>
+<g stroke-width="0" stroke="#000000" stroke-opacity="0.000" fill="#40E0D0" id="img-cf14cf22-6">
+  <use xlink:href="#img-cf14cf22-7" x="183.33" y="100"/>
+  <use xlink:href="#img-cf14cf22-7" x="182.62" y="110.88"/>
+  <use xlink:href="#img-cf14cf22-7" x="180.49" y="121.57"/>
+  <use xlink:href="#img-cf14cf22-7" x="176.99" y="131.89"/>
+  <use xlink:href="#img-cf14cf22-7" x="172.17" y="141.67"/>
+  <use xlink:href="#img-cf14cf22-7" x="166.11" y="150.73"/>
+  <use xlink:href="#img-cf14cf22-7" x="158.93" y="158.93"/>
+  <use xlink:href="#img-cf14cf22-7" x="150.73" y="166.11"/>
+  <use xlink:href="#img-cf14cf22-7" x="141.67" y="172.17"/>
+  <use xlink:href="#img-cf14cf22-7" x="131.89" y="176.99"/>
+  <use xlink:href="#img-cf14cf22-7" x="121.57" y="180.49"/>
+  <use xlink:href="#img-cf14cf22-7" x="110.88" y="182.62"/>
+  <use xlink:href="#img-cf14cf22-7" x="100" y="183.33"/>
+  <use xlink:href="#img-cf14cf22-7" x="89.12" y="182.62"/>
+  <use xlink:href="#img-cf14cf22-7" x="78.43" y="180.49"/>
+  <use xlink:href="#img-cf14cf22-7" x="68.11" y="176.99"/>
+  <use xlink:href="#img-cf14cf22-7" x="58.33" y="172.17"/>
+  <use xlink:href="#img-cf14cf22-7" x="49.27" y="166.11"/>
+  <use xlink:href="#img-cf14cf22-7" x="41.07" y="158.93"/>
+  <use xlink:href="#img-cf14cf22-7" x="33.89" y="150.73"/>
+  <use xlink:href="#img-cf14cf22-7" x="27.83" y="141.67"/>
+  <use xlink:href="#img-cf14cf22-7" x="23.01" y="131.89"/>
+  <use xlink:href="#img-cf14cf22-7" x="19.51" y="121.57"/>
+  <use xlink:href="#img-cf14cf22-7" x="17.38" y="110.88"/>
+  <use xlink:href="#img-cf14cf22-7" x="16.67" y="100"/>
+  <use xlink:href="#img-cf14cf22-7" x="17.38" y="89.12"/>
+  <use xlink:href="#img-cf14cf22-7" x="19.51" y="78.43"/>
+  <use xlink:href="#img-cf14cf22-7" x="23.01" y="68.11"/>
+  <use xlink:href="#img-cf14cf22-7" x="27.83" y="58.33"/>
+  <use xlink:href="#img-cf14cf22-7" x="33.89" y="49.27"/>
+  <use xlink:href="#img-cf14cf22-7" x="41.07" y="41.07"/>
+  <use xlink:href="#img-cf14cf22-7" x="49.27" y="33.89"/>
+  <use xlink:href="#img-cf14cf22-7" x="58.33" y="27.83"/>
+  <use xlink:href="#img-cf14cf22-7" x="68.11" y="23.01"/>
+  <use xlink:href="#img-cf14cf22-7" x="78.43" y="19.51"/>
+  <use xlink:href="#img-cf14cf22-7" x="89.12" y="17.38"/>
+  <use xlink:href="#img-cf14cf22-7" x="100" y="16.67"/>
+  <use xlink:href="#img-cf14cf22-7" x="110.88" y="17.38"/>
+  <use xlink:href="#img-cf14cf22-7" x="121.57" y="19.51"/>
+  <use xlink:href="#img-cf14cf22-7" x="131.89" y="23.01"/>
+  <use xlink:href="#img-cf14cf22-7" x="141.67" y="27.83"/>
+  <use xlink:href="#img-cf14cf22-7" x="150.73" y="33.89"/>
+  <use xlink:href="#img-cf14cf22-7" x="158.93" y="41.07"/>
+  <use xlink:href="#img-cf14cf22-7" x="166.11" y="49.27"/>
+  <use xlink:href="#img-cf14cf22-7" x="172.17" y="58.33"/>
+  <use xlink:href="#img-cf14cf22-7" x="176.99" y="68.11"/>
+  <use xlink:href="#img-cf14cf22-7" x="180.49" y="78.43"/>
+  <use xlink:href="#img-cf14cf22-7" x="182.62" y="89.12"/>
+</g>
+<g font-size="4" stroke="#000000" stroke-opacity="0.000" fill="#000000" id="img-cf14cf22-8">
+  <text x="183.33" y="100" text-anchor="middle" dy="0.35em">1</text>
+  <text x="182.62" y="110.88" text-anchor="middle" dy="0.35em">2</text>
+  <text x="180.49" y="121.57" text-anchor="middle" dy="0.35em">3</text>
+  <text x="176.99" y="131.89" text-anchor="middle" dy="0.35em">4</text>
+  <text x="172.17" y="141.67" text-anchor="middle" dy="0.35em">5</text>
+  <text x="166.11" y="150.73" text-anchor="middle" dy="0.35em">6</text>
+  <text x="158.93" y="158.93" text-anchor="middle" dy="0.35em">7</text>
+  <text x="150.73" y="166.11" text-anchor="middle" dy="0.35em">8</text>
+  <text x="141.67" y="172.17" text-anchor="middle" dy="0.35em">9</text>
+  <text x="131.89" y="176.99" text-anchor="middle" dy="0.35em">10</text>
+  <text x="121.57" y="180.49" text-anchor="middle" dy="0.35em">11</text>
+  <text x="110.88" y="182.62" text-anchor="middle" dy="0.35em">12</text>
+  <text x="100" y="183.33" text-anchor="middle" dy="0.35em">13</text>
+  <text x="89.12" y="182.62" text-anchor="middle" dy="0.35em">14</text>
+  <text x="78.43" y="180.49" text-anchor="middle" dy="0.35em">15</text>
+  <text x="68.11" y="176.99" text-anchor="middle" dy="0.35em">16</text>
+  <text x="58.33" y="172.17" text-anchor="middle" dy="0.35em">17</text>
+  <text x="49.27" y="166.11" text-anchor="middle" dy="0.35em">18</text>
+  <text x="41.07" y="158.93" text-anchor="middle" dy="0.35em">19</text>
+  <text x="33.89" y="150.73" text-anchor="middle" dy="0.35em">20</text>
+  <text x="27.83" y="141.67" text-anchor="middle" dy="0.35em">21</text>
+  <text x="23.01" y="131.89" text-anchor="middle" dy="0.35em">22</text>
+  <text x="19.51" y="121.57" text-anchor="middle" dy="0.35em">23</text>
+  <text x="17.38" y="110.88" text-anchor="middle" dy="0.35em">24</text>
+  <text x="16.67" y="100" text-anchor="middle" dy="0.35em">25</text>
+  <text x="17.38" y="89.12" text-anchor="middle" dy="0.35em">26</text>
+  <text x="19.51" y="78.43" text-anchor="middle" dy="0.35em">27</text>
+  <text x="23.01" y="68.11" text-anchor="middle" dy="0.35em">28</text>
+  <text x="27.83" y="58.33" text-anchor="middle" dy="0.35em">29</text>
+  <text x="33.89" y="49.27" text-anchor="middle" dy="0.35em">30</text>
+  <text x="41.07" y="41.07" text-anchor="middle" dy="0.35em">31</text>
+  <text x="49.27" y="33.89" text-anchor="middle" dy="0.35em">32</text>
+  <text x="58.33" y="27.83" text-anchor="middle" dy="0.35em">33</text>
+  <text x="68.11" y="23.01" text-anchor="middle" dy="0.35em">34</text>
+  <text x="78.43" y="19.51" text-anchor="middle" dy="0.35em">35</text>
+  <text x="89.12" y="17.38" text-anchor="middle" dy="0.35em">36</text>
+  <text x="100" y="16.67" text-anchor="middle" dy="0.35em">37</text>
+  <text x="110.88" y="17.38" text-anchor="middle" dy="0.35em">38</text>
+  <text x="121.57" y="19.51" text-anchor="middle" dy="0.35em">39</text>
+  <text x="131.89" y="23.01" text-anchor="middle" dy="0.35em">40</text>
+  <text x="141.67" y="27.83" text-anchor="middle" dy="0.35em">41</text>
+  <text x="150.73" y="33.89" text-anchor="middle" dy="0.35em">42</text>
+  <text x="158.93" y="41.07" text-anchor="middle" dy="0.35em">43</text>
+  <text x="166.11" y="49.27" text-anchor="middle" dy="0.35em">44</text>
+  <text x="172.17" y="58.33" text-anchor="middle" dy="0.35em">45</text>
+  <text x="176.99" y="68.11" text-anchor="middle" dy="0.35em">46</text>
+  <text x="180.49" y="78.43" text-anchor="middle" dy="0.35em">47</text>
+  <text x="182.62" y="89.12" text-anchor="middle" dy="0.35em">48</text>
+</g>
+<defs>
+  <g id="img-cf14cf22-7">
+    <circle cx="0" cy="0" r="2.89"/>
+  </g>
+</defs>
+</svg>
