@@ -2,7 +2,7 @@ module RandomPick
 
 export randompick
 
-function randompick(numCities, costMatrix, numPicks=100)
+function randompick(numCities, costMatrix, numPicks=100; printDetails=0)
 
   # Rename parameter, for simplicity.
   n = numCities
@@ -19,6 +19,9 @@ function randompick(numCities, costMatrix, numPicks=100)
     end
   end
 
+  if printDetails > 0
+    println("INITIAL HEURISTIC RESULT:", bestres)
+  end
   return buildinitialmatrix(bestsol)
 end
 

@@ -1,0 +1,433 @@
+\documentclass[
+12pt,
+a4paper,
+oneside,
+headinclude,
+footinclude]{article}
+
+\usepackage[table,xcdraw,svgnames, dvipsnames]{xcolor}
+\usepackage[capposition=bottom]{floatrow}
+\usepackage[colorlinks]{hyperref} % to add hyperlinks
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{csquotes}
+\usepackage{amsmath} % For the big bracket
+\usepackage[export]{adjustbox}[2011/08/13]
+\usepackage{array}
+\usepackage{url}
+\usepackage{graphicx} % to insert images
+\usepackage{titlepic} % to insert image on front page
+\usepackage{geometry} % to define margin
+\usepackage{listings} % to add code
+\usepackage{caption}
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage[utf8]{inputenc} % Required for including letters with accents
+\usepackage{color}
+\usepackage{subcaption}
+\usepackage[nochapters, dottedtoc]{classicthesis}
+
+
+\usepackage[ruled]{algorithm2e} % For pseudo-code
+
+
+\usepackage{lipsum} % For testing
+\usepackage{color}
+
+\usepackage{etoolbox}
+
+\usepackage{bm} % For bold math
+
+\usepackage{setspace}
+\usepackage{minted}
+
+% For tables
+\usepackage{amssymb}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\definecolor{webbrown}{rgb}{.6,0,0}
+
+\usepackage{titlesec} % to customize titles
+\titleformat{\chapter}{\normalfont\huge}{\textbf{\thechapter.}}{20pt}{\huge\textbf}[\vspace{2ex}\titlerule] % to customize chapter title aspect
+\titleformat{\section} % to customize section titles
+{\fontsize{14}{15}\bfseries}{\thesection}{1em}{}
+
+\titlespacing*{\chapter}{0pt}{-50pt}{20pt} % to customize chapter title space
+
+\graphicspath{ {../figures/} } % images folder
+\parindent0pt \parskip10pt % make block paragraphs
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm,headheight=3cm,headsep=3cm,footskip=1cm} % define margin
+\hyphenation{Fortran hy-phen-ation}
+
+\AtBeginDocument{%
+    \hypersetup{
+        colorlinks=true, breaklinks=true, bookmarks=true,
+        urlcolor=webbrown, citecolor=Black, linkcolor=Black% Link colors
+}}
+
+\pagestyle{plain}
+\title{\textbf{Combinatorial Optimization Project: \\ The Traveling Salesman Problem}}
+\author{{Alberto Parravicini}}
+\date{}	% default \today
+
+% =============================================== BEGIN
+
+
+\begin{document}
+    \maketitle
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+    
+    \section{Introduction}
+    
+    The \textbf{Travelling Salesman Problem (TSP)} is a combinatorial optimization problem in which a salesman, starting from a home location, has to visit a predefined set of cities and go back to the original one, in a way that each city is visited \textbf{just once}. \\
+    Moving from one city to another has a fixed \textit{cost} that depends on the cities, and the goal is to find the path that will visit all the cities with \textit{minimum cost}. \\
+    Note that given $2$ cities, the cost to move between them could be \textit{symmetric} or not. We will focus on the more general case, without symmetry.
+    
+    There exists various formulations for the \textbf{TSP}, but all of them stem from the same root formulation.\\
+    In this report, we'll first present $3$ different formulations for the \textbf{TSP}, some of which are more interpretable, while other are more efficient (in terms of number of \textit{constraints} or \textit{variables}).
+    
+    These formulation have been implemented in \textbf{Julia} by using the \textbf{JuMP} package, and have been further optimized to provide the optimal solution as fast as possible. In the second section we'll detail our implementation, while in the third section we'll discuss the execution times and the efficiency of the implementations, with or without additional optimizations.
+    
+    \section{Formulations for the TSP}
+    
+    \subsection{Common notation}
+    In all the formulations that we are going to present there are a number of common points that can be discussed here. 
+    
+    The set of cities (vertices) $V$ to be visited, and the set of paths (arcs) $A$ between them, can be viewed as a directed graph $G = (V, A)$. 
+    
+    Each arc $a \in A$ goes from a city $u\in V$ to a city $v \in V$, and has a non-negative cost $c_a$ (or $c_{uv}$) associated to it. The goal is to find an \textbf{Hamiltonian cycle}, a path that visits each vertex \textbf{exactly once}, of minimum cost.\\
+    Note that in the symmetric case, given $2$ cities $u,\ v \in V$ the cost from $u$ to $v$ is equal to the cost from $v$ to $u$, i.e. $c_{uv} = c_{vu}$.\\
+    Moreover, we can assume without loss of generality that the graph is \textbf{complete}, i.e. there is an arc between each pair of cities. Incomplete graphs can simply be represented as complete graphs in which the missing arcs have an arbitrary large cost, and will never be part of the optimal solution.
+    
+    Let the vertices be denoted by $\{1,2,\ldots,n\}$; the costs between each pair of vertices can be represented by the \textbf{cost matrix} $C = (c_{ij})_{n \times n}$, where the entry $c_{ij}$ is the cost from vertex $i$ to vertex $j$.
+    
+    \subsection{Linear programming formulation}
+    The simplest formulation of the \textbf{TSP} is obtained by \textit{linear programming}. Let $\mathbb{F}$ be the set of Hamiltonian cycles of $G$, represented as collection of incidence vectors in $\mathbb{R}^{\vert E \vert}$, and $P(\mathbb{F})$ its \textit{convex hull}. Then the problem is formulated as:
+    
+    \begin{equation*}
+    \begin{aligned}
+    & {\text{Minimize}}
+    & & \sum_{j=1}^m{c_jx_j} \\
+    & \text{Subject to}
+    & & X \in P(\mathbb{F}), 
+    \end{aligned}
+    \end{equation*}
+    
+    where $X = (x_1,\ x_2,\ \ldots,\ x_m)$ is the set of edges of $G$.\\
+    However there is no known complete linear formulation for $P(\mathbb{F})$, which limits the applicability of this formulation.
+    
+    \subsection{Integer programming formulation}
+    A common formulation for the asymmetric TSP (\textbf{ATSP}) makes use of binary variables $x_{ij}$, which are $=1$ if and only if the path from city $i$ to city $j$ is used. Then, the problem can be expressed as:
+    
+    \begin{equation*}
+    \begin{aligned}
+    & {\text{Minimize}}
+    & & \sum_{i=1}^n{\sum_{j=1}^n{c_{ij}x_{ij}}} \\
+    & \text{Subject to}
+    & & \sum_{i=1}^n{x_{ij}=1},\ j = 1,\ \ldots,\ n, \\
+    & & & \sum_{j=1}^n{x_{ij}=1},\ i = 1,\ \ldots,\ n, \\
+    &  && x_{ij} =0\ or\ 1 \\
+    \end{aligned}
+    \end{equation*}
+    
+    or, more compactly, as:
+    
+    \begin{equation*}
+    \begin{aligned}
+    & {\text{Minimize}}
+    & & C \cdot X \\
+    & \text{Subject to}
+    & & X \cdot \mathbf{1} = \mathbf{1},\ \\
+    & & & X^T \cdot \mathbf{1} = \mathbf{1},\ \\
+    &  && X \in \{0, 1\}^{n \times n} \\
+    \end{aligned}
+    \end{equation*}
+    
+    with \textbf{1} being a vector of $1$ of size $n \times 1$.
+    The first constraint imposes that each city is left once, and the second constraint that each city is reached once.\\
+    Note that this formulation is incomplete, as it allows the presence of \textbf{subtours}, i.e. disjoint tours that still respect the previous constraints. \\
+    We would like however to have a single tour, and to do so it is necessary to add more constraint, defined as \textit{subtour elimination constraints}.
+    
+    The three formulation that are proposed differ exaclty on how these additional constraints are implemented.
+    
+    \subsection{MTZ constraints}
+    This first approach to \textit{subtour elimination} was proposed by \textbf{Miller, Tucker and Zemlin}.\\
+    The idea is to add  $n-1$ new unrestricted real variables and $(n-1)^2$ additional constraints of the form:
+    \begin{equation}
+    {
+    (n-1)x_{ij} + u_i - u_j \leq (n-2),\quad i,j = 2,3,\ldots,n
+    }
+    \end{equation}
+    
+    If there is more than $1$ tour, at least one of them won't pass for node $1$. Denote this subtour as $\hat{T}$; if $\hat{T}$ is a single node, the constraint will be violated for $i = j = k$, as $x_{ij}=1$ and we find $-1 \leq -2$. \\
+    If $\hat{T}$ has more than one node, we can add a constraint for each arc in the subtour, and find another contradiction. \\
+    For instance, if a subtour is composed by vertices $2$ and $3$, we will find:
+    
+    $$(n-1)x_{23} + u_2 - u_3 \leq (n-2)$$ 
+    $$(n-1)x_{32} + u_3 - u_2 \leq (n-2)$$ 
+    
+    from which follows $-2 \leq -4$, a contradiction.
+    
+    \subsection{Claus constraints}
+    Another way to express the \textit{subtour eliminatio constraints} is to express them as flow constraints. To each arc ${ij}$ we can associate a non-negative quantity of flow $y_{ij}$ that is transported through the arc. 
+    
+    Claus presented a representation that uses $(n-1)$ different \textit{commodities}, different types of flows, each denoted by $y^k,\ k=2,3,\ldots,n$.
+    In this representation, subtours are eliminated as follows:
+    
+    \begin{equation}
+    {
+    \sum_{i=1}^n{y_{1i}^k=1},\quad k=2,3,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+    \sum_{i=1}^n{y_{i1}^k}=0,\quad k=2,3,\ldots,n
+    }
+    \end{equation}  
+      
+    \begin{equation}
+    {
+    \sum_{i=1}^n{y_{ik}^k}=1,\quad k=2,3,\ldots,n
+    }
+    \end{equation}    
+    
+    \begin{equation}
+    {
+    \sum_{i=1}^n{y_{ki}^k}=0,\quad k=2,3,\ldots,n
+    }
+    \end{equation}   
+     
+    \begin{equation}
+    {
+    \sum_{i=1}^n{y_{ij}^k} - \sum_{i=1}^n{y_{ji}^k} = 0,\quad k=2,3,\ldots,n;\ j\neq k
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+    y_{ij}^k \leq x_{ij},\quad i,j = 1,2,\ldots,j;\ k=2,3,\ldots,n
+    }
+    \end{equation} 
+    
+    The last set of constraints is called \textbf{coupling constraints}, and is used to connect the original variables $x$ to the flow variables $y$.
+        
+    \subsection{FCG constraints}
+    Another formulation that makes use of \textit{flow constraints} was given by \textbf{Finke, Claus} and \textbf{Gunn}.\\
+    In this case we have $2$ types of commodities $y$ and $z$.
+    
+    \begin{equation}
+    {
+        \sum_{j=1}^n{y_{1j}} - \sum_{j=1}^n{y_{j1}^k} = n-1
+    }
+    \end{equation}
+        
+    \begin{equation}
+    {
+        \sum_{j=1}^n{y_{ij}} - \sum_{j=1}^n{y_{ji}} = -1,\quad i=2,3,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        \sum_{j=1}^n{z_{1j}} - \sum_{j=1}^n{z_{j1}} = -(n-1)
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        \sum_{j=1}^n{z_{ij}} - \sum_{j=1}^n{z_{ji}} = 1,\quad i=2,3,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        \sum_{j=1}^n{y_{ij}} + \sum_{j=1}^n{z_{ij}} = n-1,\quad i=2,3,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        y_{ij} \geq 0,\quad i,j=1,2,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        z_{ij} \geq 0,\quad i,j=1,2,\ldots,n
+    }
+    \end{equation}
+    
+    \begin{equation}
+    {
+        y_{ij} + z{ij} = (n-1)x_{ij}\ for\ all\ (ij)
+    }
+    \end{equation}
+    
+    
+    
+    \section{Implementation}
+    The formulations presented in the previous section have been implemented using the \textbf{JuMP} package for \textbf{Julia}. In this section it is described the overall structure of the program, and how to execute it.
+    
+    % ====================================================
+    % =============================================== PARAMETERS
+    % ====================================================
+    
+    \subsection{\textbf{Prerequisites}}
+    The following packages are required to run the program:
+    \begin{itemize}
+        \item \textbf{GLPKMathProgInterface}
+        \item \textbf{Gurobi} (optional, but recommended)
+        \item \textbf{ArgParse}
+        \item \textbf{LightGraphs, GraphPlot, Compose, Colors} (optional, but recommended)
+    \end{itemize}
+    
+    \subsection{\textbf{How to run the programs}}
+    The generic syntax to run the program is\\
+    \-\quad\texttt{julia ./src/main.jl} \\
+    \-\quad\quad\texttt{-{}-instancename instance\_name.atsp} \\
+    \-\quad\quad\texttt{-{}-randomseed 42} \\
+    \-\quad\quad\texttt{-{}-solver gurobi} \\
+    \-\quad\quad\texttt{-{}-constraints claus} \\
+    \-\quad\quad\texttt{-{}-usehotstart annealing} \\
+    \-\quad\quad\texttt{-{}-printlevel 2} \\
+    \-\quad\quad\texttt{-{}-drawgraph true} \\
+    \-\quad\quad\texttt{-{}-saveresult false} \\
+    
+    Additionally, the flag \texttt{-h} or \texttt{--help} will display the help screen, with a description of the arguments, and their accepted values.
+    
+    \begin{itemize}
+        \item \texttt{-{}-instancename}, \texttt{-i}: path to the instance file to be used. The file is assumed to be located in the 'instances' folder.
+        \item \texttt{-{}-randomseed}, \texttt{-r}: integer number, used as seed for random number generation by the program. If omitted, the seed is randomized.
+        \item \texttt{-{}-solver}, \texttt{-s}: name of the solver that will be used; choose between 'gurobi' and 'glpk'. Note that Gurobi requires a license to be used! (default: \textbf{Gurobi})
+        \item \texttt{-{}-constraints}, \texttt{-c}: Type of \textit{subtour} elimination constraints used in the model; choose between 'mtz', 'fcg', 'claus' (default: \textbf{claus}).
+        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing' (default: \textbf{none}).
+        \item \texttt{-{}-printlevel}, \texttt{-p}: Amount of details that will be printed by the solver; it takes an integer value >= 0; higher values will print more details (default: \textbf{$0$}). 
+        \item \texttt{-{}-drawgraph}, \texttt{-d}: if true, draws the graph corresponding to the given instance, and highlights the optimal tour;the optimal tour is also drawn on a separate file (default: \textbf{false}).
+        \item \texttt{-{}-saveresult}, \texttt{-v}: if true, the variable values are stored in a file, and the statistics of the computation are appended to the file 'results.csv' (default: \textbf{false}).
+    \end{itemize}
+    
+    \textbf{Example}:\\
+    \quad\texttt{julia ./src/main.jl -i 1.atsp -r 69 --constraints mtz -d true -p 2}
+    
+    This command will solve the instance number $1$ using \textbf{MTZ} constraints, random seed $69$ and no hot start; additionally, a large amount of details will be printed, the plots of the graphs will be saved, but not the results of the optimization. \textbf{Gurobi} will be used as solver.
+    
+    \textbf{Note}: the program should be run from the folder \texttt{combinatorial-optimization-ulb}, because Julia interprets relative paths from where the program is ran, and not from the actual location of the program.
+    
+    \textbf{Note}: the folder \texttt{combinatorial-optimization-ulb} contains a \textbf{Python} script that automatically runs the program on all the instances, with the specified settings.
+    
+    
+    % ====================================================
+    % =============================================== IMPLEMENTATION
+    % ====================================================
+        
+    \newpage
+    \subsection{Overview of the implementation}
+   
+    This section will focus on the \textbf{Julia} implementation of the \textbf{TSP} solver.
+    For each file, it is provided a brief description; each file is commented and documented, and more specific details can be found by reading the code.
+    
+    $\bullet$ \texttt{main.jl}\\
+    Main access point to the program. It is just a wrapper to the other modules which will read the input arguments, build and solve the model, and save the results.
+    
+    $\bullet$ \texttt{arg\_parser.jl}\\
+    This module will process the input line arguments, and return the list of options that will be used to build the model and optimize it.
+    
+    $\bullet$ \texttt{plotter.jl}\\
+    Utility module that is used to draw the results of the optimization. After finding the optimal solution it will be produced an \textbf{SVG} file that contains the entire graph, with the optimal path highlighted, and another \textbf{SVG} file which contains just the optimal path, with the costs of the arcs specified.
+    
+    $\bullet$ \texttt{tsp\_solver.jl}\\
+    This is the hearth of the program. Here are contained the functions to build the model according to the specified parameters (e.g. the type of constraints), and is provided the main function to optimizer the problem.
+    
+    Note that for each constraint it is provided a reference label to access it (or modify it) as desired, and vectorization is used whenever possible.
+    
+    Also note that it is possible to specify an adjacency matrix for the graph, so that the computation on incomplete graphs is optimized by not producing useless constraints. \\
+    If the graph is complete (the default case), it is produced an adjacency matrix with the main diagonal set to $0$, as self-loops are not allowed in the \textbf{TSP}.
+    
+    $\bullet$ \texttt{random\_pick\_heuristic.jl}\\
+    This is a very simple heuristic used to find the initial state of the algorithm. A large number of random initial solution is produced, and the best one is kept.\\
+    However in practice most optimizers (such as \textbf{Gurobi}) provide heuristic algorithms to compute the initial solution, and the results are usually better than the ones provided by random sampling.
+    
+    Note that in heuristic algorithms for the \textbf{TSP} is often better to reason about the optimal tour in terms of permutation of vertices, instead than as an adjacency matrix.
+    
+    
+    $\bullet$ \texttt{simulated\_annealing\_heuristic.jl}\\
+    A more complex heuristic used to provide a good initial solution to the optimizer.\\
+    The idea is to start from an initial solution and iteratively modify it (for instance, by swapping the order of visit of $2$ random cities) in order to build a better solution.\\
+    After modifying the current solution, the result will be accepted with a probability that depends on how better it is compared to the previous one, and on how many iterations the algorithm has done already (more iterations imply lower probability).\\
+    This algorithm provides better results than \textit{random sampling}, but it's not always better than leaving the heuristic initialization to the solver. 
+    
+    \newpage 
+    \section{Results analysis}
+    In this section the implementation is tested against $8$ instances of various size ($2$ of the $10$ instances weren't used in this test as the time to solve them was much higher than the others), in order to see how the algorithm behaves when using the different parameters that can be specified. For each instance, $10$ repetitions have been performed. \\
+    First, the $3$ types of constraints are tested, without using any custom heuristic initialization. \\
+    Then, the best of the $3$ constraint types is tested \textit{with} and \textit{without} additional optimizations, to see if there are significant improvements over the basic implementation.
+    
+    All the tests were done by using \textbf{Gurobi}, with the default parameters.
+    
+    To have comparable results across the tests on a single problem instance, the \textbf{seed} used by the \textit{random number generator} was kept fixed across the tests on the same instance.
+    
+    The tests were performed on the following machine:
+    \begin{itemize}
+        \item Computer: Microsoft Surface Pro 4
+        \item CPU: Intel Core i5-6300U at 2.4 GHz (clocked at 2.95 Ghz)
+        \item RAM: 4 GB at 1867Mhz
+    \end{itemize}
+
+    \subsection{Tests on the different formulations}
+    In this section it is tested the execution time of the program when using the $3$ different \textit{subtour elimination constraints} types that have been presented before.\\
+    Each formulation has a different number of variables and constraints, and in some cases the additional variables can be \textit{real}, \textit{binary} or \textit{integer}.\\
+    As such, we expect to find that some formulations will be slower, and that the differences could become larger, or smaller, depending on the instance size.
+    The program was run against $8$ instances of various size, and the results are reported below.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth, center, keepaspectratio=1]{{"figures/bar"}.pdf}
+        \caption{\emph{Bar plots of the execution times for the instances, divided by constraint type.}}
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth, center, keepaspectratio=1]{{"figures/box"}.pdf}
+        \caption{\emph{Box plots of the execution times for the constraint types.}}
+    \end{figure}
+
+    From the execution times we can see that \textbf{FCG} amd \textbf{MTZ} constraints are usually faster, and provide more consistent results. \\
+    \textbf{Claus} constraints are sometimes as fast as the others, but on few occasions they result much slower.\\
+    Their higher variance in execution time is also confirmed by the box-plots.
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth, center, keepaspectratio=1]{{"figures/area"}.pdf}
+        \caption{\emph{Execution time as function of instance size, divided by constraint type.}}
+    \end{figure}
+    
+    Given the limited number of instances it would be premature to draw definitive conclusions regarding the relation between instance size and execution time. Still, it seems clear that for smaller instances the $3$ types of constraints perform almost equivalently, while \textbf{Claus} becomes much slower (and variant) as the instances grow in size.
+    
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{lrrrrr}
+            \hline
+            \\[-1.5ex]
+            Type & Min & Mean & Median & Max & Std. Dev. \\ 
+            [0.5ex]
+            \hline
+            \\[-1.5ex]
+            Claus & 6.81 & 91.10 & 87.06 & 253.78 & 86.20 \\ 
+            FCG & 7.18 & 16.90 & 12.28 & 46.00 & 13.33 \\ 
+            MTZ & 7.62 & 22.62 & 14.42 & 64.69 & 19.75 \\ 
+            \\[-1.6ex]
+            \hline
+        \end{tabular}
+        \caption{\label{time}Summary statistics of the \textbf{execution time} of the various constraint types.}
+    \end{table}
+    
+    It's evident that \textbf{Claus} is overall the worst choice, while the other $2$ seems quite similar. Testing with good statistical significance whether one is actually superior would require more instances, or more repetitions, though.\\
+    In any case, \textbf{FCG} seems sightly faster. In the next section, we'll test whether using further optimizations can increase its speed even more.
+    
+    
+\end{document}

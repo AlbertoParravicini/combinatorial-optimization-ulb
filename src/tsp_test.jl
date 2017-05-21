@@ -14,7 +14,7 @@ srand(1234)
 # number of cities
 n = 40
 # max cost of a path
-maxcost = 10
+maxcost = 10000
 # cost matrix
 c = rand(1:maxcost, n, n)
 
@@ -31,7 +31,7 @@ end
 
 tic()
 
-initialsol = simulatedannealing(n, c, 100)
+initialsol = simulatedannealing(n, c, 2000)
 
 #################
 # MODEL #########

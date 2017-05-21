@@ -1,6 +1,6 @@
-include("./plotter.jl")
-include("./tsp_solver.jl")
-include("./arg_parser.jl")
+include("plotter.jl")
+include("tsp_solver.jl")
+include("arg_parser.jl")
 using TspSolver
 using Plotter
 using ArgumentParser
@@ -12,6 +12,8 @@ using CSV
 
 
 function main(args)
+
+
 
   ##################
   # PARSE INSTANCE #
@@ -65,6 +67,23 @@ function main(args)
   a = ones(matrixSize, matrixSize)
   close(f)
 
+  println("###################")
+  println("### ATSP SOLVER ###")
+  println("###################")
+  println("SOLVING: ", instanceName)
+  println("RANDOM SEED: ", randomSeed)
+  println("SOLVER:", solverName)
+  println("")
+  println("PARAMETERS:")
+  println("\tconstraints: ", constrName)
+  println("\thot start: ", useHotStart)
+  println("")
+  println("OTHER:")
+  println("\tprint level: ", printLevel)
+  println("\tdraw graph: ", drawGraph)
+  println("\tsave results: ", saveResult)
+  println("###################\n\n")
+
   # Start measuring the execution time.
   startTime = tic()
 
@@ -78,7 +97,8 @@ function main(args)
                 seed=randomSeed,
                 solver=solverName,
                 subtourConstrType=constrName,
-                useHotStart=useHotStart
+                useHotStart=useHotStart,
+                printDetails=printLevel
                )
 
 
@@ -108,7 +128,8 @@ function main(args)
                     random_seed=join(Base.Random.GLOBAL_RNG.seed, "_"),
                     constraints_type=constrName,
                     hot_start=useHotStart,
-                    solution_value=getobjectivevalue(m)
+                    solution_value=getobjectivevalue(m),
+                    size=matrixSize
                   )
     # Append the statistics to the csv file
     CSV.write("solutions/solutions.csv", res; append=true)

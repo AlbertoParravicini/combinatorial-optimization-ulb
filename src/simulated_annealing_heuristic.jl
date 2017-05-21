@@ -2,7 +2,7 @@ module SimulatedAnnealing
 
 export simulatedannealing
 
-function simulatedannealing(numCities, costMatrix, initial_temp=100)
+function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetails=0)
 
   # Rename parameter, for simplicity.
   n = numCities
@@ -54,7 +54,9 @@ function simulatedannealing(numCities, costMatrix, initial_temp=100)
     end
   end
 
-  println("BEST RES:", bestres)
+  if printDetails > 0
+    println("INITIAL HEURISTIC RESULT:", bestres)
+  end
   return buildinitialmatrix(beststate)
 end
 

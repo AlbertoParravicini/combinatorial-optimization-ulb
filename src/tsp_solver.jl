@@ -1,8 +1,9 @@
-include("./simulated_annealing_heuristic.jl")
+include("simulated_annealing_heuristic.jl")
+include("random_pick_heuristic.jl")
 
 module TspSolver
 
-using SimulatedAnnealing
+using SimulatedAnnealing, RandomPick
 using JuMP
 using GLPKMathProgInterface, Gurobi
 
@@ -16,7 +17,8 @@ function buildmodel(
                     seed=nothing,
                     solver="gurobi",
                     subtourConstrType="claus",
-                    useHotStart=true
+                    useHotStart=true,
+                    printDetails=0
                   )
 
 
@@ -156,9 +158,12 @@ function buildmodel(
   # x_ij == 1 iff we go from city "i" to city "j".
   @variable(m, x[i=1:n, j=1:n], Bin)
 
-  # If "useHotStart" is true, compute the initial solution with an heuristic algorithm.
-  if useHotStart
-    initialsol = simulatedannealing(n, c, 100)
+  # If "useHotStart" is specified, compute the initial solution with an heuristic algorithm.
+  if useHotStart == "annealing"
+    initialsol = simulatedannealing(n, c, 100, printDetails=printDetails)
+    setvalue(x, initialsol)
+  elseif useHotStart == "random"
+    initialsol = randompick(n, c, 100, printDetails=printDetails)
     setvalue(x, initialsol)
   end
 

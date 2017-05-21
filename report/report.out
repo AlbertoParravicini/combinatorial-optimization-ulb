@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Formulations for the TSP}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Common notation}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Linear programming formulation}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Integer programming formulation}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{MTZ constraints}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.5}{Claus constraints}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.6}{FCG constraints}{section.2}% 8
+\BOOKMARK [1][-]{section.3}{Implementation}{}% 9
+\BOOKMARK [2][-]{subsection.3.1}{Prerequisites}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.2}{How to run the programs}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.3}{Overview of the implementation}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Results analysis}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Tests on the different formulations}{section.4}% 14

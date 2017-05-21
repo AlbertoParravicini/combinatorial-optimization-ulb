@@ -30,10 +30,9 @@ function parseArgs(args)
           help = "Type of subtour elimination constraints used in the model;\n choose between 'mtz', 'fcg', 'claus'."
       "--usehotstart"
             nargs = '?'
-            arg_type = Bool
-            default = true
-            constant = true
-            help = "If true, compute the initial solution using an heuristic algorithm."
+            default = "none"
+            constant = "none"
+            help = "Compute the initial solution using the specified heuristic algorithm;\n choose between 'none', 'random', 'annealing'."
       "--printlevel", "-p"
           nargs = '?'
           default = 0
@@ -58,7 +57,7 @@ function parseArgs(args)
   s.epilog = """
         Examples:\n
         \n
-        \ua0\ua0$(basename(Base.source_path())) -i 1.atsp -r 69 --constraints mtz -d true -p 2\n
+        julia main.jl -i 1.atsp -r 69 --constraints mtz -d true -p 2\n
         """
 
   parsed_args = parse_args(args, s)
