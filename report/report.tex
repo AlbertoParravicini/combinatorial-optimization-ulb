@@ -350,7 +350,7 @@ footinclude]{article}
     
     $\bullet$ \texttt{random\_pick\_heuristic.jl}\\
     This is a very simple heuristic used to find the initial state of the algorithm. A large number of random initial solution is produced, and the best one is kept.\\
-    However in practice most optimizers (such as \textbf{Gurobi}) provide heuristic algorithms to compute the initial solution, and the results are usually better than the ones provided by random sampling.
+    However in practice most optimizers (such as \textbf{Gurobi}) provide heuristic algorithms to compute the initial solution, and the results might be better than the ones provided by random sampling.
     
     Note that in heuristic algorithms for the \textbf{TSP} is often better to reason about the optimal tour in terms of permutation of vertices, instead than as an adjacency matrix.
     
@@ -359,7 +359,7 @@ footinclude]{article}
     A more complex heuristic used to provide a good initial solution to the optimizer.\\
     The idea is to start from an initial solution and iteratively modify it (for instance, by swapping the order of visit of $2$ random cities) in order to build a better solution.\\
     After modifying the current solution, the result will be accepted with a probability that depends on how better it is compared to the previous one, and on how many iterations the algorithm has done already (more iterations imply lower probability).\\
-    This algorithm provides better results than \textit{random sampling}, but it's not always better than leaving the heuristic initialization to the solver. 
+    This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver. 
     
     \newpage 
     \section{Results analysis}
@@ -417,9 +417,9 @@ footinclude]{article}
             [0.5ex]
             \hline
             \\[-1.5ex]
-            Claus & 6.81 & 91.10 & 87.06 & 253.78 & 86.20 \\ 
+            Claus & 6.67 & 92.88 & 89.66 & 258.38 & 87.70 \\ 
             FCG & 7.18 & 16.90 & 12.28 & 46.00 & 13.33 \\ 
-            MTZ & 7.62 & 22.62 & 14.42 & 64.69 & 19.75 \\ 
+            MTZ & 7.62 & 21.80 & 13.27 & 64.60 & 19.80 \\ 
             \\[-1.6ex]
             \hline
         \end{tabular}
@@ -429,5 +429,37 @@ footinclude]{article}
     It's evident that \textbf{Claus} is overall the worst choice, while the other $2$ seems quite similar. Testing with good statistical significance whether one is actually superior would require more instances, or more repetitions, though.\\
     In any case, \textbf{FCG} seems sightly faster. In the next section, we'll test whether using further optimizations can increase its speed even more.
     
+    \subsection{Additional improvements}
+    In this section it will be tested if the addition of an heuristic algorithm at the start of the optimization process can speed up the overall optimization, by providing an initial solution close to the global optimum.
     
+    The tests were done on the same $8$ instances used before, again wirth $10$ repetitions. In this case, only the \textbf{MTZ} constraint type was considered, being the most efficient of the $3$. \\
+    Here, we test if using \textbf{no} custom initial heuristic (and leaving the initial heuristic to the solver) is better than \textbf{random sampling} (where a large number of random states are tested, and the best is kept) and \textbf{simulated annealing}.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1.0\textwidth, center, keepaspectratio=1]{{"figures/heu"}.pdf}
+        \caption{\emph{Execution time as function of the initial heuristic.}}
+    \end{figure}
+
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{lrrrrr}
+            \hline
+            \\[-1.5ex]
+            Type & Min & Mean & Median & Max & Std. Dev. \\ 
+            [0.5ex]
+            \hline
+            \\[-1.5ex]
+            None & 7.62 & 21.87 & 13.29 & 64.60 & 19.84 \\
+            Random & 7.44 & 16.66 & 12.44 & 35.98 & 11.05 \\ 
+            Annealing & 8.37 & 25.76 & 23.87 & 43.87 & 13.99 \\ 
+            \\[-1.6ex]
+            \hline
+        \end{tabular}
+        \caption{\label{heu}Summary statistics of the \textbf{execution time} of the various initial heuristics.}
+    \end{table}
+        
+    We can notice how using \textbf{simulated annealing} gives an overall slower execution time. This is because the algorithm itself is quite slow, and the benefits given by the better initial solution are compensated by the longer time required to find it.\\
+    Using different sets of parameters seems to improve sightly the performances, but not to a significant amount.\\ 
+    On the other hand, using \textbf{random sampling} seems to give small improvements on the execution time, which is quite surprising, given the simplicity of the heuristic.
 \end{document}

@@ -160,10 +160,10 @@ function buildmodel(
 
   # If "useHotStart" is specified, compute the initial solution with an heuristic algorithm.
   if useHotStart == "annealing"
-    initialsol = simulatedannealing(n, c, 100, printDetails=printDetails)
+    initialsol = simulatedannealing(n, c, 200, printDetails=printDetails)
     setvalue(x, initialsol)
   elseif useHotStart == "random"
-    initialsol = randompick(n, c, 100, printDetails=printDetails)
+    initialsol = randompick(n, c, 50000, printDetails=printDetails)
     setvalue(x, initialsol)
   end
 

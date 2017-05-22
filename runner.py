@@ -20,14 +20,14 @@ draw_graph = "false"
 # Save the results and the statistics
 save_res = "true"
 # Use the specified heuristic
-use_hot_start = ["none"]
+use_hot_start = ["random", "annealing"]
 # Use the specified solver
 solver = "gurobi"
 # Use the specified constraints
-constr = ["mtz", "claus"]
+constr = ["mtz"]
 
 # Run the entire thing the specified amount of times
-num_iterations = 7
+num_iterations = 10
 ###########
 
 for i in range(num_iterations):

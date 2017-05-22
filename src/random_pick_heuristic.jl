@@ -3,7 +3,8 @@ module RandomPick
 export randompick
 
 function randompick(numCities, costMatrix, numPicks=100; printDetails=0)
-
+  # Start measuring the execution time.
+  startTime = tic()
   # Rename parameter, for simplicity.
   n = numCities
   p = numPicks
@@ -19,8 +20,11 @@ function randompick(numCities, costMatrix, numPicks=100; printDetails=0)
     end
   end
 
+  # Compute the execution time.
+  execTime = toc()  
   if printDetails > 0
     println("INITIAL HEURISTIC RESULT:", bestres)
+    println("HEURISTIC EXECUTION TIME:", execTime)
   end
   return buildinitialmatrix(bestsol)
 end

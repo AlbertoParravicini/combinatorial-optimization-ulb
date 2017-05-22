@@ -3,7 +3,9 @@ module SimulatedAnnealing
 export simulatedannealing
 
 function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetails=0)
-
+  # Start measuring the execution time.
+  startTime = tic()
+  
   # Rename parameter, for simplicity.
   n = numCities
   # Set temperature.
@@ -11,7 +13,7 @@ function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetail
   # Coefficient for geometric cooling.
   α = 0.95
   # Stop when for a certain number of temperatures no improvement is found.
-  stepsBeforeStopping = 50
+  stepsBeforeStopping = initial_temp / 10
   # Number of steps done at each temperature.
   numSteps = n * (n - 1)
   # Count the temperature steps without improvements.
@@ -54,8 +56,10 @@ function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetail
     end
   end
 
+  execTime = toc()
   if printDetails > 0
     println("INITIAL HEURISTIC RESULT:", bestres)
+    println("HEURISTIC EXECUTION TIME:", execTime)
   end
   return buildinitialmatrix(beststate)
 end
