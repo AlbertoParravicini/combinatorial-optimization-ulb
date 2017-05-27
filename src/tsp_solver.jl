@@ -152,7 +152,7 @@ function buildmodel(
   if solver == "gurobi"
     m = Model(solver=GurobiSolver())
   else
-    m = Model(solver=GLPKInterfaceMIP())
+    m = Model(solver=GLPKSolverMIP())
   end
 
   # x_ij == 1 iff we go from city "i" to city "j".
