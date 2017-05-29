@@ -305,7 +305,7 @@ footinclude]{article}
         \item \texttt{-{}-randomseed}, \texttt{-r}: integer number, used as seed for random number generation by the program. If omitted, the seed is randomized.
         \item \texttt{-{}-solver}, \texttt{-s}: name of the solver that will be used; choose between 'gurobi' and 'glpk'. Note that Gurobi requires a license to be used! (default: \textbf{Gurobi})
         \item \texttt{-{}-constraints}, \texttt{-c}: Type of \textit{subtour} elimination constraints used in the model; choose between 'mtz', 'fcg', 'claus' (default: \textbf{claus}).
-        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing' (default: \textbf{none}).
+        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing', 'nearest' (default: \textbf{none}).
         \item \texttt{-{}-printlevel}, \texttt{-p}: Amount of details that will be printed by the solver; it takes an integer value >= 0; higher values will print more details (default: \textbf{$0$}). 
         \item \texttt{-{}-drawgraph}, \texttt{-d}: if true, draws the graph corresponding to the given instance, and highlights the optimal tour;the optimal tour is also drawn on a separate file (default: \textbf{false}).
         \item \texttt{-{}-saveresult}, \texttt{-v}: if true, the variable values are stored in a file, and the statistics of the computation are appended to the file 'results.csv' (default: \textbf{false}).
@@ -363,6 +363,13 @@ footinclude]{article}
     Also note that it is possible to specify an adjacency matrix for the graph, so that the computation on incomplete graphs is optimized by not producing useless constraints. \\
     If the graph is complete (the default case), it is produced an adjacency matrix with the main diagonal set to $0$, as self-loops are not allowed in the \textbf{TSP}.
     
+    $\bullet$ \texttt{nearest\_neighbour\_heuristic.jl}\\
+    This heuristic is arguably the simplest one. It selects one of the city randomly as the starting point of the tour.
+    After that, the nearest city (i.e. the one whose connected edge has the lowest cost) is added to the tour.
+
+    This process is repeated for each city until the tour is complete. The solutions found using NN are usually quite bad (around 20-35 \% away of the optimum).\\
+    However, given its simplicity and the average execution time, NN can be used to produce an initial solution for simulated annealing or other SLS heuristics. 
+
     $\bullet$ \texttt{random\_pick\_heuristic.jl}\\
     This is a very simple heuristic used to find the initial state of the algorithm. A large number of random initial solution is produced, and the best one is kept.\\
     However in practice most optimizers (such as \textbf{Gurobi}) provide heuristic algorithms to compute the initial solution, and the results might be better than the ones provided by random sampling.
@@ -374,7 +381,8 @@ footinclude]{article}
     A more complex heuristic used to provide a good initial solution to the optimizer.\\
     The idea is to start from an initial solution and iteratively modify it (for instance, by swapping the order of visit of $2$ random cities) in order to build a better solution.\\
     After modifying the current solution, the result will be accepted with a probability that depends on how better it is compared to the previous one, and on how many iterations the algorithm has done already (more iterations imply lower probability).\\
-    This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver. 
+    This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver.
+
     
     \newpage 
     \section{Results analysis}
