@@ -2,7 +2,7 @@ module NearestNeighbour
 
 export neareastneighbour
 
-function neareastneighbour(numCities, costMatrix; printDetails = 0)
+function neareastneighbour(numCities, costMatrix; printDetails = 0, noMatrix = false)
   # Start measuring the execution time.
   startTime = tic()
   # Rename parameter, for simplicity.
@@ -37,7 +37,11 @@ function neareastneighbour(numCities, costMatrix; printDetails = 0)
 
   displayDetails(printDetails, toc(), costMatrix, sol)
 
-  return buildinitialmatrix(sol)
+  if (noMatrix)
+    return sol
+  else
+    return buildinitialmatrix(sol)
+  end
 
 end
 

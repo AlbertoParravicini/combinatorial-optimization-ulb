@@ -20,7 +20,7 @@ draw_graph = "false"
 # Save the results and the statistics
 save_res = "true"
 # Use the specified heuristic
-use_hot_start = ["random", "annealing", "nearest"]
+use_hot_start = ["random", "annealing", "nearest", "nnannealing"]
 # Use the specified solver
 solver = "gurobi"
 # Use the specified constraints

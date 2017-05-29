@@ -32,7 +32,7 @@ function parseArgs(args)
             nargs = '?'
             default = "none"
             constant = "none"
-            help = "Compute the initial solution using the specified heuristic algorithm;\n choose between 'none', 'random', 'annealing', 'nearest'."
+            help = "Compute the initial solution using the specified heuristic algorithm;\n choose between 'none', 'random', 'annealing', 'nearest', 'nnannealing'."
       "--printlevel", "-p"
           nargs = '?'
           default = 0

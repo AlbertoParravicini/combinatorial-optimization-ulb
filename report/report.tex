@@ -305,7 +305,7 @@ footinclude]{article}
         \item \texttt{-{}-randomseed}, \texttt{-r}: integer number, used as seed for random number generation by the program. If omitted, the seed is randomized.
         \item \texttt{-{}-solver}, \texttt{-s}: name of the solver that will be used; choose between 'gurobi' and 'glpk'. Note that Gurobi requires a license to be used! (default: \textbf{Gurobi})
         \item \texttt{-{}-constraints}, \texttt{-c}: Type of \textit{subtour} elimination constraints used in the model; choose between 'mtz', 'fcg', 'claus' (default: \textbf{claus}).
-        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing', 'nearest' (default: \textbf{none}).
+        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing', 'nearest', 'nnannealing' (default: \textbf{none}).
         \item \texttt{-{}-printlevel}, \texttt{-p}: Amount of details that will be printed by the solver; it takes an integer value >= 0; higher values will print more details (default: \textbf{$0$}). 
         \item \texttt{-{}-drawgraph}, \texttt{-d}: if true, draws the graph corresponding to the given instance, and highlights the optimal tour;the optimal tour is also drawn on a separate file (default: \textbf{false}).
         \item \texttt{-{}-saveresult}, \texttt{-v}: if true, the variable values are stored in a file, and the statistics of the computation are appended to the file 'results.csv' (default: \textbf{false}).
@@ -382,6 +382,8 @@ footinclude]{article}
     The idea is to start from an initial solution and iteratively modify it (for instance, by swapping the order of visit of $2$ random cities) in order to build a better solution.\\
     After modifying the current solution, the result will be accepted with a probability that depends on how better it is compared to the previous one, and on how many iterations the algorithm has done already (more iterations imply lower probability).\\
     This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver.
+
+    An alternative version of simulated annealing is available using '--nnannealing'. This version uses Nearest Neighbour to produce the initial solution. Since this solution is better than a random permutation, the initial temperature has been lowered to avoid destroying NN's solution. NN+SA seems to perform better than SA alone while being slightly faster.
 
     
     \newpage 
