@@ -1,9 +1,10 @@
 include("simulated_annealing_heuristic.jl")
 include("random_pick_heuristic.jl")
+include("nearest_neighbour_heuristic.jl")
 
 module TspSolver
 
-using SimulatedAnnealing, RandomPick
+using SimulatedAnnealing, RandomPick, NearestNeighbour
 using JuMP
 using GLPKMathProgInterface, Gurobi
 
@@ -164,6 +165,9 @@ function buildmodel(
     setvalue(x, initialsol)
   elseif useHotStart == "random"
     initialsol = randompick(n, c, 50000, printDetails=printDetails)
+    setvalue(x, initialsol)
+  elseif useHotStart == "nearest"
+    initialsol = neareastneighbour(n, c, printDetails=printDetails)
     setvalue(x, initialsol)
   end
 
