@@ -340,6 +340,21 @@ footinclude]{article}
     $\bullet$ \texttt{plotter.jl}\\
     Utility module that is used to draw the results of the optimization. After finding the optimal solution it will be produced an \textbf{SVG} file that contains the entire graph, with the optimal path highlighted, and another \textbf{SVG} file which contains just the optimal path, with the costs of the arcs specified.
     
+    An example of the results is given below.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth, center, keepaspectratio=1]{{"./figures/full_graph"}.png}
+        \caption{\emph{Example of graph on which the minimum cost tour (in yellow) was computed.}}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth, center, keepaspectratio=1]{{"./figures/tsp"}.png}
+        \caption{\emph{Minimum cost tour for the previous graph, with the costs highlighted.}}
+    \end{figure}
+    
+    
     $\bullet$ \texttt{tsp\_solver.jl}\\
     This is the hearth of the program. Here are contained the functions to build the model according to the specified parameters (e.g. the type of constraints), and is provided the main function to optimizer the problem.
     
