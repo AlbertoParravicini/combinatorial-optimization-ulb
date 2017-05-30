@@ -173,7 +173,7 @@ footinclude]{article}
     from which follows $-2 \leq -4$, a contradiction.
     
     \subsection{Claus constraints}
-    Another way to express the \textit{subtour eliminatio constraints} is to express them as flow constraints. To each arc ${ij}$ we can associate a non-negative quantity of flow $y_{ij}$ that is transported through the arc. 
+    Another way to express the \textit{subtour elimination constraints} is to express them as flow constraints. To each arc ${ij}$ we can associate a non-negative quantity of flow $y_{ij}$ that is transported through the arc. 
     
     Claus presented a representation that uses $(n-1)$ different \textit{commodities}, different types of flows, each denoted by $y^k,\ k=2,3,\ldots,n$.
     In this representation, subtours are eliminated as follows:
@@ -305,7 +305,7 @@ footinclude]{article}
         \item \texttt{-{}-randomseed}, \texttt{-r}: integer number, used as seed for random number generation by the program. If omitted, the seed is randomized.
         \item \texttt{-{}-solver}, \texttt{-s}: name of the solver that will be used; choose between 'gurobi' and 'glpk'. Note that Gurobi requires a license to be used! (default: \textbf{Gurobi})
         \item \texttt{-{}-constraints}, \texttt{-c}: Type of \textit{subtour} elimination constraints used in the model; choose between 'mtz', 'fcg', 'claus' (default: \textbf{claus}).
-        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing' (default: \textbf{none}).
+        \item \texttt{-{}-usehotstart}: compute the initial solution using the specified heuristic algorithm; choose between 'none', 'random', 'annealing', 'nearest', 'nnannealing' (default: \textbf{none}).
         \item \texttt{-{}-printlevel}, \texttt{-p}: Amount of details that will be printed by the solver; it takes an integer value >= 0; higher values will print more details (default: \textbf{$0$}). 
         \item \texttt{-{}-drawgraph}, \texttt{-d}: if true, draws the graph corresponding to the given instance, and highlights the optimal tour;the optimal tour is also drawn on a separate file (default: \textbf{false}).
         \item \texttt{-{}-saveresult}, \texttt{-v}: if true, the variable values are stored in a file, and the statistics of the computation are appended to the file 'results.csv' (default: \textbf{false}).
@@ -340,6 +340,21 @@ footinclude]{article}
     $\bullet$ \texttt{plotter.jl}\\
     Utility module that is used to draw the results of the optimization. After finding the optimal solution it will be produced an \textbf{SVG} file that contains the entire graph, with the optimal path highlighted, and another \textbf{SVG} file which contains just the optimal path, with the costs of the arcs specified.
     
+    An example of the results is given below.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth, center, keepaspectratio=1]{{"./figures/full_graph"}.png}
+        \caption{\emph{Example of graph on which the minimum cost tour (in yellow) was computed.}}
+    \end{figure}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.7\textwidth, center, keepaspectratio=1]{{"./figures/tsp"}.png}
+        \caption{\emph{Minimum cost tour for the previous graph, with the costs highlighted.}}
+    \end{figure}
+    
+    
     $\bullet$ \texttt{tsp\_solver.jl}\\
     This is the hearth of the program. Here are contained the functions to build the model according to the specified parameters (e.g. the type of constraints), and is provided the main function to optimizer the problem.
     
@@ -348,6 +363,13 @@ footinclude]{article}
     Also note that it is possible to specify an adjacency matrix for the graph, so that the computation on incomplete graphs is optimized by not producing useless constraints. \\
     If the graph is complete (the default case), it is produced an adjacency matrix with the main diagonal set to $0$, as self-loops are not allowed in the \textbf{TSP}.
     
+    $\bullet$ \texttt{nearest\_neighbour\_heuristic.jl}\\
+    This heuristic is arguably the simplest one. It selects one of the city randomly as the starting point of the tour.
+    After that, the nearest city (i.e. the one whose connected edge has the lowest cost) is added to the tour.
+
+    This process is repeated for each city until the tour is complete. The solutions found using NN are usually quite bad (around 20-35 \% away of the optimum).\\
+    However, given its simplicity and the average execution time, NN can be used to produce an initial solution for simulated annealing or other SLS heuristics. 
+
     $\bullet$ \texttt{random\_pick\_heuristic.jl}\\
     This is a very simple heuristic used to find the initial state of the algorithm. A large number of random initial solution is produced, and the best one is kept.\\
     However in practice most optimizers (such as \textbf{Gurobi}) provide heuristic algorithms to compute the initial solution, and the results might be better than the ones provided by random sampling.
@@ -359,7 +381,10 @@ footinclude]{article}
     A more complex heuristic used to provide a good initial solution to the optimizer.\\
     The idea is to start from an initial solution and iteratively modify it (for instance, by swapping the order of visit of $2$ random cities) in order to build a better solution.\\
     After modifying the current solution, the result will be accepted with a probability that depends on how better it is compared to the previous one, and on how many iterations the algorithm has done already (more iterations imply lower probability).\\
-    This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver. 
+    This algorithm provides better results than \textit{random sampling}, but it's often slower than leaving the heuristic initialization to the solver.
+
+    An alternative version of simulated annealing is available using '--nnannealing'. This version uses Nearest Neighbour to produce the initial solution. Since this solution is better than a random permutation, the initial temperature has been lowered to avoid destroying NN's solution. NN+SA seems to perform better than SA alone while being slightly faster.
+
     
     \newpage 
     \section{Results analysis}
@@ -451,8 +476,8 @@ footinclude]{article}
             \hline
             \\[-1.5ex]
             None & 7.62 & 21.87 & 13.29 & 64.60 & 19.84 \\
-            Random & 7.44 & 16.66 & 12.44 & 35.98 & 11.05 \\ 
-            Annealing & 8.37 & 25.76 & 23.87 & 43.87 & 13.99 \\ 
+            Random & 7.41 & 16.61 & 12.68 & 35.28 & 10.81 \\ 
+            Annealing & 8.44 & 24.68 & 22.23 & 43.44 & 13.78 \\ 
             \\[-1.6ex]
             \hline
         \end{tabular}

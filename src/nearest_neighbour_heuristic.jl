@@ -1,13 +1,21 @@
 module NearestNeighbour
 
+<<<<<<< HEAD
 export nearestneighbour
 
 function nearestneighbour(numCities, costMatrix; printDetails=0)
   #start measuring the execution time.
+=======
+export neareastneighbour
+
+function neareastneighbour(numCities, costMatrix; printDetails = 0, noMatrix = false)
+  # Start measuring the execution time.
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609
   startTime = tic()
   # Rename parameter, for simplicity.
   n = numCities
 
+<<<<<<< HEAD
   #code from evanfields
   #see https://github.com/evanfields
 
@@ -40,10 +48,47 @@ function nearestneighbour(numCities, costMatrix; printDetails=0)
     println("HEURISTIC EXECUTION TIME"; execTime)
   end
   return buildinitialmatrix(path)
+=======
+  # Take one city at random to initiate the tour.
+  currentCity = rand(1:n)
+
+  # Vector of visited cities.
+  visited = falses(n)
+
+  # Create a solution vector.
+  sol = collect(1:n)
+
+  sol[1] = currentCity
+  visited[currentCity] = true
+
+  # NN
+  for i=2:n
+    bestWeight = Inf
+    best = -1
+    for j=1:n
+      if j!=currentCity && !visited[j] && costMatrix[currentCity, j] < bestWeight
+        best = j
+        bestWeight = costMatrix[currentCity, j]
+      end
+    end
+    currentCity = best
+    visited[best] = true
+    sol[i] = currentCity
+  end
+
+  displayDetails(printDetails, toc(), costMatrix, sol)
+
+  if (noMatrix)
+    return sol
+  else
+    return buildinitialmatrix(sol)
+  end
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609
 
 end
 
 
+<<<<<<< HEAD
 function buildinitialmatrix(permutation)
  x = zeros(Int, length(permutation), length(permutation))
  for i=2:length(permutation)
@@ -55,6 +100,17 @@ function buildinitialmatrix(permutation)
  return x
 end
 
+=======
+function displayDetails(printDetails, execTime, costMatrix, solution)
+  bestres = computetourcost(solution, costMatrix)
+  if printDetails > 0
+    println("INITIAL HEURISTIC RESULT:", bestres)
+    println("HEURISTIC EXECUTION TIME:", execTime)
+  end
+end
+
+
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609
 function computetourcost(permutation, costMatrix)
   # Rename parameter, for simplicity.
   p = permutation
@@ -68,4 +124,20 @@ function computetourcost(permutation, costMatrix)
 
   return cost
 end
+<<<<<<< HEAD
 end
+=======
+
+
+function buildinitialmatrix(permutation)
+ x = zeros(Int, length(permutation), length(permutation))
+ for i=2:length(permutation)
+   x[permutation[i-1], permutation[i]] = 1
+ end
+ x[permutation[end], permutation[1]] = 1
+
+ return x
+end
+
+end
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609

@@ -1,6 +1,10 @@
 include("simulated_annealing_heuristic.jl")
 include("random_pick_heuristic.jl")
 include("nearest_neighbour_heuristic.jl")
+<<<<<<< HEAD
+=======
+
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609
 module TspSolver
 
 using SimulatedAnnealing, RandomPick, NearestNeighbour
@@ -152,7 +156,7 @@ function buildmodel(
   if solver == "gurobi"
     m = Model(solver=GurobiSolver())
   else
-    m = Model(solver=GLPKInterfaceMIP())
+    m = Model(solver=GLPKSolverMIP())
   end
 
   # x_ij == 1 iff we go from city "i" to city "j".
@@ -160,13 +164,21 @@ function buildmodel(
 
   # If "useHotStart" is specified, compute the initial solution with an heuristic algorithm.
   if useHotStart == "annealing"
-    initialsol = simulatedannealing(n, c, 200, printDetails=printDetails)
+    initialsol = simulatedannealing(n, c, 200, printDetails=printDetails, useNN = false)
     setvalue(x, initialsol)
   elseif useHotStart == "random"
     initialsol = randompick(n, c, 50000, printDetails=printDetails)
     setvalue(x, initialsol)
+<<<<<<< HEAD
   elseif useHotStart == "nearestneighbour"
     initialsol = nearestneighbour(n, c, printDetails=printDetails)
+=======
+  elseif useHotStart == "nearest"
+    initialsol = neareastneighbour(n, c, printDetails=printDetails)
+    setvalue(x, initialsol)
+  elseif useHotStart == "nnannealing"
+    initialsol = simulatedannealing(n, c, 100, printDetails=printDetails, useNN = true)
+>>>>>>> 936ae0ae0afe6de368efd80b4306dacb1906f609
     setvalue(x, initialsol)
   end
 

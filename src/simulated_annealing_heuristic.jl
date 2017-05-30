@@ -1,8 +1,12 @@
+include("nearest_neighbour_heuristic.jl")
+
 module SimulatedAnnealing
+
+using NearestNeighbour
 
 export simulatedannealing
 
-function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetails=0)
+function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetails=0, useNN = false)
   # Start measuring the execution time.
   startTime = tic()
   
@@ -20,7 +24,11 @@ function simulatedannealing(numCities, costMatrix, initial_temp=100; printDetail
   stepsWithoutImp = 0
 
   # Initialize the current state.
-  currstate = shuffle(1:n)
+  if (useNN)
+    currstate = neareastneighbour(n, costMatrix, printDetails=0, noMatrix = true)
+  else
+    currstate = shuffle(1:n)
+  end
   # Evaluate the current state
   currstateres = computetourcost(currstate, costMatrix)
 
