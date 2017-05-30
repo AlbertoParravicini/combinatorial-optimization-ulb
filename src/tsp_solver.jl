@@ -165,7 +165,7 @@ function buildmodel(
   elseif useHotStart == "random"
     initialsol = randompick(n, c, 50000, printDetails=printDetails)
     setvalue(x, initialsol)
-  elseif useHotStart == "nearestneighbour"
+  elseif useHotStart == "nearest"
     initialsol = nearestneighbour(n, c, printDetails=printDetails)
     setvalue(x, initialsol)
   end
