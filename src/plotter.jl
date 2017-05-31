@@ -1,10 +1,10 @@
 module Plotter
 
+using Colors
 using LightGraphs
 using GraphPlot
 using Compose
 using JuMP
-using Colors
 
 export drawgraph
 

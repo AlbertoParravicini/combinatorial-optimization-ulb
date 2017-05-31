@@ -1,0 +1,132 @@
+\documentclass[13pt]{beamer}
+
+% Presento style file
+\usepackage{config/presento}
+
+% Remove "figure" label in figures
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+% custom command and packages
+\input{config/custom-command}
+
+% Information
+\title{Branch \& Bound}
+\author{Alberto Parravicini}
+\institute{Université libre de Bruxelles}
+\date{June 1, 2017}
+
+\setbeamertemplate{bibliography item}[text] % No icons in bibliography
+
+\begin{document}
+
+% Title page
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+
+% DEFINITIONS %%%%%%%%%%%%
+
+\begin{frame}{A brief introduction...}  
+    \begin{fullpageitemize}	
+        \item<1->Consider a generic optimization problem:
+        \item<2->$$\mathbf{max\{c(x): x \in X\}}$$
+        \item<3->Often too hard to solve directly.
+        \item<4->\textbf{Branch \& Bound} finds the optimal solutions thanks to:
+        \begin{baseitemize}
+            \item<5->[\rtarrow]\textbf{Branch}: find the optimal solution by exploring smaller sub-problems. 
+            \item<6->[\rtarrow]\textbf{Bound}: use bounds on the objective function to implicitly enumerate all possible solutions.
+        \end{baseitemize}	
+    \end{fullpageitemize}
+\end{frame}
+
+
+\begin{frame}{Branching}
+    \begin{fullpageitemize}
+    \item<1->\textbf{Observation:} if we partition the feasible region $X$ into $\mathbf{X = X_1 \cup \ldots \cup X_k}$ and let $\mathbf{z_i = max\{c(x): x \in X_i\}}$, then:
+    \item<2->[\rtarrow]$\mathbf{z = max_{1 \leq i \leq z_i}}$
+    \item<3->Each subset $X_i$ can be split even further, giving an enumeration tree.
+    \item<4->We can't explore all possible branches though, they are too many!   
+    \end{fullpageitemize}
+\end{frame}
+
+\begin{frame}{Bounding}
+    \begin{fullpageitemize}
+        \item<1->We can use \textit{upper} and {lower} bounds to cut portions of the feasible region $\mathbf{X}$.
+        \item<2->\textbf{Observation:} given $\mathbf{X = X_1 \cup \ldots \cup X_k}$, if $\overline{z}_k$ is an \textit{upper} bound for $X_k$ then $max_k{\overline{z}_k\}}$ is an \textit{upper} bound for $X$. Also, if $\underline{z}_k$ is a \textit{lower} bound for $X_k$ then $max_k{\{\underline{z}_k\}}$ is a \textit{lower} bound for $X$.
+        \item<3->\textit{Lower} bounds are feasible solutions, while \textit{upper} bounds can be found by solving a relaxation.\\
+        In \textbf{ILP}, the linear relaxation will provide an upper bound $\mathbf{x^*_{LP}}$.
+    \end{fullpageitemize}
+\end{frame}    
+
+\begin{frame}{Pruning criteria}
+    \begin{fullpageitemize}
+        \item<1->When can we prune a node of the tree?
+        \begin{baseitemize}
+            \item<2->[\rtarrow]\textbf{Optimality}: if $\overline{z}_i = \underline{z}_i$ then we have an optimal solution of $X_i$.
+            \item<3->[\rtarrow]\textbf{Infeasibility}: if $\mathbf{X_i = \emptyset}$.
+            \item<4->[\rtarrow]\textbf{Bounding}: if the \textbf{upper} bound $\overline{z}_i$ is $\mathbf{\leq}$ than some other \textbf{lower} bound $\underline{z}_j$, or of the best feasible solution found so far.
+        \end{baseitemize}	
+    \end{fullpageitemize}
+\end{frame}    
+
+%\begin{frame}{In practice...}
+%    \begin{fullpageitemize}
+%        \item<1->[\rtarrow]How are the \textbf{upper} bounds obtained?
+%        \begin{baseitemize}
+%            \item<2->In \textbf{ILP}, by solving the linear relaxation of the problem. In other cases, with a feasible dual solution or with a combinatorial relaxation (e.g. \textit{1-tree} for \textbf{TSP}).
+%        \end{baseitemize}	
+%        \item<3->[\rtarrow]How are the \textbf{lower} bounds obtained?
+%        \begin{baseitemize}
+%            \item<2->Either heuristically, or by finding a feasible primal solution.
+%        \end{baseitemize}	
+%    \end{fullpageitemize}
+%\end{frame}   
+
+\begin{frame}{In practice...}
+    \begin{fullpageitemize}
+        \item<1->[\rtarrow]\textbf{How are branches defined?}
+        \begin{baseitemize}
+            \item<2->In \textbf{ILP}, pick a fractional variable $\mathbf{x_h}$ in $\mathbf{x^*_{LP}}$, and define $2$ sub-problems:
+            \item<3->$z^1_{ILP} = max\{cx: x \in X, \mathbf{x_h \leq \lfloor a_h \rfloor}\}$
+            \item<3->$z^2_{ILP} = max\{cx: x \in X, \mathbf{x_h \geq \lceil a_h \rceil}\}$
+        \end{baseitemize}	
+        \item<4->[\rtarrow]\textbf{Which variable is chosen?}
+        \begin{baseitemize}
+            \item<5->$\bullet$ The most fractional.
+            \item<6->$\bullet$ \textbf{Strong Branching}: try all of them, keep the one with highest upper bound.
+            \item<7->$\bullet$ Other (smallest sub-tour, etc...)
+        \end{baseitemize}	
+        \item<8->[\rtarrow]\textbf{Which branch is chosen?}
+        \begin{baseitemize}
+            \item<9->$\bullet$ \textbf{Depth First}, quickly find a feasible solution; easy to re-optimize.
+            \item<10->$\bullet$ \textbf{Best Bound}, find the upper bounds of the children and choose the best (slow!).
+        \end{baseitemize}
+    \end{fullpageitemize}
+\end{frame}   
+
+
+\begin{frame}{Further optimizations}
+    \begin{fullpageitemize}
+         \item<1->[\rtarrow]\textbf{Generalized upper bounds}
+         \begin{baseitemize}
+             \item<2->Used in constraints like $\sum_{i=1}^n{x_i}=1$; fixing one $x_i = 1$ creates unbalanced tree; instead, use:
+             \item<3->$X_1 = \mathbf{x: x_i = 0,  i=0,\ldots, r}$
+             \item<3->$X_2 = \mathbf{x: x_i = 0,  i=r+1,\ldots, n}$
+             \item<3->$\mathbf{r = min\{t: \sum_{i=1}^t{x_i} >= \frac{1}{2}\}}$
+         \end{baseitemize}	
+         \item<4->[\rtarrow]\textbf{Constraints preprocessing}
+         \item<5->[\rtarrow]\textbf{Branch \& Cut}
+         \begin{baseitemize}
+             \item<6->$\bullet$ Combine \textbf{Gomory cuts} with \textbf{Branch \& Bound}.
+             \item<7->$\bullet$ At each node, add \textbf{cuts} to the relaxation of the sub-problem.
+             \item<8->$\bullet$ Branch only when adding more cuts stops being effective.
+             \item<9->$\bullet$ Computational tradeoff, as cuts are valid only for a node and its children. Very effective in practice, however.
+         \end{baseitemize}
+     \end{fullpageitemize}
+ \end{frame}      
+\framecard[colorgreen]{{\color{white}\hugetext{THANK YOU!}}}
+
+
+
+\end{document}
